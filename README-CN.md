@@ -15,7 +15,7 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 - [hyperf/consul](https://github.com/hyperf/consul) 由 Hyperf 提供的 Consul 协程客户端
 - [hyperf/elasticsearch](https://github.com/hyperf/elasticsearch) 由 Hyperf 提供的 Elasticsearch 协程客户端
 - [hyperf/etcd](https://github.com/hyperf/etcd) 由 Hyperf 提供的 ETCD 协程客户端
-- [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) 让基于 Guzzle 的项目完美无缝兼容 Swoole 协程，支持：Guzzle、Elasticsearch client
+- [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) 让基于 Guzzle 的项目完美无缝兼容 Swoole 协程，支持：Guzzle、Elasticsearch Client
 - [Yurunsoft/YurunHttp](https://github.com/Yurunsoft/YurunHttp) 完美支持Curl、Swoole 协程的 PHP HTTP 客户端，支持链式操作，简单易用
 
 ## 热更新
@@ -30,5 +30,5 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 
 ## 第三方 SDK
 
-- [yurunsoft/pay-sdk](https://github.com/Yurunsoft/PaySDK) 支持 Swoole 协程的支付宝/微信支付 SDK
-- [yurunsoft/yurun-oauth-login](https://github.com/Yurunsoft/YurunOAuthLogin) 支持 Swoole 协程的第三方登录授权 SDK（QQ、微信、微博、Github、Gitee 等）
+- [Yurunsoft/PaySDK](https://github.com/Yurunsoft/PaySDK) 支持 Swoole 协程的支付宝/微信支付 SDK
+- [Yurunsoft/YurunOAuthLogin](https://github.com/Yurunsoft/YurunOAuthLogin) 支持 Swoole 协程的第三方登录授权 SDK（QQ、微信、微博、Github、Gitee 等）
