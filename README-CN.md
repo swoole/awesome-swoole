@@ -46,7 +46,8 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 ## 开发调试
 
 - [swoole/sdebug](https://github.com/swoole/sdebug) 用于协助开发与调试，xdebug 的协程改造版
-- [swoole/ide-helper](https://github.com/swoole/ide-helper) 用于在 IDE 中自动补全
+- [swoole/ide-helper](https://github.com/swoole/ide-helper) 用于在 IDE 中自动补全代码
+- [swoole/debugger](https://github.com/swoole/ide-helper) Swoole 远程调试器，业务无需做任何修改，只需要加一行代码即可引入一个功能强大的远程终端
 - [Swoole Tracker](https://business.swoole.com/tracker.html) 提供内存泄漏分析、阻塞检测、性能分析、运行状态及调用统计等功能
 
 ## 第三方 SDK
