@@ -79,7 +79,7 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 - [pachico/Slim-Swoole](https://github.com/pachico/slim-swoole) 使用 Swoole 运行 SlimPHP 应用程序的便捷库
 - [liufee/yii2-swoole](https://github.com/liufee/yii2-swoole) yii2 和 Swoole 的集成
 - [phwoolcon/phwoolcon](https://github.com/phwoolcon/phwoolcon) Phalcon 和 Swoole 的集成
-- [mezzio/mezzio-swoole](https://github.com/mezzio/mezzio-swoole) Mezzio 和 Swoole 支持
+- [mezzio/mezzio-swoole](https://github.com/mezzio/mezzio-swoole) Mezzio 和 Swoole 的集成
 
 ## 其他
 
