@@ -20,10 +20,10 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 - [hyperf/etcd](https://github.com/hyperf/etcd) 由 Hyperf 提供的 ETCD 协程客户端
 - [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) 让基于 Guzzle 的项目完美无缝兼容 Swoole 协程，支持：Guzzle、Elasticsearch Client
 - [Yurunsoft/YurunHttp](https://github.com/Yurunsoft/YurunHttp) 完美支持Curl、Swoole 协程的 PHP HTTP 客户端，支持链式操作，简单易用
-- [longyan/phpkafka](https://github.com/longyan/phpkafka) PHP Kafka 协程客户端
 
 ## 消息队列
 
+- [longyan/phpkafka](https://github.com/longyan/phpkafka) PHP Kafka 协程客户端
 - [hyperf/amqp](https://github.com/hyperf/amqp) 由 Hyperf 提供的 AMQP 协程组件
 - [hyperf/async-queue](https://github.com/hyperf/async-queue) 由 Hyperf 提供的简单的基于 Redis 的异步队列组件
 
