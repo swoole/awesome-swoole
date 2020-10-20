@@ -13,7 +13,7 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 - [swoole/grpc](https://github.com/swoole/grpc) 由 Swoole 驱动的 Grpc 协程客户端, 底层使用高性能协程 Http2-Client 客户端
 - [swoole/ext-zookeeper](https://github.com/swoole/ext-zookeeper) 基于 Swoole 协程的 PHP ZooKeeper 客户端
 - [swoole/ext-postgresql](https://github.com/swoole/ext-postgresql) 基于 Swoole 协程的 PHP PostgreSQL 客户端
-- [swlib/saber](https://github.com/swlib/saber) PHP异步协程HTTP客户端
+- [swlib/saber](https://github.com/swlib/saber) PHP 异步协程 HTTP 客户端
 - [hyperf/jet](https://github.com/hyperf/jet) 一个统一模型的 RPC 客户端，内置 JSONRPC 协议的适配，该组件可适用于所有的 PHP 环境，包括 PHP-FPM 和 Swoole
 - [hyperf/consul](https://github.com/hyperf/consul) 由 Hyperf 提供的 Consul 协程客户端
 - [hyperf/elasticsearch](https://github.com/hyperf/elasticsearch) 由 Hyperf 提供的 Elasticsearch 协程客户端
@@ -21,11 +21,10 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 - [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) 让基于 Guzzle 的项目完美无缝兼容 Swoole 协程，支持：Guzzle、Elasticsearch Client
 - [Yurunsoft/YurunHttp](https://github.com/Yurunsoft/YurunHttp) 完美支持Curl、Swoole 协程的 PHP HTTP 客户端，支持链式操作，简单易用
 - [viest/php-ext-xlswriter](https://github.com/viest/php-ext-xlswriter) 支持 Swoole 协程环境，可用于在 Excel 2007+ XLSX 文件中读取数据，插入多个工作表，写入文本、数字、公式、日期、图表、图片和超链接
-- [louislivi/SMProxy](https://github.com/louislivi/SMProxy) 一个基于 MySQL 协议，Swoole 开发的 MySQL 数据库连接池
+- [longyan/phpkafka](https://github.com/longyan/phpkafka) PHP Kafka 协程客户端
 
 ## 消息队列
 
-- [Littlesqx/aint-queue](https://github.com/Littlesqx/aint-queue) 基于 Swoole 的一个异步队列库，可弹性伸缩的工作进程池，工作进程协程支持
 - [hyperf/amqp](https://github.com/hyperf/amqp) 由 Hyperf 提供的 AMQP 协程组件
 - [hyperf/async-queue](https://github.com/hyperf/async-queue) 由 Hyperf 提供的简单的基于 Redis 的异步队列组件
 
@@ -47,7 +46,7 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 
 - [swoole/sdebug](https://github.com/swoole/sdebug) 用于协助开发与调试，xdebug 的协程改造版
 - [swoole/ide-helper](https://github.com/swoole/ide-helper) 用于在 IDE 中自动补全代码
-- [swoole/debugger](https://github.com/swoole/ide-helper) Swoole 远程调试器，业务无需做任何修改，只需要加一行代码即可引入一个功能强大的远程终端
+- [swoole/debugger](https://github.com/swoole/debugger) Swoole 远程调试器，业务无需做任何修改，只需要加一行代码即可引入一个功能强大的远程终端
 - [Swoole Tracker](https://business.swoole.com/tracker.html) 提供内存泄漏分析、阻塞检测、性能分析、运行状态及调用统计等功能
 
 ## 第三方 SDK
