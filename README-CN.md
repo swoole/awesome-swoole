@@ -20,7 +20,6 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 - [hyperf/etcd](https://github.com/hyperf/etcd) 由 Hyperf 提供的 ETCD 协程客户端
 - [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) 让基于 Guzzle 的项目完美无缝兼容 Swoole 协程，支持：Guzzle、Elasticsearch Client
 - [Yurunsoft/YurunHttp](https://github.com/Yurunsoft/YurunHttp) 完美支持Curl、Swoole 协程的 PHP HTTP 客户端，支持链式操作，简单易用
-- [viest/php-ext-xlswriter](https://github.com/viest/php-ext-xlswriter) 支持 Swoole 协程环境，可用于在 Excel 2007+ XLSX 文件中读取数据，插入多个工作表，写入文本、数字、公式、日期、图表、图片和超链接
 - [longyan/phpkafka](https://github.com/longyan/phpkafka) PHP Kafka 协程客户端
 
 ## 消息队列
@@ -67,3 +66,4 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 ## 其他
 
 - [mix-php/sync-invoke](https://github.com/mix-php/sync-invoke) Swoole 同步阻塞代码调用库，用于执行无法被 Swoole Hook 协程化的同步阻塞代码
+- [viest/php-ext-xlswriter](https://github.com/viest/php-ext-xlswriter) 支持 Swoole 协程环境，可用于在 Excel 2007+ XLSX 文件中读取数据，插入多个工作表，写入文本、数字、公式、日期、图表、图片和超链接
