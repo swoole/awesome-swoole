@@ -49,7 +49,21 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 - [swoole/debugger](https://github.com/swoole/debugger) Swoole 远程调试器，业务无需做任何修改，只需要加一行代码即可引入一个功能强大的远程终端
 - [Swoole Tracker](https://business.swoole.com/tracker.html) 提供内存泄漏分析、阻塞检测、性能分析、运行状态及调用统计等功能
 
+## 日志
+
+- [hyperf/logger](https://github.com/hyperf/logger) 由 Hyperf 提供的基于 PSR-3 的日志管理器，一个基于 monolog 的抽象及封装
+- [mix-php/monolog](https://github.com/mix-php/monolog) 支持 Swoole 协程的 Monolog，支持 cli 控制台打印
+
+## 服务治理
+
+- [hyperf/tracer](https://github.com/hyperf/tracer) 由 Hyperf 提供的 OpenTracing 分布式调用链追踪组件
+- [mix-php/tracing-zipkin](https://github.com/mix-php/tracing-zipkin) Zipkin 调用链追踪库，基于 Opentracing 标准
+
 ## 第三方 SDK
 
 - [Yurunsoft/PaySDK](https://github.com/Yurunsoft/PaySDK) 支持 Swoole 协程的支付宝/微信支付 SDK
 - [Yurunsoft/YurunOAuthLogin](https://github.com/Yurunsoft/YurunOAuthLogin) 支持 Swoole 协程的第三方登录授权 SDK（QQ、微信、微博、Github、Gitee 等）
+
+## 其他
+
+- [mix-php/sync-invoke](https://github.com/mix-php/sync-invoke) Swoole 同步阻塞代码调用库，用于执行无法被 Swoole Hook 协程化的同步阻塞代码
