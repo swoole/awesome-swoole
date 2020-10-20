@@ -19,13 +19,22 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 - [hyperf/elasticsearch](https://github.com/hyperf/elasticsearch) 由 Hyperf 提供的 Elasticsearch 协程客户端
 - [hyperf/etcd](https://github.com/hyperf/etcd) 由 Hyperf 提供的 ETCD 协程客户端
 - [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) 让基于 Guzzle 的项目完美无缝兼容 Swoole 协程，支持：Guzzle、Elasticsearch Client
-- [Yurunsoft/YurunHttp](https://github.com/Yurunsoft/YurunHttp) 完美支持Curl、Swoole 协程的 PHP HTTP 客户端，支持链式操作，简单易用
+- [Yurunsoft/YurunHttp](https://github.com/Yurunsoft/YurunHttp) 完美支持 Curl、Swoole 协程的 PHP HTTP 客户端，支持链式操作，简单易用
 
 ## 消息队列
 
 - [longyan/phpkafka](https://github.com/longyan/phpkafka) PHP Kafka 协程客户端
 - [hyperf/amqp](https://github.com/hyperf/amqp) 由 Hyperf 提供的 AMQP 协程组件
 - [hyperf/async-queue](https://github.com/hyperf/async-queue) 由 Hyperf 提供的简单的基于 Redis 的异步队列组件
+
+## 数据库
+
+- [simple-swoole/db](https://github.com/simple-swoole/db) 封装 Swoole Library 中提供的数据库连接池组件
+- [hyperf/database](https://github.com/hyperf/database) 由 Hyperf 提供的基于 Eloquent 衍生的数据库 ORM
+- [hyperf/model](https://github.com/hyperf/model) 由 Hyperf 提供的基于 hyperf/database 组件的自动模型缓存组件
+- [mix-php/database](https://github.com/mix-php/database) 基于 Swoole 的协程数据库组件，内置连接池
+- [mix-php/redis](https://github.com/mix-php/redis) 基于 Swoole 的协程 Redis 组件，内置连接池
+- [mix-php/redis-subscribe](https://github.com/mix-php/redis-subscribe) 基于 Swoole 协程的 Redis 订阅库
 
 ## Crontab
 
@@ -34,7 +43,7 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 
 ## Task
 
-- [swlib/archer](https://github.com/swlib/archer) 基于协程Swoole的Task组件，支持多种模式。轻松实现协程Task的队列、并发、Defer、计时器等
+- [swlib/archer](https://github.com/swlib/archer) 基于协程 Swoole 的 Task 组件，支持多种模式。轻松实现协程 Task 的队列、并发、Defer、计时器等
 - [hyperf/task](https://github.com/hyperf/task) 由 Hyperf 提供的 Task 组件，对 Swoole 的 Task 机制进行了封装及抽象，提供便捷的注解用法
 
 ## 热更新
@@ -61,7 +70,16 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 ## 第三方 SDK
 
 - [Yurunsoft/PaySDK](https://github.com/Yurunsoft/PaySDK) 支持 Swoole 协程的支付宝/微信支付 SDK
-- [Yurunsoft/YurunOAuthLogin](https://github.com/Yurunsoft/YurunOAuthLogin) 支持 Swoole 协程的第三方登录授权 SDK（QQ、微信、微博、Github、Gitee 等）
+- [Yurunsoft/YurunOAuthLogin](https://github.com/Yurunsoft/YurunOAuthLogin) 支持 Swoole 协程的第三方登录授权 SDK(QQ、微信、微博、Github、Gitee 等)
+
+## 集成
+
+- [swooletw/laravel-swoole](https://github.com/swooletw/laravel-swoole) 基于 Swoole 的高性能 HTTP 服务器。加快您的 Laravel 或 Lumen 应用程序
+- [hhxsv5/laravel-s](https://github.com/hhxsv5/laravel-s) Swoole 和 Laravel/Lumen 之间开箱即用的适配器
+- [pachico/Slim-Swoole](https://github.com/pachico/slim-swoole) 使用 Swoole 运行 SlimPHP 应用程序的便捷库
+- [liufee/yii2-swoole](https://github.com/liufee/yii2-swoole) yii2 和 Swoole 的集成
+- [phwoolcon/phwoolcon](https://github.com/phwoolcon/phwoolcon) Phalcon 和 Swoole 的集成
+- [mezzio/mezzio-swoole](https://github.com/mezzio/mezzio-swoole) Mezzio 和 Swoole 支持
 
 ## 其他
 
