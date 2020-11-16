@@ -20,6 +20,7 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 - [hyperf/etcd](https://github.com/hyperf/etcd) 由 Hyperf 提供的 ETCD 协程客户端
 - [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) 让基于 Guzzle 的项目完美无缝兼容 Swoole 协程，支持：Guzzle、Elasticsearch Client
 - [Yurunsoft/YurunHttp](https://github.com/Yurunsoft/YurunHttp) 完美支持 Curl、Swoole 协程的 PHP HTTP 客户端，支持链式操作，简单易用
+- [simps/mqtt](https://github.com/simps/mqtt) 适用于 PHP 的 MQTT 协议解析和协程客户端
 
 ## 消息队列
 
