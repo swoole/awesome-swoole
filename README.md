@@ -11,18 +11,21 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 Table of Contents
 =================
 
-* [Awesome Swoole](#awesome-swoole)
-    * [Client Packages](#client-packages)
-    * [Message Queue](#message-queue)
-    * [Database](#database)
-    * [Cronjobs](#cronjobs)
-    * [Tasks](#tasks)
-    * [Debugging](#debugging)
-    * [Logging](#logging)
-    * [SOA governance](#soa-governance)
-    * [Third-party SDK](#third-party-sdk)
-    * [Framework](#framework)
-    * [Miscellaneous](#miscellaneous)
+   * [Awesome Swoole](#awesome-swoole)
+      * [Client Packages](#client-packages)
+      * [Message Queue](#message-queue)
+      * [Database](#database)
+      * [Cronjobs](#cronjobs)
+      * [Tasks](#tasks)
+      * [Debugging](#debugging)
+      * [Logging](#logging)
+      * [SOA governance](#soa-governance)
+      * [Third-party SDK](#third-party-sdk)
+      * [Frameworks](#frameworks)
+      * [Framework Adapters](#framework-adapters)
+      * [Miscellaneous](#miscellaneous)
+   * [Resources](#resources)
+      * [Swoole Videos](#swoole-videos)
 
 ## Client Packages
 
@@ -49,9 +52,11 @@ Table of Contents
 ## Database
 
 - [hyperf/database](https://github.com/hyperf/database) - The database component for Hyperf.
+- [louislivi/smproxy](https://github.com/louislivi/SMProxy) - SMProxy (Swoole MySQL Proxy), A MySQL database connection pool library.
 - [mix-php/database](https://github.com/mix-php/database) - A Swoole-based database component, with built-in support for connection pool.
 - [mix-php/redis](https://github.com/mix-php/redis) - A Swoole-based Redis component, with built-in support for connection pool.
 - [mix-php/redis-subscribe](https://github.com/mix-php/redis-subscribe) - A Swoole-based Redis subscription component.
+- [open-smf/connection-pool](https://github.com/open-smf/connection-pool) - A common connection pool based on Swoole.
 - [simple-swoole/db](https://github.com/simple-swoole/db) - The database component of [Simps](https://github.com/simple-swoole/simps). This component is built on top of [the Swoole Library](https://github.com/swoole/library).
 
 ## Cronjobs
@@ -62,6 +67,7 @@ Table of Contents
 ## Tasks
 
 - [hyperf/task](https://github.com/hyperf/task) - The task component for Hyperf, providing an easy way to add and dispatch tasks to task workers in Swoole.
+- [kcloze/swoole-jobs](https://github.com/kcloze/swoole-jobs) - An efficient Swoole-based job queue system.
 
 ## Debugging
 
@@ -69,12 +75,14 @@ Table of Contents
 - [swoole/debugger](https://github.com/swoole/debugger) - A remote debugger of Swoole. By adding one-line of code, you can debug your application remotely using a rich list of commands.
 - [swoole/ide-helper](https://github.com/swoole/ide-helper) - IDE help files to provide accurate autocompletion for Swoole.
 - [swoole/sdebug](https://github.com/swoole/sdebug) - A fork of [Xdebug](https://github.com/xdebug/xdebug) to debug Swoole applications.
+- [upscale/swoole-blackfire](https://github.com/upscalesoftware/swoole-blackfire) - Blackfire profiler integration for Swoole web-server.
 - [yasd](https://github.com/swoole/yasd) - Yet Another Swoole Debugger.
 
 ## Logging
 
 - [hyperf/logger](https://github.com/hyperf/logger) - The logging component for Hyperf. It's based on [Monolog](https://github.com/Seldaek/monolog), with PSR-3 interface implemented.
 - [mix-php/monolog](https://github.com/mix-php/monolog) - A coroutine-friendly logging library. It's based on [Monolog](https://github.com/Seldaek/monolog).
+- [upscale/swoole-newrelic](https://github.com/upscalesoftware/swoole-newrelic) - New Relic APM and Browser monitoring of Swoole web-server.
 
 ## SOA governance
 
@@ -86,8 +94,9 @@ Table of Contents
 - [Yurunsoft/PaySDK](https://github.com/Yurunsoft/PaySDK) - A coroutine-friendly payment SDK for Alipay and WeChat Pay.
 - [Yurunsoft/YurunOAuthLogin](https://github.com/Yurunsoft/YurunOAuthLogin) - An OAuth library that provides built-in support for QQ、WeChat、Weibo、Github、Gitee, etc.
 
-## Framework
+## Frameworks
 
+- [chubbyphp/chubbyphp-framework](https://github.com/chubbyphp/chubbyphp-framework): A minimal middleware based micro framework using PSR, with the goal is to achive the best combination of flexibility and simplicity by using standards.
 - [Hyperf](https://github.com/hyperf/hyperf) - A coroutine framework that focuses on hyperspeed and flexibility.
     - Official components (an incomplete list)
         - [hyperf/amqp](https://github.com/hyperf/amqp)
@@ -107,8 +116,7 @@ Table of Contents
     - [mezzio/mezzio-swoole](https://github.com/mezzio/mezzio-swoole) - Provides the support of Swoole into a [Mezzio](https://docs.mezzio.dev/) application.
 - Laravel
     - [Laravel Octane](https://github.com/laravel/octane) - Laravel Octane supercharges your application's performance by serving your application using high-powered application servers, including Swoole and [RoadRunner](https://roadrunner.dev).
-    - [swooletw/laravel-swoole](https://github.com/swooletw/laravel-swoole) - A Swoole-based high-performance HTTP server to speed up your Laravel/Lumen applications.
-    - [hhxsv5/laravel-s](https://github.com/hhxsv5/laravel-s) - An out-of-the-box adapter to run Laravel/Lumen applications with Swoole.
+- [lizhichao/one](https://github.com/lizhichao/one) - A simple and efficient framework that works both under PHP-FPM and Swoole.
 - [Mix PHP](https://github.com/mix-php/mix) - A single-threaded coroutine PHP framework.
     - [mix-php/database](https://github.com/mix-php/database)
     - [mix-php/monolog](https://github.com/mix-php/monolog)
@@ -116,9 +124,19 @@ Table of Contents
     - [mix-php/redis-subscribe](https://github.com/mix-php/redis-subscribe)
     - [mix-php/tracing-zipkin](https://github.com/mix-php/tracing-zipkin)
     - [mix-php/sync-invoke](https://github.com/mix-php/sync-invoke)
+- [phpmv/ubiquity](https://github.com/phpMv/ubiquity) - A powerful and fast framework for efficient design.
+- [Simps](https://github.com/simple-swoole/simps) - A simple, lightweight and high-performance PHP coroutine framework.
+
+## Framework Adapters
+
+_To run PHP/PHP-FPM frameworks using Swoole._
+
+- Laravel
+    - [swooletw/laravel-swoole](https://github.com/swooletw/laravel-swoole) - A high-performance HTTP server to run Laravel/Lumen application on top of Swoole.
+    - [hhxsv5/laravel-s](https://github.com/hhxsv5/laravel-s) - An out-of-the-box adapter to run Laravel/Lumen applications with Swoole.
+    - [toxmc/fast-laravel](https://github.com/toxmc/fast-laravel) - A Swoole-based high-performance HTTP server to speed up your Laravel applications.
 - Phalcon
     - [phwoolcon/phwoolcon](https://github.com/phwoolcon/phwoolcon) - Phalcon + Swoole.
-- [Simps](https://github.com/simple-swoole/simps) - A simple, lightweight and high-performance PHP coroutine framework.
 - Slim
     - [pachico/Slim-Swoole](https://github.com/pachico/slim-swoole) - A convenient library to run [SlimPHP](https://www.slimframework.com) applications with Swoole.
 - Symfony
@@ -128,5 +146,15 @@ Table of Contents
 
 ## Miscellaneous
 
+- [leocavalcante/swoole-futures](https://github.com/leocavalcante/swoole-futures) - Futures + Async/Await for PHP's Swoole asynchronous run-time.
+- [leocavalcante/swoole-mutex](https://github.com/leocavalcante/swoole-mutex) - Mutual exclusion abstractions for PHP's Swoole concurrency run-time.
 - [mix-php/sync-invoke](https://github.com/mix-php/sync-invoke) - A library to execute synchronous blocking code without blocking the running process in Swoole.
 - [xlswriter](https://github.com/viest/php-ext-xlswriter) - A coroutine-friendly PHP Extension to create and read XLSX files.
+
+# Resources
+
+## Swoole Videos
+
+Fantastic Swoole-related videos.
+
+- [CSP Programming in PHP](https://nomadphp.com/video/306/csp-programming-in-php)
