@@ -2,7 +2,7 @@
 
 # Awesome Swoole ![](https://github.com/swoole/awesome-swoole/workflows/Awesome%20Bot/badge.svg)
 
-A curated list of awesome things related to <a href="//github.com/swoole/swoole-src">swoole</a>.
+A curated list of awesome things related to <a href="//github.com/swoole/swoole-src">Swoole</a>.
 
 <img src="https://cdn.jsdelivr.net/gh/swoole/swoole-src/mascot.png">
 
@@ -18,7 +18,7 @@ Table of Contents
       * [Debugging](#debugging)
       * [Development Environment](#development-environment)
       * [Frameworks](#frameworks)
-      * [Framework Adapters](#framework-adapters)
+      * [Framework Integration](#framework-integration)
       * [Logging](#logging)
       * [Message Queue](#message-queue)
       * [SOA governance](#soa-governance)
@@ -109,7 +109,7 @@ Table of Contents
 - [phpmv/ubiquity](https://github.com/phpMv/ubiquity) - A powerful and fast framework for efficient design.
 - [Simps](https://github.com/simple-swoole/simps) - A simple, lightweight and high-performance PHP coroutine framework.
 
-## Framework Adapters
+## Framework Integration
 *To run PHP/PHP-FPM frameworks using Swoole.*
 
 - Laravel
@@ -123,6 +123,8 @@ Table of Contents
     - [pachico/Slim-Swoole](https://github.com/pachico/slim-swoole) - A convenient library to run [SlimPHP](https://www.slimframework.com) applications with Swoole.
 - Symfony
     - [k911/swoole-bundle](https://github.com/k911/swoole-bundle) - Symfony integration with Swoole to speed up your applications.
+- ThinkPHP
+    - [topthink/think-swoole](https://github.com/top-think/think-swoole) - To run ThinkPHP applications with Swoole.
 - YII
     - [liufee/yii2-swoole](https://github.com/liufee/yii2-swoole) - To run [Yii 2](https://www.yiiframework.com) applications with Swoole.
 
