@@ -144,6 +144,7 @@ Table of Contents
 
 - [hyperf/task](https://github.com/hyperf/task) - The task component for Hyperf, providing an easy way to add and dispatch tasks to task workers in Swoole.
 - [kcloze/swoole-jobs](https://github.com/kcloze/swoole-jobs) - An efficient Swoole-based job queue system.
+- [swlib/archer](https://github.com/swlib/archer) - A Swoole-based task component, with different runtime modes supported: serial queue, concurrent queue, defer, timer, etc.
 
 ## Third-party SDK
 
@@ -160,7 +161,7 @@ Table of Contents
 # Resources
 
 ## Swoole Books
-*Fantastic PHP-related books.*
+*Fantastic Swoole-related books.*
 
 - [Mastering Swoole PHP](https://www.amazon.com/Mastering-Swoole-PHP-performance-concurrent-ebook/dp/B0881B227S/) - Build your high performance large scale concurrent system in a more flexible and efficient way than ever before with this first & only Swoole PHP book, with PHP 8 ready.
 
