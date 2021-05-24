@@ -107,8 +107,7 @@ Table of Contents
 - [Simps](https://github.com/simple-swoole/simps) - A simple, lightweight and high-performance PHP coroutine framework.
 
 ## Framework Adapters
-
-_To run PHP/PHP-FPM frameworks using Swoole._
+*To run PHP/PHP-FPM frameworks using Swoole.*
 
 - Laravel
     - [swooletw/laravel-swoole](https://github.com/swooletw/laravel-swoole) - A high-performance HTTP server to run Laravel/Lumen application on top of Swoole.
@@ -159,8 +158,12 @@ _To run PHP/PHP-FPM frameworks using Swoole._
 
 # Resources
 
-## Swoole Videos
+## PHP Books
+*Fantastic PHP-related books.*
 
-Fantastic Swoole-related videos.
+- [Mastering Swoole PHP](https://www.amazon.com/Mastering-Swoole-PHP-performance-concurrent-ebook/dp/B0881B227S/) - Build your high performance large scale concurrent system in a more flexible and efficient way than ever before with this first & only Swoole PHP book, with PHP 8 ready.
+
+## Swoole Videos
+*Fantastic Swoole-related videos.*
 
 - [CSP Programming in PHP](https://nomadphp.com/video/306/csp-programming-in-php)
