@@ -90,6 +90,7 @@ Table of Contents
         - [hyperf/tracer](https://github.com/hyperf/tracer)
     - Third-party components (an incomplete list)
         - [96qbhy/hyperf-auth](https://github.com/qbhy/hyperf-auth) - An authentication component for Hyperf. It supports JWT and session-based authentications. You can also create your own authentication drivers if needed.
+- [imi](https://github.com/Yurunsoft/IMI) - A Swoole-based framework, with built-in support for HTTP/1, HTTP/2, WebSocket, TCP, UDP, and MQTT.
 - Laminas/Mezzio/Zend Framework
     - [mezzio/mezzio-swoole](https://github.com/mezzio/mezzio-swoole) - Provides the support of Swoole into a [Mezzio](https://docs.mezzio.dev/) application.
 - Laravel
