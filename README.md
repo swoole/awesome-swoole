@@ -13,16 +13,17 @@ Table of Contents
 
    * [Awesome Swoole](#awesome-swoole)
       * [Client Packages](#client-packages)
-      * [Message Queue](#message-queue)
-      * [Database](#database)
       * [Cronjobs](#cronjobs)
-      * [Tasks](#tasks)
+      * [Database](#database)
       * [Debugging](#debugging)
-      * [Logging](#logging)
-      * [SOA governance](#soa-governance)
-      * [Third-party SDK](#third-party-sdk)
+      * [Development Environment](#development-environment)
       * [Frameworks](#frameworks)
       * [Framework Adapters](#framework-adapters)
+      * [Logging](#logging)
+      * [Message Queue](#message-queue)
+      * [SOA governance](#soa-governance)
+      * [Tasks](#tasks)
+      * [Third-party SDK](#third-party-sdk)
       * [Miscellaneous](#miscellaneous)
    * [Resources](#resources)
       * [Swoole Videos](#swoole-videos)
@@ -43,11 +44,10 @@ Table of Contents
 - [swoole/ext-zookeeper](https://github.com/swoole/ext-zookeeper) - A Swoole-based ZooKeeper client.
 - [swoole/grpc](https://github.com/swoole/grpc) - An efficient Swoole-based gRPC client.
 
-## Message Queue
+## Cronjobs
 
-- [hyperf/amqp](https://github.com/hyperf/amqp) - The AMQP client for Hyperf.
-- [hyperf/async-queue](https://github.com/hyperf/async-queue) - The Redis-based asynchronous queue component for Hyperf.
-- [longyan/phpkafka](https://github.com/longyan/phpkafka) - A coroutine-based [Kafka](https://kafka.apache.org) client.
+- [hyperf/crontab](https://github.com/hyperf/crontab) - The cron component for Hyperf, allowing jobs to run at intervals of seconds.
+- [osgochina/swoole-crontab](https://github.com/osgochina/swoole-crontab) - A Swoole-based crontab schedule. It allows jobs to run at intervals of seconds, and is fully compatible with crontab syntax.
 
 ## Database
 
@@ -59,40 +59,18 @@ Table of Contents
 - [open-smf/connection-pool](https://github.com/open-smf/connection-pool) - A common connection pool based on Swoole.
 - [simple-swoole/db](https://github.com/simple-swoole/db) - The database component of [Simps](https://github.com/simple-swoole/simps). This component is built on top of [the Swoole Library](https://github.com/swoole/library).
 
-## Cronjobs
-
-- [hyperf/crontab](https://github.com/hyperf/crontab) - The cron component for Hyperf, allowing jobs to run at intervals of seconds.
-- [osgochina/swoole-crontab](https://github.com/osgochina/swoole-crontab) - A Swoole-based crontab schedule. It allows jobs to run at intervals of seconds, and is fully compatible with crontab syntax.
-
-## Tasks
-
-- [hyperf/task](https://github.com/hyperf/task) - The task component for Hyperf, providing an easy way to add and dispatch tasks to task workers in Swoole.
-- [kcloze/swoole-jobs](https://github.com/kcloze/swoole-jobs) - An efficient Swoole-based job queue system.
-
 ## Debugging
 
 - [Swoole Tracker](https://business.swoole.com/tracker/index) - An online service to track and analyze the performances of PHP/Swoole applications. Key features include memory leak detection, performance analytics, and runtime stats. Chinese version only.
 - [swoole/debugger](https://github.com/swoole/debugger) - A remote debugger of Swoole. By adding one-line of code, you can debug your application remotely using a rich list of commands.
-- [swoole/ide-helper](https://github.com/swoole/ide-helper) - IDE help files to provide accurate autocompletion for Swoole.
 - [swoole/sdebug](https://github.com/swoole/sdebug) - A fork of [Xdebug](https://github.com/xdebug/xdebug) to debug Swoole applications.
 - [upscale/swoole-blackfire](https://github.com/upscalesoftware/swoole-blackfire) - Blackfire profiler integration for Swoole web-server.
 - [yasd](https://github.com/swoole/yasd) - Yet Another Swoole Debugger.
 
-## Logging
+## Development Environment
 
-- [hyperf/logger](https://github.com/hyperf/logger) - The logging component for Hyperf. It's based on [Monolog](https://github.com/Seldaek/monolog), with PSR-3 interface implemented.
-- [mix-php/monolog](https://github.com/mix-php/monolog) - A coroutine-friendly logging library. It's based on [Monolog](https://github.com/Seldaek/monolog).
-- [upscale/swoole-newrelic](https://github.com/upscalesoftware/swoole-newrelic) - New Relic APM and Browser monitoring of Swoole web-server.
-
-## SOA governance
-
-- [hyperf/tracer](https://github.com/hyperf/tracer) - The distributed tracing component for Hyperf. The implementation is based on [OpenTracing](https://opentracing.io).
-- [mix-php/tracing-zipkin](https://github.com/mix-php/tracing-zipkin) - A tracing library based on [Zipkin](https://zipkin.io) and [OpenTracing](https://opentracing.io).
-
-## Third-party SDK
-
-- [Yurunsoft/PaySDK](https://github.com/Yurunsoft/PaySDK) - A coroutine-friendly payment SDK for Alipay and WeChat Pay.
-- [Yurunsoft/YurunOAuthLogin](https://github.com/Yurunsoft/YurunOAuthLogin) - An OAuth library that provides built-in support for QQ、WeChat、Weibo、Github、Gitee, etc.
+- [phpswoole/swoole](https://github.com/swoole/docker-swoole) - Official Docker Image of Swoole.
+- [swoole/ide-helper](https://github.com/swoole/ide-helper) - IDE help files to provide accurate autocompletion for Swoole.
 
 ## Frameworks
 
@@ -143,6 +121,33 @@ _To run PHP/PHP-FPM frameworks using Swoole._
     - [k911/swoole-bundle](https://github.com/k911/swoole-bundle) - Symfony integration with Swoole to speed up your applications.
 - YII
     - [liufee/yii2-swoole](https://github.com/liufee/yii2-swoole) - To run [Yii 2](https://www.yiiframework.com) applications with Swoole.
+
+## Logging
+
+- [hyperf/logger](https://github.com/hyperf/logger) - The logging component for Hyperf. It's based on [Monolog](https://github.com/Seldaek/monolog), with PSR-3 interface implemented.
+- [mix-php/monolog](https://github.com/mix-php/monolog) - A coroutine-friendly logging library. It's based on [Monolog](https://github.com/Seldaek/monolog).
+- [upscale/swoole-newrelic](https://github.com/upscalesoftware/swoole-newrelic) - New Relic APM and Browser monitoring of Swoole web-server.
+
+## Message Queue
+
+- [hyperf/amqp](https://github.com/hyperf/amqp) - The AMQP client for Hyperf.
+- [hyperf/async-queue](https://github.com/hyperf/async-queue) - The Redis-based asynchronous queue component for Hyperf.
+- [longyan/phpkafka](https://github.com/longyan/phpkafka) - A coroutine-based [Kafka](https://kafka.apache.org) client.
+
+## SOA governance
+
+- [hyperf/tracer](https://github.com/hyperf/tracer) - The distributed tracing component for Hyperf. The implementation is based on [OpenTracing](https://opentracing.io).
+- [mix-php/tracing-zipkin](https://github.com/mix-php/tracing-zipkin) - A tracing library based on [Zipkin](https://zipkin.io) and [OpenTracing](https://opentracing.io).
+
+## Tasks
+
+- [hyperf/task](https://github.com/hyperf/task) - The task component for Hyperf, providing an easy way to add and dispatch tasks to task workers in Swoole.
+- [kcloze/swoole-jobs](https://github.com/kcloze/swoole-jobs) - An efficient Swoole-based job queue system.
+
+## Third-party SDK
+
+- [Yurunsoft/PaySDK](https://github.com/Yurunsoft/PaySDK) - A coroutine-friendly payment SDK for Alipay and WeChat Pay.
+- [Yurunsoft/YurunOAuthLogin](https://github.com/Yurunsoft/YurunOAuthLogin) - An OAuth library that provides built-in support for QQ、WeChat、Weibo、Github、Gitee, etc.
 
 ## Miscellaneous
 
