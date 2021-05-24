@@ -11,7 +11,7 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 Table of Contents
 =================
 
-   * [Awesome Swoole](#awesome-swoole)
+   * [Awesome Swoole](#awesome-swoole-)
       * [Client Packages](#client-packages)
       * [Cronjobs](#cronjobs)
       * [Database](#database)
@@ -26,6 +26,7 @@ Table of Contents
       * [Third-party SDK](#third-party-sdk)
       * [Miscellaneous](#miscellaneous)
    * [Resources](#resources)
+      * [Swoole Books](#swoole-books)
       * [Swoole Videos](#swoole-videos)
 
 ## Client Packages
@@ -158,7 +159,7 @@ Table of Contents
 
 # Resources
 
-## PHP Books
+## Swoole Books
 *Fantastic PHP-related books.*
 
 - [Mastering Swoole PHP](https://www.amazon.com/Mastering-Swoole-PHP-performance-concurrent-ebook/dp/B0881B227S/) - Build your high performance large scale concurrent system in a more flexible and efficient way than ever before with this first & only Swoole PHP book, with PHP 8 ready.
