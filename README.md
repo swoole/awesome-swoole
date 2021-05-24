@@ -1,6 +1,6 @@
 <div align="center">
 
-# Awesome Swoole
+# Awesome Swoole ![](https://github.com/swoole/awesome-swoole/workflows/Awesome%20Bot/badge.svg)
 
 A curated list of awesome things related to <a href="//github.com/swoole/swoole-src">swoole</a>.
 
