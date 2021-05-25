@@ -109,6 +109,7 @@ Table of Contents
     - [mix-php/sync-invoke](https://github.com/mix-php/sync-invoke)
 - [phpmv/ubiquity](https://github.com/phpMv/ubiquity) - A powerful and fast framework for efficient design.
 - [Simps](https://github.com/simple-swoole/simps) - A simple, lightweight and high-performance PHP coroutine framework.
+- [Polyel](https://github.com/Superbition/Polyel-Framework) - A full-stack MVC PHP framework/server built from the ground up based on Swoole.
 
 ## Framework Integration
 *To run PHP/PHP-FPM frameworks using Swoole.*
