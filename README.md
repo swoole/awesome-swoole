@@ -140,7 +140,7 @@ Table of Contents
 
 - [hyperf/amqp](https://github.com/hyperf/amqp) - The AMQP client for Hyperf.
 - [hyperf/async-queue](https://github.com/hyperf/async-queue) - The Redis-based asynchronous queue component for Hyperf.
-- [longyan/phpkafka](https://github.com/longyan/phpkafka) - A coroutine-based [Kafka](https://kafka.apache.org) client.
+- [longlang/phpkafka](https://github.com/longyan/phpkafka) - A coroutine-based [Kafka](https://kafka.apache.org) client.
 
 ## SOA governance
 
