@@ -66,12 +66,12 @@ Table of Contents
 - [swoole/debugger](https://github.com/swoole/debugger) - A remote debugger of Swoole. By adding one-line of code, you can debug your application remotely using a rich list of commands.
 - [swoole/sdebug](https://github.com/swoole/sdebug) - A fork of [Xdebug](https://github.com/xdebug/xdebug) to debug Swoole applications.
 - [upscale/swoole-blackfire](https://github.com/upscalesoftware/swoole-blackfire) - Blackfire profiler integration for Swoole web-server.
-- [yasd](https://github.com/swoole/yasd) - Yet Another Swoole Debugger.
+- [yasd](https://github.com/swoole/yasd) - Yet Another Swoole Debugger, developed by [codinghuang](https://github.com/huanghantao) from the Swoole team.
 
 ## Development Environment
 
 - [eaglewu/swoole-ide-helper](https://github.com/wudi/swoole-ide-helper) - Auto completion, trigger suggest and view docs for Swoole in editor.
-- [phpswoole/swoole](https://github.com/swoole/docker-swoole) - Official Docker Image of Swoole.
+- [phpswoole/swoole](https://github.com/swoole/docker-swoole) - Official Docker image of Swoole.
 - [swoole/ide-helper](https://github.com/swoole/ide-helper) - IDE help files to provide accurate autocompletion for Swoole.
 
 ## Frameworks
@@ -100,7 +100,7 @@ Table of Contents
     - [Laravel Octane](https://github.com/laravel/octane) - Laravel Octane supercharges your application's performance by serving your application using high-powered application servers, including Swoole and [RoadRunner](https://roadrunner.dev).
 - [Siler](https://github.com/leocavalcante/siler) - A set of general purpose high-level abstractions aiming an API for declarative programming in PHP.
 - [lizhichao/one](https://github.com/lizhichao/one) - A simple and efficient framework that works both under PHP-FPM and Swoole.
-- [Mix PHP](https://github.com/mix-php/mix) - A single-threaded coroutine PHP framework.
+- [Mix PHP](https://github.com/mix-php/mix) - A unique single-threaded coroutine-based framework.
     - [mix-php/database](https://github.com/mix-php/database)
     - [mix-php/monolog](https://github.com/mix-php/monolog)
     - [mix-php/redis](https://github.com/mix-php/redis)
