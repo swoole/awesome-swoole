@@ -108,14 +108,14 @@ Table of Contents
     - [mix-php/tracing-zipkin](https://github.com/mix-php/tracing-zipkin)
     - [mix-php/sync-invoke](https://github.com/mix-php/sync-invoke)
 - [phpmv/ubiquity](https://github.com/phpMv/ubiquity) - A powerful and fast framework for efficient design.
-- [Simps](https://github.com/simple-swoole/simps) - A simple, lightweight and high-performance PHP coroutine framework.
 - [Polyel](https://github.com/Superbition/Polyel-Framework) - A full-stack MVC PHP framework/server built from the ground up based on Swoole.
+- [Simps](https://github.com/simple-swoole/simps) - A simple, lightweight and high-performance PHP coroutine framework.
 
 ## Framework Integration
 *To run PHP/PHP-FPM frameworks using Swoole.*
 
 - Laravel
-    - [hhxsv5/laravel-s](https://github.com/hhxsv5/laravel-s) - An out-of-the-box adapter to run Laravel/Lumen applications with Swoole.
+    - [hhxsv5/laravel-s](https://github.com/hhxsv5/laravel-s) - Glue for using Swoole in Laravel or Lumen.
     - [scil/laravel-fly](https://github.com/scil/LaravelFly) - To be an absolutely safe solution to speed up Laravel with Swoole. Preloading + Coroutine and Tinker Online.
     - [swooletw/laravel-swoole](https://github.com/swooletw/laravel-swoole) - A high-performance HTTP server to run Laravel/Lumen application on top of Swoole.
     - [toxmc/fast-laravel](https://github.com/toxmc/fast-laravel) - A Swoole-based high-performance HTTP server to speed up your Laravel applications.
@@ -156,7 +156,7 @@ Table of Contents
 ## Third-party SDK
 
 - [Yurunsoft/PaySDK](https://github.com/Yurunsoft/PaySDK) - A coroutine-friendly payment SDK for Alipay and WeChat Pay.
-- [Yurunsoft/YurunOAuthLogin](https://github.com/Yurunsoft/YurunOAuthLogin) - An OAuth library that provides built-in support for QQ、WeChat、Weibo、Github、Gitee, etc.
+- [Yurunsoft/YurunOAuthLogin](https://github.com/Yurunsoft/YurunOAuthLogin) - An OAuth library that provides built-in support for QQ, WeChat, Weibo, Github, Gitee, etc.
 
 ## Miscellaneous
 
