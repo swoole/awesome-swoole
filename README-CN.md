@@ -1,10 +1,10 @@
 <div align="center">
 
-# Awesome Swoole
+# Awesome Swoole ![](https://github.com/swoole/awesome-swoole/workflows/Awesome%20Bot/badge.svg)
 
 A curated list of awesome things related to <a href="//github.com/swoole/swoole-src">swoole</a>.
 
-<img src="https://cdn.jsdelivr.net/gh/swoole/swoole-src/mascot.png">
+<img src="https://cdn.jsdelivr.net/gh/sy-records/staticfile/images/swoole/logo.png">
 
 </div>
 
