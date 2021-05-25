@@ -33,7 +33,7 @@ Table of Contents
 
 - HTTP
     - [Saber](https://github.com/swlib/saber) - A coroutine-based HTTP client.
-    - [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) - Make the [Guzzle](https://github.com/guzzle/guzzle) library coroutine-friendly in Swoole. This package supports Guzzle 6 and Guzzle 7. It works with package [elasticsearch/elasticsearch](https://github.com/elastic/elasticsearch-php) (the official PHP client for Elasticsearch), [aws/aws-sdk-php](https://github.com/aws/aws-sdk-php) (official repository of the AWS SDK for PHP), and many Swoole-based frameworks.
+    - [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) - Make the [Guzzle](https://github.com/guzzle/guzzle) library coroutine-friendly in Swoole. It works with many Guzzle-based packages and Swoole-based frameworks.
     - [Yurunsoft/YurunHttp](https://github.com/Yurunsoft/YurunHttp) - An easy-to-use HTTP client that works with HTTP/1, HTTP/2, and WebSocket protocols. It also supports chained operations, concurrent processing, and connection pool.
 - [hyperf/jet](https://github.com/hyperf/jet) - An RPC Client with built-in support for [the JSON-RPC protocol](https://www.jsonrpc.org/). It works with both PHP-FPM and Swoole.
 - [hyperf/consul](https://github.com/hyperf/consul) - The [Consul](https://www.consul.io) client for Hyperf.
@@ -53,7 +53,7 @@ Table of Contents
 ## Database
 
 - [hyperf/database](https://github.com/hyperf/database) - The database component for Hyperf.
-- [louislivi/smproxy](https://github.com/louislivi/SMProxy) - SMProxy (Swoole MySQL Proxy), A MySQL database connection pool library.
+- [SMProxy](https://github.com/louislivi/SMProxy) - SMProxy (Swoole MySQL Proxy), A MySQL database connection pool library.
 - [mix-php/database](https://github.com/mix-php/database) - A Swoole-based database component, with built-in support for connection pool.
 - [mix-php/redis](https://github.com/mix-php/redis) - A Swoole-based Redis component, with built-in support for connection pool.
 - [mix-php/redis-subscribe](https://github.com/mix-php/redis-subscribe) - A Swoole-based Redis subscription component.
@@ -76,7 +76,7 @@ Table of Contents
 
 ## Frameworks
 
-- [chubbyphp/chubbyphp-framework](https://github.com/chubbyphp/chubbyphp-framework): A minimal middleware based micro framework using PSR, with the goal is to achive the best combination of flexibility and simplicity by using standards.
+- [chubbyphp-framework](https://github.com/chubbyphp/chubbyphp-framework): A minimal middleware based micro framework using PSR, with the goal is to achive the best combination of flexibility and simplicity by using standards.
 - [Hyperf](https://github.com/hyperf/hyperf) - A coroutine framework that focuses on hyperspeed and flexibility.
     - Official components (an incomplete list)
         - [hyperf/amqp](https://github.com/hyperf/amqp)
@@ -107,7 +107,7 @@ Table of Contents
     - [mix-php/redis-subscribe](https://github.com/mix-php/redis-subscribe)
     - [mix-php/tracing-zipkin](https://github.com/mix-php/tracing-zipkin)
     - [mix-php/sync-invoke](https://github.com/mix-php/sync-invoke)
-- [phpmv/ubiquity](https://github.com/phpMv/ubiquity) - A powerful and fast framework for efficient design.
+- [Ubiquity](https://github.com/phpMv/ubiquity) - A powerful and fast framework for efficient design.
 - [Polyel](https://github.com/Superbition/Polyel-Framework) - A full-stack MVC PHP framework/server built from the ground up based on Swoole.
 - [Simps](https://github.com/simple-swoole/simps) - A simple, lightweight and high-performance PHP coroutine framework.
 
@@ -127,7 +127,7 @@ Table of Contents
     - [k911/swoole-bundle](https://github.com/k911/swoole-bundle) - Symfony integration with Swoole to speed up your applications.
 - ThinkPHP
     - [topthink/think-swoole](https://github.com/top-think/think-swoole) - To run ThinkPHP applications with Swoole.
-- YII
+- Yii
     - [liufee/yii2-swoole](https://github.com/liufee/yii2-swoole) - To run [Yii 2](https://www.yiiframework.com) applications with Swoole.
 
 ## Logging
@@ -151,7 +151,7 @@ Table of Contents
 
 - [hyperf/task](https://github.com/hyperf/task) - The task component for Hyperf, providing an easy way to add and dispatch tasks to task workers in Swoole.
 - [kcloze/swoole-jobs](https://github.com/kcloze/swoole-jobs) - An efficient Swoole-based job queue system.
-- [swlib/archer](https://github.com/swlib/archer) - A Swoole-based task component, with different runtime modes supported: serial queue, concurrent queue, defer, timer, etc.
+- [Archer](https://github.com/swlib/archer) - A Swoole-based task component, with different runtime modes supported: serial queue, concurrent queue, defer, timer, etc.
 
 ## Third-party SDK
 
