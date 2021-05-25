@@ -53,12 +53,12 @@ Table of Contents
 ## Database
 
 - [hyperf/database](https://github.com/hyperf/database) - The database component for Hyperf.
-- [SMProxy](https://github.com/louislivi/SMProxy) - SMProxy (Swoole MySQL Proxy), A MySQL database connection pool library.
 - [mix-php/database](https://github.com/mix-php/database) - A Swoole-based database component, with built-in support for connection pool.
 - [mix-php/redis](https://github.com/mix-php/redis) - A Swoole-based Redis component, with built-in support for connection pool.
 - [mix-php/redis-subscribe](https://github.com/mix-php/redis-subscribe) - A Swoole-based Redis subscription component.
 - [open-smf/connection-pool](https://github.com/open-smf/connection-pool) - A common connection pool based on Swoole.
 - [simple-swoole/db](https://github.com/simple-swoole/db) - The database component of [Simps](https://github.com/simple-swoole/simps). This component is built on top of [the Swoole Library](https://github.com/swoole/library).
+- [SMProxy](https://github.com/louislivi/SMProxy) - SMProxy (Swoole MySQL Proxy), A MySQL database connection pool library.
 
 ## Debugging
 
@@ -107,9 +107,9 @@ Table of Contents
     - [mix-php/redis-subscribe](https://github.com/mix-php/redis-subscribe)
     - [mix-php/tracing-zipkin](https://github.com/mix-php/tracing-zipkin)
     - [mix-php/sync-invoke](https://github.com/mix-php/sync-invoke)
-- [Ubiquity](https://github.com/phpMv/ubiquity) - A powerful and fast framework for efficient design.
 - [Polyel](https://github.com/Superbition/Polyel-Framework) - A full-stack MVC PHP framework/server built from the ground up based on Swoole.
 - [Simps](https://github.com/simple-swoole/simps) - A simple, lightweight and high-performance PHP coroutine framework.
+- [Ubiquity](https://github.com/phpMv/ubiquity) - A powerful and fast framework for efficient design.
 
 ## Framework Integration
 *To run PHP/PHP-FPM frameworks using Swoole.*
@@ -149,9 +149,9 @@ Table of Contents
 
 ## Tasks
 
+- [Archer](https://github.com/swlib/archer) - A Swoole-based task component, with different runtime modes supported: serial queue, concurrent queue, defer, timer, etc.
 - [hyperf/task](https://github.com/hyperf/task) - The task component for Hyperf, providing an easy way to add and dispatch tasks to task workers in Swoole.
 - [kcloze/swoole-jobs](https://github.com/kcloze/swoole-jobs) - An efficient Swoole-based job queue system.
-- [Archer](https://github.com/swlib/archer) - A Swoole-based task component, with different runtime modes supported: serial queue, concurrent queue, defer, timer, etc.
 
 ## Third-party SDK
 
