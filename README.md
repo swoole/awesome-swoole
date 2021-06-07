@@ -72,6 +72,7 @@ Table of Contents
 
 - [eaglewu/swoole-ide-helper](https://github.com/wudi/swoole-ide-helper) - Auto completion, trigger suggest and view docs for Swoole in editor.
 - [phpswoole/swoole](https://github.com/swoole/docker-swoole) - Official Docker image of Swoole.
+- [Swoole IDE Helper](https://plugins.jetbrains.com/plugin/13040-swoole-ide-helper) - Swoole IDE Helper for PhpStorm and Intellij IDEA.
 - [swoole/ide-helper](https://github.com/swoole/ide-helper) - IDE help files to provide accurate autocompletion for Swoole.
 
 ## Frameworks
