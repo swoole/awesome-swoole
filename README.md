@@ -19,6 +19,7 @@ Table of Contents
       * [Development Environment](#development-environment)
       * [Frameworks](#frameworks)
       * [Framework Integration](#framework-integration)
+      * [HTTP](#http)
       * [Logging](#logging)
       * [Message Queue](#message-queue)
       * [SOA governance](#soa-governance)
@@ -31,10 +32,6 @@ Table of Contents
 
 ## Client Packages
 
-- HTTP
-    - [Saber](https://github.com/swlib/saber) - A coroutine-based HTTP client.
-    - [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) - Make the [Guzzle](https://github.com/guzzle/guzzle) library coroutine-friendly in Swoole. It works with many Guzzle-based packages and Swoole-based frameworks.
-    - [Yurunsoft/YurunHttp](https://github.com/Yurunsoft/YurunHttp) - An easy-to-use HTTP client that works with HTTP/1, HTTP/2, and WebSocket protocols. It also supports chained operations, concurrent processing, and connection pool.
 - [hyperf/jet](https://github.com/hyperf/jet) - An RPC Client with built-in support for [the JSON-RPC protocol](https://www.jsonrpc.org/). It works with both PHP-FPM and Swoole.
 - [hyperf/consul](https://github.com/hyperf/consul) - The [Consul](https://www.consul.io) client for Hyperf.
 - [hyperf/elasticsearch](https://github.com/hyperf/elasticsearch) - The [Elasticsearch](https://www.elastic.co/elasticsearch/) client for Hyperf.
@@ -130,6 +127,14 @@ Table of Contents
     - [topthink/think-swoole](https://github.com/top-think/think-swoole) - To run ThinkPHP applications with Swoole.
 - Yii
     - [liufee/yii2-swoole](https://github.com/liufee/yii2-swoole) - To run [Yii 2](https://www.yiiframework.com) applications with Swoole.
+
+## HTTP
+*Libraries for working with HTTP.*
+
+- [Request Callback](https://github.com/leocavalcante/request-callback) - Swoole request callback for PSR compliant handlers. Compatible with PSR-7 and PSR-15.
+- [Saber](https://github.com/swlib/saber) - A coroutine-based HTTP client.
+- [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) - Make the [Guzzle](https://github.com/guzzle/guzzle) library coroutine-friendly in Swoole. It works with many Guzzle-based packages and Swoole-based frameworks.
+- [Yurunsoft/YurunHttp](https://github.com/Yurunsoft/YurunHttp) - An easy-to-use HTTP client that works with HTTP/1, HTTP/2, and WebSocket protocols. It also supports chained operations, concurrent processing, and connection pool.
 
 ## Logging
 
