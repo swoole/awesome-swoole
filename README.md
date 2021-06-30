@@ -91,7 +91,7 @@ Table of Contents
     - Third-party components (an incomplete list)
         - [96qbhy/hyperf-auth](https://github.com/qbhy/hyperf-auth) - An authentication component for Hyperf. It supports JWT and session-based authentications. You can also create your own authentication drivers if needed.
         - [reasno/fastmongo](https://github.com/Reasno/fastmongo) - A coroutine-based MongoDB client for Hyperf.
-- [imi](https://github.com/Yurunsoft/IMI) - A Swoole-based framework, with built-in support for HTTP/1, HTTP/2, WebSocket, TCP, UDP, and MQTT.
+- [imi](https://github.com/imiphp/imi) - A Swoole-based framework, with built-in support for HTTP/1, HTTP/2, WebSocket, TCP, UDP, and MQTT.
 - Laminas/Mezzio/Zend Framework
     - [mezzio/mezzio-swoole](https://github.com/mezzio/mezzio-swoole) - Provides the support of Swoole into a [Mezzio](https://docs.mezzio.dev/) application.
 - Laravel
@@ -146,7 +146,7 @@ Table of Contents
 
 - [hyperf/amqp](https://github.com/hyperf/amqp) - The AMQP client for Hyperf.
 - [hyperf/async-queue](https://github.com/hyperf/async-queue) - The Redis-based asynchronous queue component for Hyperf.
-- [longlang/phpkafka](https://github.com/longyan/phpkafka) - A coroutine-based [Kafka](https://kafka.apache.org) client.
+- [longlang/phpkafka](https://github.com/swoole/phpkafka) - A coroutine-based [Kafka](https://kafka.apache.org) client.
 
 ## SOA governance
 
