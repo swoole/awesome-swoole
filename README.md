@@ -21,9 +21,8 @@ Table of Contents
       * [Framework Integration](#framework-integration)
       * [HTTP](#http)
       * [Logging](#logging)
-      * [Message Queue](#message-queue)
       * [SOA governance](#soa-governance)
-      * [Tasks](#tasks)
+      * [Tasks and Queues](#tasks-and-queues)
       * [Third-party SDK](#third-party-sdk)
       * [Miscellaneous](#miscellaneous)
    * [Resources](#resources)
@@ -142,22 +141,20 @@ Table of Contents
 - [mix-php/monolog](https://github.com/mix-php/monolog) - A coroutine-friendly logging library. It's based on [Monolog](https://github.com/Seldaek/monolog).
 - [upscale/swoole-newrelic](https://github.com/upscalesoftware/swoole-newrelic) - New Relic APM and Browser monitoring of Swoole web-server.
 
-## Message Queue
-
-- [hyperf/amqp](https://github.com/hyperf/amqp) - The AMQP client for Hyperf.
-- [hyperf/async-queue](https://github.com/hyperf/async-queue) - The Redis-based asynchronous queue component for Hyperf.
-- [longlang/phpkafka](https://github.com/swoole/phpkafka) - A coroutine-based [Kafka](https://kafka.apache.org) client.
-
 ## SOA governance
 
 - [hyperf/tracer](https://github.com/hyperf/tracer) - The distributed tracing component for Hyperf. The implementation is based on [OpenTracing](https://opentracing.io).
 - [mix-php/tracing-zipkin](https://github.com/mix-php/tracing-zipkin) - A tracing library based on [Zipkin](https://zipkin.io) and [OpenTracing](https://opentracing.io).
 
-## Tasks
+## Tasks and Queues
 
 - [Archer](https://github.com/swlib/archer) - A Swoole-based task component, with different runtime modes supported: serial queue, concurrent queue, defer, timer, etc.
+- [hyperf/amqp](https://github.com/hyperf/amqp) - The AMQP client for Hyperf.
+- [hyperf/async-queue](https://github.com/hyperf/async-queue) - The Redis-based asynchronous queue component for Hyperf.
 - [hyperf/task](https://github.com/hyperf/task) - The task component for Hyperf, providing an easy way to add and dispatch tasks to task workers in Swoole.
 - [kcloze/swoole-jobs](https://github.com/kcloze/swoole-jobs) - An efficient Swoole-based job queue system.
+- [littlesqx/aint-queue](https://github.com/Littlesqx/aint-queue) - An async-queue library built on top of Swoole.
+- [longlang/phpkafka](https://github.com/swoole/phpkafka) - A coroutine-based [Kafka](https://kafka.apache.org) client.
 
 ## Third-party SDK
 
