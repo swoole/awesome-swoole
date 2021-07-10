@@ -28,6 +28,7 @@ Table of Contents
    * [Resources](#resources)
       * [Swoole Books](#swoole-books)
       * [Swoole Videos](#swoole-videos)
+      * [Miscellaneous](#miscellaneous-1)
 
 ## Client Packages
 
@@ -182,3 +183,7 @@ Table of Contents
 *Fantastic Swoole-related videos.*
 
 - [CSP Programming in PHP](https://nomadphp.com/video/306/csp-programming-in-php)
+
+## Miscellaneous
+
+- [deminy/swoole-by-examples](https://github.com/deminy/swoole-by-examples) - Learn Swoole by examples.
