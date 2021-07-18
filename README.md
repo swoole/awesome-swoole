@@ -159,6 +159,7 @@ Table of Contents
 
 ## Third-party SDK
 
+- [yansongda/pay](https://github.com/yansongda/pay) - A payment SDK for Alipay and WeChat Pay, with components to integrate with [Hyperf](https://github.com/yansongda/hyperf-pay), [Laravel](https://github.com/yansongda/laravel-pay), and [Yii](https://github.com/guanguans/yii-pay).
 - [Yurunsoft/PaySDK](https://github.com/Yurunsoft/PaySDK) - A coroutine-friendly payment SDK for Alipay and WeChat Pay.
 - [Yurunsoft/YurunOAuthLogin](https://github.com/Yurunsoft/YurunOAuthLogin) - An OAuth library that provides built-in support for QQ, WeChat, Weibo, Github, Gitee, etc.
 
