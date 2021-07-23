@@ -114,6 +114,7 @@ Table of Contents
 
 - Laravel
     - [hhxsv5/laravel-s](https://github.com/hhxsv5/laravel-s) - Glue for using Swoole in Laravel or Lumen.
+    - [huang-yi/shadowfax](https://github.com/huang-yi/shadowfax) - Runs your Laravel application on Swoole.
     - [scil/laravel-fly](https://github.com/scil/LaravelFly) - To be an absolutely safe solution to speed up Laravel with Swoole. Preloading + Coroutine and Tinker Online.
     - [swooletw/laravel-swoole](https://github.com/swooletw/laravel-swoole) - A high-performance HTTP server to run Laravel/Lumen application on top of Swoole.
     - [toxmc/fast-laravel](https://github.com/toxmc/fast-laravel) - A Swoole-based high-performance HTTP server to speed up your Laravel applications.
