@@ -178,7 +178,6 @@ Table of Contents
 - [leocavalcante/swoole-futures](https://github.com/leocavalcante/swoole-futures) - Futures + Async/Await for PHP's Swoole asynchronous run-time.
 - [leocavalcante/swoole-mutex](https://github.com/leocavalcante/swoole-mutex) - Mutual exclusion abstractions for PHP's Swoole concurrency run-time.
 - [mix-php/sync-invoke](https://github.com/mix-php/sync-invoke) - A library to execute synchronous blocking code without blocking the running process in Swoole.
-- [swooletw/awesome-swoole](https://github.com/swooletw/awesome-swoole) - A curated list of Swoole.
 - [xlswriter](https://github.com/viest/php-ext-xlswriter) - A coroutine-friendly PHP Extension to create and read XLSX files.
 
 # Resources
@@ -196,3 +195,4 @@ Table of Contents
 ## Miscellaneous
 
 - [deminy/swoole-by-examples](https://github.com/deminy/swoole-by-examples) - Learn Swoole by examples.
+- [swooletw/awesome-swoole](https://github.com/swooletw/awesome-swoole) - A curated list of Swoole.
