@@ -19,6 +19,7 @@ Table of Contents
       * [Development Environment](#development-environment)
       * [Frameworks](#frameworks)
       * [Framework Integration](#framework-integration)
+      * [gRPC](#grpc)
       * [HTTP](#http)
       * [Logging](#logging)
       * [SOA governance](#soa-governance)
@@ -40,7 +41,6 @@ Table of Contents
     - [simps/mqtt](https://github.com/simps/mqtt) - A coroutine-based MQTT client. It supports MQTT version 3.1, 3.1.1, and 5.0.
 - [swoole/ext-postgresql](https://github.com/swoole/ext-postgresql) - A Swoole-based PostgreSQL client.
 - [swoole/ext-zookeeper](https://github.com/swoole/ext-zookeeper) - A Swoole-based ZooKeeper client.
-- [swoole/grpc](https://github.com/swoole/grpc) - An efficient Swoole-based gRPC client.
 
 ## Cronjobs
 
@@ -128,6 +128,13 @@ Table of Contents
     - [topthink/think-swoole](https://github.com/top-think/think-swoole) - To run ThinkPHP applications with Swoole.
 - Yii
     - [liufee/yii2-swoole](https://github.com/liufee/yii2-swoole) - To run [Yii 2](https://www.yiiframework.com) applications with Swoole.
+
+## gRPC
+
+- [hyperf/grpc-client](https://github.com/hyperf/grpc-client) - The gRPC client component for Hyperf.
+- [hyperf/grpc-server](https://github.com/hyperf/grpc-server) - The gRPC server component for Hyperf.
+- [mix/grpc](https://github.com/mix-php/grpc) - A gRPC implementation based on Swoole. Protoc code generator, server, client, and more features included.
+- [swoole/grpc](https://github.com/swoole/grpc) - An efficient Swoole-based gRPC client.
 
 ## HTTP
 *Libraries for working with HTTP.*
