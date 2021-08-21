@@ -191,7 +191,8 @@ Table of Contents
 ## Swoole Videos
 *Fantastic Swoole-related videos.*
 
-- [CSP Programming in PHP](https://nomadphp.com/video/306/csp-programming-in-php)
+- [CSP Programming in PHP](https://nomadphp.com/video/306/csp-programming-in-php) - An online talk presented by Demin on August 20, 2020. This talk gives an in depth explanation on the concurrency model used in Swoole.
+- [Building High-Performance Application Servers with Swoole](https://www.youtube.com/watch?v=fVdDB4mbGYQ) - A conference talk presented by Demin during PHPFest 2020.
 
 ## Miscellaneous
 
