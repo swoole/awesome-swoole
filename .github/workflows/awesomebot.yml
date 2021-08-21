@@ -1,6 +1,7 @@
 name: Awesome Bot
 on:
-  cron:  '17 17 * * *'
+  schedule:
+    - cron: '17 17 * * *'
   push:
     branches:
       - main
