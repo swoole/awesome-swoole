@@ -50,9 +50,9 @@ Table of Contents
 ## Database
 
 - [hyperf/database](https://github.com/hyperf/database) - The database component for Hyperf.
-- [mix-php/database](https://github.com/mix-php/database) - A Swoole-based database component, with built-in support for connection pool.
-- [mix-php/redis](https://github.com/mix-php/redis) - A Swoole-based Redis component, with built-in support for connection pool.
-- [mix-php/redis-subscribe](https://github.com/mix-php/redis-subscribe) - A Swoole-based Redis subscription component.
+- [mix/database](https://github.com/mix-php/database) - A Swoole-based database component, with built-in support for connection pool.
+- [mix/redis](https://github.com/mix-php/redis) - A Swoole-based Redis component, with built-in support for connection pool.
+- [mix/redis-subscriber](https://github.com/mix-php/redis-subscriber) - A Swoole-based Redis subscription component.
 - [open-smf/connection-pool](https://github.com/open-smf/connection-pool) - A common connection pool based on Swoole.
 - [simple-swoole/db](https://github.com/simple-swoole/db) - The database component of [Simps](https://github.com/simple-swoole/simps). This component is built on top of [the Swoole Library](https://github.com/swoole/library).
 - [SMProxy](https://github.com/louislivi/SMProxy) - SMProxy (Swoole MySQL Proxy), A MySQL database connection pool library.
@@ -99,12 +99,12 @@ Table of Contents
 - [Siler](https://github.com/leocavalcante/siler) - A set of general purpose high-level abstractions aiming an API for declarative programming in PHP.
 - [lizhichao/one](https://github.com/lizhichao/one) - A simple and efficient framework that works both under PHP-FPM and Swoole.
 - [Mix PHP](https://github.com/mix-php/mix) - A unique single-threaded coroutine-based framework.
-    - [mix-php/database](https://github.com/mix-php/database)
-    - [mix-php/monolog](https://github.com/mix-php/monolog)
-    - [mix-php/redis](https://github.com/mix-php/redis)
-    - [mix-php/redis-subscribe](https://github.com/mix-php/redis-subscribe)
-    - [mix-php/tracing-zipkin](https://github.com/mix-php/tracing-zipkin)
-    - [mix-php/sync-invoke](https://github.com/mix-php/sync-invoke)
+    - [mix/database](https://github.com/mix-php/database)
+    - [mix/monolog](https://github.com/mix-php/monolog)
+    - [mix/redis](https://github.com/mix-php/redis)
+    - [mix/redis-subscriber](https://github.com/mix-php/redis-subscriber)
+    - [mix/tracing-zipkin](https://github.com/mix-php/tracing-zipkin)
+    - [mix/sync-invoke](https://github.com/mix-php/sync-invoke)
 - [Polyel](https://github.com/Superbition/Polyel-Framework) - A full-stack MVC PHP framework/server built from the ground up based on Swoole.
 - [Simps](https://github.com/simple-swoole/simps) - A simple, lightweight and high-performance PHP coroutine framework.
 - [Ubiquity](https://github.com/phpMv/ubiquity) - A powerful and fast framework for efficient design.
@@ -148,13 +148,13 @@ Table of Contents
 ## Logging
 
 - [hyperf/logger](https://github.com/hyperf/logger) - The logging component for Hyperf. It's based on [Monolog](https://github.com/Seldaek/monolog), with PSR-3 interface implemented.
-- [mix-php/monolog](https://github.com/mix-php/monolog) - A coroutine-friendly logging library. It's based on [Monolog](https://github.com/Seldaek/monolog).
+- [mix/monolog](https://github.com/mix-php/monolog) - A coroutine-friendly logging library. It's based on [Monolog](https://github.com/Seldaek/monolog).
 - [upscale/swoole-newrelic](https://github.com/upscalesoftware/swoole-newrelic) - New Relic APM and Browser monitoring of Swoole web-server.
 
 ## SOA governance
 
 - [hyperf/tracer](https://github.com/hyperf/tracer) - The distributed tracing component for Hyperf. The implementation is based on [OpenTracing](https://opentracing.io).
-- [mix-php/tracing-zipkin](https://github.com/mix-php/tracing-zipkin) - A tracing library based on [Zipkin](https://zipkin.io) and [OpenTracing](https://opentracing.io).
+- [mix/tracing-zipkin](https://github.com/mix-php/tracing-zipkin) - A tracing library based on [Zipkin](https://zipkin.io) and [OpenTracing](https://opentracing.io).
 
 ## Tasks and Queues
 
@@ -178,7 +178,7 @@ Table of Contents
 - [k8s/client](https://github.com/k8s-client/client) - A Kubernetes API client for PHP.
 - [leocavalcante/swoole-futures](https://github.com/leocavalcante/swoole-futures) - Futures + Async/Await for PHP's Swoole asynchronous run-time.
 - [leocavalcante/swoole-mutex](https://github.com/leocavalcante/swoole-mutex) - Mutual exclusion abstractions for PHP's Swoole concurrency run-time.
-- [mix-php/sync-invoke](https://github.com/mix-php/sync-invoke) - A library to execute synchronous blocking code without blocking the running process in Swoole.
+- [mix/sync-invoke](https://github.com/mix-php/sync-invoke) - A library to execute synchronous blocking code without blocking the running process in Swoole.
 - [xlswriter](https://github.com/viest/php-ext-xlswriter) - A coroutine-friendly PHP Extension to create and read XLSX files.
 
 # Resources
