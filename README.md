@@ -24,6 +24,7 @@ Table of Contents
       * [Logging](#logging)
       * [SOA governance](#soa-governance)
       * [Tasks and Queues](#tasks-and-queues)
+      * [Testing](#testing)
       * [Third-party SDK](#third-party-sdk)
       * [Miscellaneous](#miscellaneous)
    * [Resources](#resources)
@@ -165,6 +166,10 @@ Table of Contents
 - [kcloze/swoole-jobs](https://github.com/kcloze/swoole-jobs) - An efficient Swoole-based job queue system.
 - [littlesqx/aint-queue](https://github.com/Littlesqx/aint-queue) - An async-queue library built on top of Swoole.
 - [longlang/phpkafka](https://github.com/swoole/phpkafka) - A coroutine-based [Kafka](https://kafka.apache.org) client.
+
+## Testing
+
+- [deminy/counit](https://github.com/deminy/counit) - To run time/IO related unit tests (e.g., sleep function calls, database queries, API calls, etc) faster using Swoole.
 
 ## Third-party SDK
 
