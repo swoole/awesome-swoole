@@ -85,6 +85,7 @@ Table of Contents
         - [hyperf/database](https://github.com/hyperf/database)
         - [hyperf/elasticsearch](https://github.com/hyperf/elasticsearch)
         - [hyperf/etcd](https://github.com/hyperf/etcd)
+        - [hyperf/filesystem](https://github.com/hyperf/filesystem)
         - [hyperf/jet](https://github.com/hyperf/jet)
         - [hyperf/logger](https://github.com/hyperf/logger)
         - [hyperf/task](https://github.com/hyperf/task)
