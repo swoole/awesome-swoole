@@ -15,7 +15,7 @@ Table of Contents
       * [Client Packages](#client-packages)
       * [Cronjobs](#cronjobs)
       * [Database](#database)
-     * [Debugging and Profiling](#debugging-and-profiling)
+      * [Debugging and Profiling](#debugging-and-profiling)
       * [Development Environment](#development-environment)
       * [Frameworks](#frameworks)
       * [Framework Integration](#framework-integration)
