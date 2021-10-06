@@ -1,6 +1,6 @@
 <div align="center">
 
-# Awesome Swoole ![](https://github.com/swoole/awesome-swoole/workflows/Awesome%20Bot/badge.svg)
+# Awesome Swoole ![](https://github.com/swoole/awesome-swoole/workflows/Awesome%20Bot/badge.svg) [![license](https://img.shields.io/github/license/swoole/awesome-swoole.svg?maxAge=2592000)]()
 
 A curated list of awesome things related to <a href="//github.com/swoole/swoole-src">Swoole</a>.
 
@@ -15,7 +15,7 @@ Table of Contents
       * [Client Packages](#client-packages)
       * [Cronjobs](#cronjobs)
       * [Database](#database)
-      * [Debugging](#debugging)
+     * [Debugging and Profiling](#debugging-and-profiling)
       * [Development Environment](#development-environment)
       * [Frameworks](#frameworks)
       * [Framework Integration](#framework-integration)
@@ -58,8 +58,9 @@ Table of Contents
 - [simple-swoole/db](https://github.com/simple-swoole/db) - The database component of [Simps](https://github.com/simple-swoole/simps). This component is built on top of [the Swoole Library](https://github.com/swoole/library).
 - [SMProxy](https://github.com/louislivi/SMProxy) - SMProxy (Swoole MySQL Proxy), A MySQL database connection pool library.
 
-## Debugging
+## Debugging and Profiling
 
+- [SkyAPM PHP](https://github.com/SkyAPM/SkyAPM-php-sdk) - The PHP instrument agent for [Apache SkyWalking](https://skywalking.apache.org).
 - [Swoole Tracker](https://business.swoole.com/tracker/index) - An online service to track and analyze the performances of PHP/Swoole applications. Key features include memory leak detection, performance analytics, and runtime stats. Chinese version only.
 - [swoole/debugger](https://github.com/swoole/debugger) - A remote debugger of Swoole. By adding one-line of code, you can debug your application remotely using a rich list of commands.
 - [swoole/sdebug](https://github.com/swoole/sdebug) - A fork of [Xdebug](https://github.com/xdebug/xdebug) to debug Swoole applications.
