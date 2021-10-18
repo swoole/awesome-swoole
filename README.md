@@ -35,22 +35,23 @@ Table of Contents
 ## Client Packages
 
 - [hyperf/jet](https://github.com/hyperf/jet) - An RPC Client with built-in support for [the JSON-RPC protocol](https://www.jsonrpc.org/). It works with both PHP-FPM and Swoole.
-- [hyperf/consul](https://github.com/hyperf/consul) - The [Consul](https://www.consul.io) client for Hyperf.
-- [hyperf/elasticsearch](https://github.com/hyperf/elasticsearch) - The [Elasticsearch](https://www.elastic.co/elasticsearch/) client for Hyperf.
-- [hyperf/etcd](https://github.com/hyperf/etcd) - The [etcd](https://etcd.io) client for Hyperf.
+- [hyperf/consul](https://github.com/hyperf/consul) - The [Consul](https://www.consul.io) client of Hyperf.
+- [hyperf/elasticsearch](https://github.com/hyperf/elasticsearch) - The [Elasticsearch](https://www.elastic.co/elasticsearch/) client of Hyperf.
+- [hyperf/etcd](https://github.com/hyperf/etcd) - The [etcd](https://etcd.io) client of Hyperf.
 - MQTT
     - [simps/mqtt](https://github.com/simps/mqtt) - A coroutine-based MQTT client. It supports MQTT version 3.1, 3.1.1, and 5.0.
+    - [imi-mqtt](https://github.com/imiphp/imi/tree/2.0/src/Components/mqtt) - The MQTT component of [imi](https://github.com/imiphp/imi).
 - [swoole/ext-postgresql](https://github.com/swoole/ext-postgresql) - A Swoole-based PostgreSQL client.
 - [swoole/ext-zookeeper](https://github.com/swoole/ext-zookeeper) - A Swoole-based ZooKeeper client.
 
 ## Cronjobs
 
-- [hyperf/crontab](https://github.com/hyperf/crontab) - The cron component for Hyperf, allowing jobs to run at intervals of seconds.
+- [hyperf/crontab](https://github.com/hyperf/crontab) - The cron component of Hyperf, allowing jobs to run at intervals of seconds.
 - [osgochina/swoole-crontab](https://github.com/osgochina/swoole-crontab) - A Swoole-based crontab schedule. It allows jobs to run at intervals of seconds, and is fully compatible with crontab syntax.
 
 ## Database
 
-- [hyperf/database](https://github.com/hyperf/database) - The database component for Hyperf.
+- [hyperf/database](https://github.com/hyperf/database) - The database component of Hyperf.
 - [mix/database](https://github.com/mix-php/database) - A Swoole-based database component, with built-in support for connection pool.
 - [mix/redis](https://github.com/mix-php/redis) - A Swoole-based Redis component, with built-in support for connection pool.
 - [mix/redis-subscriber](https://github.com/mix-php/redis-subscriber) - A Swoole-based Redis subscription component.
@@ -68,10 +69,12 @@ Table of Contents
 
 ## Development Environment
 
-- [eaglewu/swoole-ide-helper](https://github.com/wudi/swoole-ide-helper) - Auto completion, trigger suggest and view docs for Swoole in editor.
-- [phpswoole/swoole](https://github.com/swoole/docker-swoole) - Official Docker image of Swoole.
-- [Swoole IDE Helper](https://plugins.jetbrains.com/plugin/13040-swoole-ide-helper) - Swoole IDE Helper for PhpStorm and Intellij IDEA.
-- [swoole/ide-helper](https://github.com/swoole/ide-helper) - IDE help files to provide accurate autocompletion for Swoole.
+- Docker
+    - [phpswoole/swoole](https://github.com/swoole/docker-swoole) - Official Docker image of Swoole.
+- IDE Helper
+    - [eaglewu/swoole-ide-helper](https://github.com/wudi/swoole-ide-helper) - Auto completion, trigger suggest and view docs for Swoole in editor.
+    - [Swoole IDE Helper](https://plugins.jetbrains.com/plugin/13040-swoole-ide-helper) - Swoole IDE Helper for PhpStorm and Intellij IDEA. Thanks to [Luhur Abdi (Abi) Rizal](https://elabee.me) for maintaining it.
+    - [swoole/ide-helper](https://github.com/swoole/ide-helper) - IDE help files to provide accurate autocompletion for Swoole.
 
 ## Frameworks
 
@@ -102,12 +105,13 @@ Table of Contents
 - [Siler](https://github.com/leocavalcante/siler) - A set of general purpose high-level abstractions aiming an API for declarative programming in PHP.
 - [lizhichao/one](https://github.com/lizhichao/one) - A simple and efficient framework that works both under PHP-FPM and Swoole.
 - [Mix PHP](https://github.com/mix-php/mix) - A unique single-threaded coroutine-based framework.
-    - [mix/database](https://github.com/mix-php/database)
-    - [mix/monolog](https://github.com/mix-php/monolog)
-    - [mix/redis](https://github.com/mix-php/redis)
-    - [mix/redis-subscriber](https://github.com/mix-php/redis-subscriber)
-    - [mix/tracing-zipkin](https://github.com/mix-php/tracing-zipkin)
-    - [mix/sync-invoke](https://github.com/mix-php/sync-invoke)
+    - Official modules (an incomplete list)
+        - [mix/database](https://github.com/mix-php/database)
+        - [mix/monolog](https://github.com/mix-php/monolog)
+        - [mix/redis](https://github.com/mix-php/redis)
+        - [mix/redis-subscriber](https://github.com/mix-php/redis-subscriber)
+        - [mix/tracing-zipkin](https://github.com/mix-php/tracing-zipkin)
+        - [mix/sync-invoke](https://github.com/mix-php/sync-invoke)
 - [Polyel](https://github.com/Superbition/Polyel-Framework) - A full-stack MVC PHP framework/server built from the ground up based on Swoole.
 - [Simps](https://github.com/simple-swoole/simps) - A simple, lightweight and high-performance PHP coroutine framework.
 - [Ubiquity](https://github.com/phpMv/ubiquity) - A powerful and fast framework for efficient design.
@@ -136,8 +140,8 @@ Table of Contents
 
 ## gRPC
 
-- [hyperf/grpc-client](https://github.com/hyperf/grpc-client) - The gRPC client component for Hyperf.
-- [hyperf/grpc-server](https://github.com/hyperf/grpc-server) - The gRPC server component for Hyperf.
+- [hyperf/grpc-client](https://github.com/hyperf/grpc-client) - The gRPC client component of Hyperf.
+- [hyperf/grpc-server](https://github.com/hyperf/grpc-server) - The gRPC server component of Hyperf.
 - [mix/grpc](https://github.com/mix-php/grpc) - A gRPC implementation based on Swoole. Protoc code generator, server, client, and more features included.
 - [swoole/grpc](https://github.com/swoole/grpc) - An efficient Swoole-based gRPC client.
 
@@ -151,21 +155,21 @@ Table of Contents
 
 ## Logging
 
-- [hyperf/logger](https://github.com/hyperf/logger) - The logging component for Hyperf. It's based on [Monolog](https://github.com/Seldaek/monolog), with PSR-3 interface implemented.
+- [hyperf/logger](https://github.com/hyperf/logger) - The logging component of Hyperf. It's based on [Monolog](https://github.com/Seldaek/monolog), with PSR-3 interface implemented.
 - [mix/monolog](https://github.com/mix-php/monolog) - A coroutine-friendly logging library. It's based on [Monolog](https://github.com/Seldaek/monolog).
 - [upscale/swoole-newrelic](https://github.com/upscalesoftware/swoole-newrelic) - New Relic APM and Browser monitoring of Swoole web-server.
 
 ## SOA governance
 
-- [hyperf/tracer](https://github.com/hyperf/tracer) - The distributed tracing component for Hyperf. The implementation is based on [OpenTracing](https://opentracing.io).
+- [hyperf/tracer](https://github.com/hyperf/tracer) - The distributed tracing component of Hyperf. The implementation is based on [OpenTracing](https://opentracing.io).
 - [mix/tracing-zipkin](https://github.com/mix-php/tracing-zipkin) - A tracing library based on [Zipkin](https://zipkin.io) and [OpenTracing](https://opentracing.io).
 
 ## Tasks and Queues
 
 - [Archer](https://github.com/swlib/archer) - A Swoole-based task component, with different runtime modes supported: serial queue, concurrent queue, defer, timer, etc.
-- [hyperf/amqp](https://github.com/hyperf/amqp) - The AMQP client for Hyperf.
-- [hyperf/async-queue](https://github.com/hyperf/async-queue) - The Redis-based asynchronous queue component for Hyperf.
-- [hyperf/task](https://github.com/hyperf/task) - The task component for Hyperf, providing an easy way to add and dispatch tasks to task workers in Swoole.
+- [hyperf/amqp](https://github.com/hyperf/amqp) - The AMQP client of Hyperf.
+- [hyperf/async-queue](https://github.com/hyperf/async-queue) - The Redis-based asynchronous queue component of Hyperf.
+- [hyperf/task](https://github.com/hyperf/task) - The task component of Hyperf, providing an easy way to add and dispatch tasks to task workers in Swoole.
 - [kcloze/swoole-jobs](https://github.com/kcloze/swoole-jobs) - An efficient Swoole-based job queue system.
 - [littlesqx/aint-queue](https://github.com/Littlesqx/aint-queue) - An async-queue library built on top of Swoole.
 - [longlang/phpkafka](https://github.com/swoole/phpkafka) - A coroutine-based [Kafka](https://kafka.apache.org) client.
