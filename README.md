@@ -40,7 +40,6 @@ Table of Contents
 - [hyperf/etcd](https://github.com/hyperf/etcd) - The [etcd](https://etcd.io) client of Hyperf.
 - MQTT
     - [simps/mqtt](https://github.com/simps/mqtt) - A coroutine-based MQTT client. It supports MQTT version 3.1, 3.1.1, and 5.0.
-    - [imi-mqtt](https://github.com/imiphp/imi-mqtt) - The MQTT component of [imi](https://github.com/imiphp/imi).
 - [swoole/ext-postgresql](https://github.com/swoole/ext-postgresql) - A Swoole-based PostgreSQL client.
 - [swoole/ext-zookeeper](https://github.com/swoole/ext-zookeeper) - A Swoole-based ZooKeeper client.
 
