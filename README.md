@@ -22,6 +22,7 @@ Table of Contents
       * [gRPC](#grpc)
       * [HTTP](#http)
       * [Logging](#logging)
+      * [Serverless](#serverless)
       * [SOA governance](#soa-governance)
       * [Tasks and Queues](#tasks-and-queues)
       * [Testing](#testing)
@@ -157,6 +158,10 @@ Table of Contents
 - [hyperf/logger](https://github.com/hyperf/logger) - The logging component of Hyperf. It's based on [Monolog](https://github.com/Seldaek/monolog), with PSR-3 interface implemented.
 - [mix/monolog](https://github.com/mix-php/monolog) - A coroutine-friendly logging library. It's based on [Monolog](https://github.com/Seldaek/monolog).
 - [upscale/swoole-newrelic](https://github.com/upscalesoftware/swoole-newrelic) - New Relic APM and Browser monitoring of Swoole web-server.
+
+## Serverless
+
+- [Swoole Runtime for AWS Lambda](https://github.com/leocavalcante/aws-lambda-swoole-runtime) - λ Run PHP Coroutines & Fibers as-a-Service on the AWS Lambda.
 
 ## SOA governance
 
