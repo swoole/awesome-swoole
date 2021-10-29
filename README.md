@@ -34,7 +34,7 @@ Table of Contents
       * [Miscellaneous](#miscellaneous-1)
 
 
-NOTE: Projects labelled with emoji :globe_with_meridians:  are contributed by international developers, with non-English documentation included.
+NOTE: Projects labelled with emoji :globe_with_meridians: have their documentation written in non-English languages.
 
 ## Client Packages
 
