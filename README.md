@@ -29,10 +29,10 @@ Table of Contents
       * [Third-party SDK](#third-party-sdk)
       * [Miscellaneous](#miscellaneous)
    * [Resources](#resources)
+      * [Best Practices and Use Cases](#best-practices-and-use-cases)
       * [Swoole Books](#swoole-books)
       * [Swoole Videos](#swoole-videos)
       * [Miscellaneous](#miscellaneous-1)
-
 
 NOTE: Projects labelled with emoji :globe_with_meridians: have their documentation written in non-English languages.
 
@@ -115,6 +115,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
         - [mix/tracing-zipkin](https://github.com/mix-php/tracing-zipkin)
         - [mix/sync-invoke](https://github.com/mix-php/sync-invoke)
 - [Polyel](https://github.com/Superbition/Polyel-Framework) - A full-stack MVC PHP framework/server built from the ground up based on Swoole.
+- [QueryPHP](https://www.queryphp.com) - A modern, high performance PHP progressive coroutine framework.
 - [Simps](https://github.com/simple-swoole/simps) - A simple, lightweight and high-performance PHP coroutine framework.
 - [Ubiquity](https://github.com/phpMv/ubiquity) - A powerful and fast framework for efficient design.
 
@@ -139,6 +140,8 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
     - [topthink/think-swoole](https://github.com/top-think/think-swoole) - To run ThinkPHP applications with Swoole. :globe_with_meridians:
 - Yii
     - [liufee/yii2-swoole](https://github.com/liufee/yii2-swoole) - To run [Yii 2](https://www.yiiframework.com) applications with Swoole. :globe_with_meridians:
+- [Utopia](https://github.com/utopia-php/framework)
+    - [Utopia Swoole](https://github.com/utopia-php/swoole) - An extension for Utopia Framework to work with PHP Swoole as a PHP FPM alternative.
 
 ## gRPC
 
@@ -150,7 +153,9 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 ## HTTP
 *Libraries for working with HTTP.*
 
-- [Request Callback](https://github.com/leocavalcante/request-callback) - Swoole request callback for PSR compliant handlers. Compatible with PSR-7 and PSR-15.
+- PSR Compliance
+    - [chubbyphp/chubbyphp-swoole-request-handler](https://github.com/chubbyphp/chubbyphp-swoole-request-handler) - A request handler adapter for Swoole, using PSR-7, PSR-15 and PSR-17.
+    - [leocavalcante/request-callback](https://github.com/leocavalcante/request-callback) - Swoole request callback for PSR compliant handlers. Compatible with PSR-7 and PSR-15.
 - [Saber](https://github.com/swlib/saber) - A coroutine-based HTTP client. :globe_with_meridians:
 - [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) - Make the [Guzzle](https://github.com/guzzle/guzzle) library coroutine-friendly in Swoole. It works with many Guzzle-based packages and Swoole-based frameworks. :globe_with_meridians:
 - [Yurunsoft/YurunHttp](https://github.com/Yurunsoft/YurunHttp) - An easy-to-use HTTP client that works with HTTP/1, HTTP/2, and WebSocket protocols. It also supports chained operations, concurrent processing, and connection pool. :globe_with_meridians:
@@ -199,8 +204,13 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [mix/sync-invoke](https://github.com/mix-php/sync-invoke) - A library to execute synchronous blocking code without blocking the running process in Swoole. :globe_with_meridians:
 - [xlswriter](https://github.com/viest/php-ext-xlswriter) - A coroutine-friendly PHP Extension to create and read XLSX files.
 - [yurun-crawler](https://github.com/Yurunsoft/yurun-crawler) - A framework to build high-performance, distributed web crawler. :globe_with_meridians:
+- [swoole-utils](https://github.com/apinstein/swoole-utils) - A collection of utilities for building concurrent applications with Swoole. **#WIP**
 
 # Resources
+
+## Best Practices and Use Cases
+
+* [Buggregator](https://github.com/buggregator/app) - A beautiful, lightweight debug server that helps you debug your app. Built with Laravel and Swoole.
 
 ## Swoole Books
 *Fantastic Swoole-related books.*
