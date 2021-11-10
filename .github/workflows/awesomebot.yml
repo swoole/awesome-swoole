@@ -17,7 +17,7 @@ jobs:
     - name: Install Awesome Bot
       run: gem install awesome_bot
     - name: Run Awesome Bot
-      run: awesome_bot README.md --request-delay 1 --allow-dupe --white-list swoole.com,swoole.co.uk,amazon.com
+      run: awesome_bot README.md --request-delay 1 --allow-dupe --white-list discord.swoole.dev,swoole.com,swoole.co.uk,amazon.com
     - uses: actions/upload-artifact@v1
       if: failure()
       with:

@@ -1,9 +1,8 @@
 <div align="center">
 
-# Awesome Swoole ![](https://github.com/swoole/awesome-swoole/workflows/Awesome%20Bot/badge.svg) [![license](https://img.shields.io/github/license/swoole/awesome-swoole.svg?maxAge=2592000)]()
+# Awesome Swoole [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.swoole.dev) ![](https://github.com/swoole/awesome-swoole/workflows/Awesome%20Bot/badge.svg) [![license](https://img.shields.io/github/license/swoole/awesome-swoole.svg?maxAge=2592000)]()
 
-A curated list of awesome things related to <a href="//github.com/swoole/swoole-src">Swoole</a>.<br />
-The main communication platform of Swoole: [https://discord.swoole.dev](https://discord.swoole.dev)
+A curated list of awesome things related to <a href="//github.com/swoole/swoole-src">Swoole</a>.
 
 <img width="200" height="120" align=center alt="Swoole Logo" src="https://cdn.jsdelivr.net/gh/sy-records/staticfile/images/swoole/logo.png">
 
