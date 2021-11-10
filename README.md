@@ -2,7 +2,8 @@
 
 # Awesome Swoole ![](https://github.com/swoole/awesome-swoole/workflows/Awesome%20Bot/badge.svg) [![license](https://img.shields.io/github/license/swoole/awesome-swoole.svg?maxAge=2592000)]()
 
-A curated list of awesome things related to <a href="//github.com/swoole/swoole-src">Swoole</a>.
+A curated list of awesome things related to <a href="//github.com/swoole/swoole-src">Swoole</a>.<br />
+The main communication platform of Swoole: [https://discord.swoole.dev](https://discord.swoole.dev)
 
 <img width="200" height="120" align=center alt="Swoole Logo" src="https://cdn.jsdelivr.net/gh/sy-records/staticfile/images/swoole/logo.png">
 
@@ -115,7 +116,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
         - [mix/tracing-zipkin](https://github.com/mix-php/tracing-zipkin)
         - [mix/sync-invoke](https://github.com/mix-php/sync-invoke)
 - [Polyel](https://github.com/Superbition/Polyel-Framework) - A full-stack MVC PHP framework/server built from the ground up based on Swoole.
-- [QueryPHP](https://www.queryphp.com) - A modern, high performance PHP progressive coroutine framework.
+- [QueryPHP](https://www.queryphp.com) - A modern, high performance PHP progressive coroutine framework. :globe_with_meridians:
 - [Simps](https://github.com/simple-swoole/simps) - A simple, lightweight and high-performance PHP coroutine framework.
 - [Ubiquity](https://github.com/phpMv/ubiquity) - A powerful and fast framework for efficient design.
 
