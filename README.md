@@ -1,6 +1,6 @@
 <div align="center">
 
-# Awesome Swoole [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.swoole.dev) ![](https://github.com/swoole/awesome-swoole/workflows/Awesome%20Bot/badge.svg) [![license](https://img.shields.io/github/license/swoole/awesome-swoole.svg?maxAge=2592000)]()
+# Awesome Swoole [![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/phpswoole) [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.swoole.dev) ![](https://github.com/swoole/awesome-swoole/workflows/Awesome%20Bot/badge.svg) [![license](https://img.shields.io/github/license/swoole/awesome-swoole.svg?maxAge=2592000)]()
 
 A curated list of awesome things related to <a href="//github.com/swoole/swoole-src">Swoole</a>.
 
