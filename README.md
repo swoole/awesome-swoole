@@ -17,6 +17,7 @@ Table of Contents
       * [Database](#database)
       * [Debugging and Profiling](#debugging-and-profiling)
       * [Development Environment](#development-environment)
+      * [Distribution](#distribution)
       * [Frameworks](#frameworks)
       * [Framework Integration](#framework-integration)
       * [gRPC](#grpc)
@@ -77,6 +78,10 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
     - [eaglewu/swoole-ide-helper](https://github.com/wudi/swoole-ide-helper) - Auto completion, trigger suggest and view docs for Swoole in editor.
     - [Swoole IDE Helper](https://plugins.jetbrains.com/plugin/13040-swoole-ide-helper) - Swoole IDE Helper for PhpStorm and Intellij IDEA. Thanks to [Luhur Abdi (Abi) Rizal](https://elabee.me) for maintaining it.
     - [swoole/ide-helper](https://github.com/swoole/ide-helper) - IDE help files to provide accurate autocompletion for Swoole.
+
+## Distribution
+
+- [static-php-cli](https://github.com/crazywhalecc/static-php-cli) - Build static PHP binary in Linux, with Swoole and other popular extensions included. :globe_with_meridians:
 
 ## Frameworks
 
