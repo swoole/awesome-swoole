@@ -101,9 +101,9 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
         - [hyperf/task](https://github.com/hyperf/task)
         - [hyperf/tracer](https://github.com/hyperf/tracer)
     - Third-party components (an incomplete list)
-        - [96qbhy/hyperf-auth](https://github.com/qbhy/hyperf-auth) - An authentication component for Hyperf. It supports JWT and session-based authentications. You can also create your own authentication drivers if needed.
-        - [reasno/fastmongo](https://github.com/Reasno/fastmongo) - A coroutine-based MongoDB client for Hyperf.
+        - [96qbhy/hyperf-auth](https://github.com/qbhy/hyperf-auth) - An authentication component for Hyperf. It supports JWT and session-based authentications. You can also create your own authentication drivers if needed. :globe_with_meridians:
         - [leocavalcante/hyperf-doctrine](https://github.com/leocavalcante/hyperf-doctrine) - This project provides an integration for the Doctrine ORM and the Hyperf framework.
+        - [reasno/fastmongo](https://github.com/Reasno/fastmongo) - A coroutine-based MongoDB client for Hyperf.
 - [Nano](https://github.com/hyperf/nano) - A Hyperf-based coroutine microframework.
 - [imi](https://github.com/imiphp/imi) - A Swoole-based framework, with built-in support for HTTP/1, HTTP/2, WebSocket, TCP, UDP, and MQTT. :globe_with_meridians:
 - Laminas/Mezzio/Zend Framework
