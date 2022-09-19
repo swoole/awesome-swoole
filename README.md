@@ -162,6 +162,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
     - [chubbyphp/chubbyphp-swoole-request-handler](https://github.com/chubbyphp/chubbyphp-swoole-request-handler) - A request handler adapter for Swoole, using PSR-7, PSR-15 and PSR-17.
     - [leocavalcante/request-callback](https://github.com/leocavalcante/request-callback) - Swoole request callback for PSR compliant handlers. Compatible with PSR-7 and PSR-15.
     - [fastd/http](https://github.com/fastdlabs/http) - A PSR-7-compatible HTTP component, with built-in support for Swoole HTTP server. :globe_with_meridians:
+    - [razonyang/psr7-swoole](https://github.com/razonyang/psr7-swoole) - A PSR-7 helper for Swoole; a bridge between Swoole and PSR things, such as PSR-7 HTTP message, PSR-15 handlers and PSR-15 middlewares.
 - [Saber](https://github.com/swlib/saber) - A coroutine-based HTTP client. :globe_with_meridians:
 - [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) - Make the [Guzzle](https://github.com/guzzle/guzzle) library coroutine-friendly in Swoole. It works with many Guzzle-based packages and Swoole-based frameworks. :globe_with_meridians:
 - [Yurunsoft/YurunHttp](https://github.com/Yurunsoft/YurunHttp) - An easy-to-use HTTP client that works with HTTP/1, HTTP/2, and WebSocket protocols. It also supports chained operations, concurrent processing, and connection pool. :globe_with_meridians:
