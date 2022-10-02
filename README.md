@@ -127,6 +127,8 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 *To run PHP/PHP-FPM frameworks using Swoole.*
 
 - [PHP Runtimes](https://github.com/php-runtime/runtime) - A home for runtimes, where people can easily create a `Runtime` to run an application with Bref, Swoole or ReactPHP without making any change to the application itself.
+- Drupal
+    - [The Swoole module for Drupal](https://www.drupal.org/project/swoole) - The Swoole module for Drupal supercharges your website's performance by serving it via the Swoole or the OpenSwoole PHP server. The (Open)Swoole PHP server boots Drupal once, keeps it in memory and then feeds it requests at supersonic speeds. Thanks to [daffie](https://www.drupal.org/u/daffie).
 - Laravel
     - [Laravel Octane](https://github.com/laravel/octane) - A first-party Laravel package that supercharges laravelish application's performance by serving it using Swoole high-performance HTTP servers. Developed and maintained by the Laravel team.
     - [hhxsv5/laravel-s](https://github.com/hhxsv5/laravel-s) - Glue for using Swoole in Laravel or Lumen.
