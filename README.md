@@ -11,29 +11,30 @@ A curated list of awesome things related to <a href="//github.com/swoole/swoole-
 Table of Contents
 =================
 
-   * [Awesome Swoole](#awesome-swoole-)
-      * [Client Packages](#client-packages)
-      * [Cronjobs](#cronjobs)
-      * [Database](#database)
-      * [Debugging and Profiling](#debugging-and-profiling)
-      * [Development Environment](#development-environment)
-      * [Distribution](#distribution)
-      * [Frameworks](#frameworks)
-      * [Framework Integration](#framework-integration)
-      * [gRPC](#grpc)
-      * [HTTP](#http)
-      * [Logging](#logging)
-      * [Serverless](#serverless)
-      * [SOA governance](#soa-governance)
-      * [Tasks and Queues](#tasks-and-queues)
-      * [Testing](#testing)
-      * [Third-party SDK](#third-party-sdk)
-      * [Miscellaneous](#miscellaneous)
-   * [Resources](#resources)
-      * [Best Practices and Use Cases](#best-practices-and-use-cases)
-      * [Swoole Books](#swoole-books)
-      * [Swoole Videos](#swoole-videos)
-      * [Miscellaneous](#miscellaneous-1)
+* [Awesome Swoole](#awesome-swoole----)
+   * [Client Packages](#client-packages)
+   * [Cronjobs](#cronjobs)
+   * [Database](#database)
+   * [Debugging and Profiling](#debugging-and-profiling)
+   * [Development Environment](#development-environment)
+   * [Distribution](#distribution)
+   * [Frameworks](#frameworks)
+   * [Framework Integration](#framework-integration)
+   * [gRPC](#grpc)
+   * [HTTP](#http)
+   * [Logging](#logging)
+   * [Serverless](#serverless)
+   * [SOA governance](#soa-governance)
+   * [Tasks and Queues](#tasks-and-queues)
+   * [Testing](#testing)
+   * [Third-party SDK](#third-party-sdk)
+   * [Miscellaneous](#miscellaneous)
+* [Resources](#resources)
+   * [Best Practices and Use Cases](#best-practices-and-use-cases)
+   * [Swoole Books](#swoole-books)
+   * [Swoole Videos](#swoole-videos)
+   * [Miscellaneous](#miscellaneous-1)
+* [Alternatives](#alternatives)
 
 NOTE: Projects labelled with emoji :globe_with_meridians: have their documentation written in non-English languages.
 
@@ -238,3 +239,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 - [deminy/swoole-by-examples](https://github.com/deminy/swoole-by-examples) - Learn Swoole by examples.
 - [swooletw/awesome-swoole](https://github.com/swooletw/awesome-swoole) - A curated list of Swoole.
+
+# Alternatives
+ 
+- [Open Swoole](https://openswoole.com) - A fork of Swoole that is maintained by the Open Swoole team.
