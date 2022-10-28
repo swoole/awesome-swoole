@@ -74,6 +74,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 ## Development Environment
 
 - Docker
+    - [adhocore/lemp](https://github.com/adhocore/docker-lemp) - A single container LEMP complete fullstack with latest releases of PHP (7.4 - 8.2) and MySQL, nginx, PostgreSQL, phalcon, swoole, mailcatcher, beanstalkd, elasticsearch, memcached, redis, adminer and all you ever need.
     - [phpswoole/swoole](https://github.com/swoole/docker-swoole) - Official Docker image of Swoole.
 - IDE Helper
     - [eaglewu/swoole-ide-helper](https://github.com/wudi/swoole-ide-helper) - Auto completion, trigger suggest and view docs for Swoole in editor.
@@ -82,6 +83,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 ## Distribution
 
+- [shivammathur/extensions](https://github.com/shivammathur/homebrew-extensions) - 🍻 Homebrew tap for PHP extensions.
 - [static-php-cli](https://github.com/crazywhalecc/static-php-cli) - Build static PHP binary in Linux, with Swoole and other popular extensions included. :globe_with_meridians:
 - [swoole-cli](https://github.com/swoole/swoole-cli) - A prebuilt executable to run Swoole applications directly. No PHP installation required (just download and use it). Support Linux, macOS, and Windows. :globe_with_meridians:
 
@@ -144,8 +146,8 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - Slim
     - [pachico/Slim-Swoole](https://github.com/pachico/slim-swoole) - A convenient library to run [SlimPHP](https://www.slimframework.com) applications with Swoole.
 - Symfony
+    - [pixelfederation/swoole-bundle](https://github.com/pixelfederation/swoole-bundle) - Symfony integration with Open Swoole to speed up your applications.
     - [symfony/runtime](https://github.com/symfony/runtime) - The Runtime component decouples the bootstrapping logic from any global state to make sure the application can run with runtimes like PHP-FPM, ReactPHP, Swoole, etc. without any changes. For a more generic implementation that works with other frameworks/environments, please check project [PHP Runtimes](https://github.com/php-runtime/runtime).
-    - [k911/swoole-bundle](https://github.com/k911/swoole-bundle) - Symfony integration with Swoole to speed up your applications.
 - ThinkPHP
     - [topthink/think-swoole](https://github.com/top-think/think-swoole) - To run ThinkPHP applications with Swoole. :globe_with_meridians:
 - Yii
@@ -214,6 +216,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [leocavalcante/swoole-futures](https://github.com/leocavalcante/swoole-futures) - Futures + Async/Await for PHP's Swoole asynchronous run-time.
 - [leocavalcante/swoole-mutex](https://github.com/leocavalcante/swoole-mutex) - Mutual exclusion abstractions for PHP's Swoole concurrency run-time.
 - [mix/sync-invoke](https://github.com/mix-php/sync-invoke) - A library to execute synchronous blocking code without blocking the running process in Swoole. :globe_with_meridians:
+- [Shlink Event Dispatcher](https://github.com/shlinkio/shlink-event-dispatcher) - Event dispatching using PSR-14, with async event listener that are executed in swoole task system.
 - [xlswriter](https://github.com/viest/php-ext-xlswriter) - A coroutine-friendly PHP Extension to create and read XLSX files.
 - [yurun-crawler](https://github.com/Yurunsoft/yurun-crawler) - A framework to build high-performance, distributed web crawler. :globe_with_meridians:
 - [swoole-utils](https://github.com/apinstein/swoole-utils) - A collection of utilities for building concurrent applications with Swoole. **#WIP**
@@ -222,12 +225,14 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 ## Best Practices and Use Cases
 
-* [Buggregator](https://github.com/buggregator/app) - A beautiful, lightweight debug server that helps you debug your app. Built with Laravel and Swoole.
+- [Buggregator](https://github.com/buggregator/app) - A beautiful, lightweight debug server that helps you debug your app. Built with Laravel and Swoole.
+- [wopits - A world of post-its](https://github.com/esaracco/wopits) - An app for managing projects online using sticky notes to share and collaborate. It uses Swoole as a WebSocket & Task server. 
+- [zhamao-framework](https://github.com/zhamao-robot/zhamao-framework) - A chatbot system based on an award-winning project in China. :globe_with_meridians:
 
 ## Swoole Books
 *Fantastic Swoole-related books.*
 
-- [Mastering Swoole PHP](https://www.amazon.com/Mastering-Swoole-PHP-performance-concurrent-ebook/dp/B0881B227S/) - Build your high performance large scale concurrent system in a more flexible and efficient way than ever before with this first & only Swoole PHP book, with PHP 8 ready.
+- [Mastering Swoole PHP](https://www.amazon.com/Mastering-Swoole-PHP-performance-concurrent-ebook/dp/B0881B227S) - Build your high performance large scale concurrent system in a more flexible and efficient way than ever before with this first & only Swoole PHP book, with PHP 8 ready.
 
 ## Swoole Videos
 *Fantastic Swoole-related videos.*
