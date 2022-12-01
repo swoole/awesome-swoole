@@ -97,6 +97,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 ## Frameworks
 
 - [chubbyphp-framework](https://github.com/chubbyphp/chubbyphp-framework): A minimal middleware based micro framework using PSR, with the goal is to achive the best combination of flexibility and simplicity by using standards.
+- [Fomo](https://github.com/fomo-framework/fomo) - A simple, fast framework with many features for the HTTP. It was ranked as the fastest PHP framework in the world since 2022-10-16 (and still is as of 2022-11-30) by the [Web Frameworks Benchmark](https://web-frameworks-benchmark.netlify.app/result?l=php) project.
 - [Hyperf](https://github.com/hyperf/hyperf) - A coroutine framework that focuses on hyperspeed and flexibility.
     - Official components (an incomplete list)
         - [hyperf/amqp](https://github.com/hyperf/amqp)
