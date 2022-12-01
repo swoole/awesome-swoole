@@ -12,6 +12,7 @@ Table of Contents
 =================
 
 * [Awesome Swoole](#awesome-swoole----)
+   * [Architectural](#architectural)
    * [Client Packages](#client-packages)
    * [Cronjobs](#cronjobs)
    * [Database](#database)
@@ -37,6 +38,11 @@ Table of Contents
 * [Alternatives](#alternatives)
 
 NOTE: Projects labelled with emoji :globe_with_meridians: have their documentation written in non-English languages.
+
+## Architectural
+*Libraries related to design patterns, programming approaches and ways to organize code.*
+
+- [leocarmo/circuit-breaker-php](https://github.com/leocarmo/circuit-breaker-php) - PHP implementation of Circuit Breaker Pattern.
 
 ## Client Packages
 
@@ -69,7 +75,8 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [Swoole Tracker](https://business.swoole.com/tracker/index) - An online service to track and analyze the performances of PHP/Swoole applications. Key features include memory leak detection, performance analytics, and runtime stats. Chinese version only. :globe_with_meridians:
 - [swoole/debugger](https://github.com/swoole/debugger) - A remote debugger of Swoole. By adding one-line of code, you can debug your application remotely using a rich list of commands. :globe_with_meridians:
 - [upscale/swoole-blackfire](https://github.com/upscalesoftware/swoole-blackfire) - Blackfire profiler integration for Swoole web-server.
-- [yasd](https://github.com/swoole/yasd) - Yet Another Swoole Debugger, developed by [codinghuang](https://github.com/huanghantao) from the Swoole team.
+- [Xdebug](https://xdebug.org) - A debug and profile tool for PHP. Xdebug 3.1.0+ works with Swoole 5.0.2+ on PHP 8.1+ only. Lower versions of Xdebug don't work with Swoole.
+- ~~[yasd](https://github.com/swoole/yasd)~~ - Yet Another Swoole Debugger, developed by [codinghuang](https://github.com/huanghantao) from the Swoole team. It's no longer actively maintained, and only works with lower versions of Swoole (Swoole < 5.0) and PHP (PHP <= 8.0). Please use _Xdebug_ instead for latest versions of Swoole and PHP.
 
 ## Development Environment
 
@@ -225,7 +232,8 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 ## Best Practices and Use Cases
 
-- [Buggregator](https://github.com/buggregator/app) - A beautiful, lightweight debug server that helps you debug your app. Built with Laravel and Swoole.
+- [hhxsv5/php-sse](https://github.com/hhxsv5/php-sse) - A simple and efficient library implemented HTML5's server-sent events using PHP.
+- [Utopia WebSocket](https://github.com/utopia-php/websocket) - A simple and lite abstraction layer around a WebSocket server. This library is aiming to be as simple and easy to learn and use.
 - [wopits - A world of post-its](https://github.com/esaracco/wopits) - An app for managing projects online using sticky notes to share and collaborate. It uses Swoole as a WebSocket & Task server. 
 - [zhamao-framework](https://github.com/zhamao-robot/zhamao-framework) - A chatbot system based on an award-winning project in China. :globe_with_meridians:
 
