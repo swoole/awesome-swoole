@@ -71,10 +71,11 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 ## Debugging and Profiling
 
+- [Blackfire](https://blackfire.io) - A low-overhead code profiler.
+    - [upscale/swoole-blackfire](https://github.com/upscalesoftware/swoole-blackfire) - Blackfire profiler integration for Swoole web-server.
 - [SkyAPM PHP](https://github.com/SkyAPM/SkyAPM-php-sdk) - The PHP instrument agent for [Apache SkyWalking](https://skywalking.apache.org).
 - [Swoole Tracker](https://business.swoole.com/tracker/index) - An online service to track and analyze the performances of PHP/Swoole applications. Key features include memory leak detection, performance analytics, and runtime stats. Chinese version only. :globe_with_meridians:
 - [swoole/debugger](https://github.com/swoole/debugger) - A remote debugger of Swoole. By adding one-line of code, you can debug your application remotely using a rich list of commands. :globe_with_meridians:
-- [upscale/swoole-blackfire](https://github.com/upscalesoftware/swoole-blackfire) - Blackfire profiler integration for Swoole web-server.
 - [Xdebug](https://xdebug.org) - A debug and profile tool for PHP. Xdebug 3.1.0+ works with Swoole 5.0.2+ on PHP 8.1+ only. Lower versions of Xdebug don't work with Swoole.
 - ~~[yasd](https://github.com/swoole/yasd)~~ - Yet Another Swoole Debugger, developed by [codinghuang](https://github.com/huanghantao) from the Swoole team. It's no longer actively maintained, and only works with lower versions of Swoole (Swoole < 5.0) and PHP (PHP <= 8.0). Please use _Xdebug_ instead for latest versions of Swoole and PHP.
 
