@@ -71,7 +71,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 ## Debugging and Profiling
 
-- [Blackfire](https://blackfire.io) - A low-overhead code profiler.
+- [Blackfire](https://www.blackfire.io) - A low-overhead code profiler.
     - [upscale/swoole-blackfire](https://github.com/upscalesoftware/swoole-blackfire) - Blackfire profiler integration for Swoole web-server.
 - [SkyAPM PHP](https://github.com/SkyAPM/SkyAPM-php-sdk) - The PHP instrument agent for [Apache SkyWalking](https://skywalking.apache.org).
 - [Swoole Tracker](https://business.swoole.com/tracker/index) - An online service to track and analyze the performances of PHP/Swoole applications. Key features include memory leak detection, performance analytics, and runtime stats. Chinese version only. :globe_with_meridians:
