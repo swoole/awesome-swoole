@@ -9,16 +9,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
     - name: Set up Ruby
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7.x
+        ruby-version: '3.0'
     - name: Install Awesome Bot
       run: gem install awesome_bot
     - name: Run Awesome Bot
       run: awesome_bot README.md --request-delay 1 --allow-dupe --white-list amazon.com,badgen.net,discord.swoole.dev,swoole.com
-    - uses: actions/upload-artifact@v1
+    - uses: actions/upload-artifact@v3
       if: failure()
       with:
         name: ab-results
