@@ -238,6 +238,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [Utopia WebSocket](https://github.com/utopia-php/websocket) - A simple and lite abstraction layer around a WebSocket server. This library is aiming to be as simple and easy to learn and use.
 - [wopits - A world of post-its](https://github.com/esaracco/wopits) - An app for managing projects online using sticky notes to share and collaborate. It uses Swoole as a WebSocket & Task server. 
 - [zhamao-framework](https://github.com/zhamao-robot/zhamao-framework) - A chatbot system based on an award-winning project in China. :globe_with_meridians:
+- [findnr/swoole_websocket](https://github.com/findnr/swoole_websocket) - Swoole develops a real-time chat system that uses websocket.example (https://msghtml.cym504875043.repl.co/)
 
 ## Swoole Books
 *Fantastic Swoole-related books.*
