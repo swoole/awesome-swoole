@@ -246,7 +246,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 *Fantastic Swoole-related books.*
 
 - [Mastering Swoole PHP](https://www.amazon.com/Mastering-Swoole-PHP-performance-concurrent-ebook/dp/B0881B227S) - Build your high performance large scale concurrent system in a more flexible and efficient way than ever before with this first & only Swoole PHP book, with PHP 8 ready.
-- [Swooleで学ぶPHP非同期処理　～並行処理／並列処理の基礎から実践的な開発手法まで一気にわかる](https://www.amazon.co.jp/-/en/%E3%82%81%E3%82%82%E3%82%8A%E3%83%BC/dp/429713358X/) - Learning PHP asynchronous processing with Swoole: from the basics of parallel processing to practical development methods. The first Swoole book written in Japanese by [めもりー
+- [Swooleで学ぶPHP非同期処理　～並行処理／並列処理の基礎から実践的な開発手法まで一気にわかる](https://www.amazon.co.jp/-/en/%E3%82%81%E3%82%82%E3%82%8A%E3%83%BC/dp/429713358X) - Learning PHP asynchronous processing with Swoole: from the basics of parallel processing to practical development methods. The first Swoole book written in Japanese by [めもりー
   ](https://twitter.com/m3m0r7/) :globe_with_meridians:
 
 ## Swoole Videos
