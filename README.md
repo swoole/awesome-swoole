@@ -22,16 +22,16 @@ Table of Contents
    * [Frameworks](#frameworks)
    * [Framework Integration](#framework-integration)
    * [gRPC](#grpc)
-   * [HTTP](#http)
+   * [HTTP and WebSocket](#http-and-websocket)
    * [Logging](#logging)
    * [Serverless](#serverless)
    * [SOA governance](#soa-governance)
    * [Tasks and Queues](#tasks-and-queues)
    * [Testing](#testing)
    * [Third-party SDK](#third-party-sdk)
+   * [Web Applications](#web-applications)
    * [Miscellaneous](#miscellaneous)
 * [Resources](#resources)
-   * [Best Practices and Use Cases](#best-practices-and-use-cases)
    * [Swoole Books](#swoole-books)
    * [Swoole Videos](#swoole-videos)
    * [Miscellaneous](#miscellaneous-1)
@@ -171,8 +171,8 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [mix/grpc](https://github.com/mix-php/grpc) - A gRPC implementation based on Swoole. Protoc code generator, server, client, and more features included. :globe_with_meridians:
 - [swoole/grpc](https://github.com/swoole/grpc) - An efficient Swoole-based gRPC client. :globe_with_meridians:
 
-## HTTP
-*Libraries for working with HTTP.*
+## HTTP and WebSocket
+*Libraries for working with HTTP and WebSocket.*
 
 - PSR Compliance
     - [chubbyphp/chubbyphp-swoole-request-handler](https://github.com/chubbyphp/chubbyphp-swoole-request-handler) - A request handler adapter for Swoole, using PSR-7, PSR-15 and PSR-17.
@@ -182,6 +182,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [Saber](https://github.com/swlib/saber) - A coroutine-based HTTP client. :globe_with_meridians:
 - [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) - Make the [Guzzle](https://github.com/guzzle/guzzle) library coroutine-friendly in Swoole. It works with many Guzzle-based packages and Swoole-based frameworks. :globe_with_meridians:
 - [Yurunsoft/YurunHttp](https://github.com/Yurunsoft/YurunHttp) - An easy-to-use HTTP client that works with HTTP/1, HTTP/2, and WebSocket protocols. It also supports chained operations, concurrent processing, and connection pool. :globe_with_meridians:
+- [Utopia WebSocket](https://github.com/utopia-php/websocket) - A simple and lite abstraction layer around a WebSocket server. This library is aiming to be as simple and easy to learn and use.
 
 ## Logging
 
@@ -218,16 +219,25 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [Yurunsoft/PaySDK](https://github.com/Yurunsoft/PaySDK) - A coroutine-friendly payment SDK for Alipay and WeChat Pay. :globe_with_meridians:
 - [Yurunsoft/YurunOAuthLogin](https://github.com/Yurunsoft/YurunOAuthLogin) - An OAuth library that provides built-in support for QQ, WeChat, Weibo, Github, Gitee, etc. :globe_with_meridians:
 
+## Web Applications
+*Web-based applications and tools.*
+
+- [HyperfAdmin](https://github.com/hyperf-admin/hyperf-admin) - An administration panel built with Swoole, Hyperf, and Vue.js. :globe_with_meridians:
+- [MineAdmin](https://github.com/kanyxmo/MineAdmin) - An administration panel built with Swoole, Hyperf, and Vue 3. :globe_with_meridians:
+- [wopits - A world of post-its](https://github.com/esaracco/wopits) - An app for managing projects online using sticky notes to share and collaborate. It uses Swoole as a WebSocket & Task server.
+- [yurun-crawler](https://github.com/Yurunsoft/yurun-crawler) - A framework to build high-performance, distributed web crawler. :globe_with_meridians:
+- [zhamao-framework](https://github.com/zhamao-robot/zhamao-framework) - A chatbot system based on an award-winning project in China. :globe_with_meridians:
+
 ## Miscellaneous
 
 - [crowdstar/exponential-backoff](https://github.com/Crowdstar/exponential-backoff) - A library to prevent overloading an unavailable service by doubling the timeout each iteration. It works under both Swoole (in non-blocking mode) and PHP-FPM.
+- [hhxsv5/php-sse](https://github.com/hhxsv5/php-sse) - A simple and efficient library implemented HTML5's server-sent events using PHP.
 - [k8s/client](https://github.com/k8s-client/client) - A Kubernetes API client for PHP.
 - [leocavalcante/swoole-futures](https://github.com/leocavalcante/swoole-futures) - Futures + Async/Await for PHP's Swoole asynchronous run-time.
 - [leocavalcante/swoole-mutex](https://github.com/leocavalcante/swoole-mutex) - Mutual exclusion abstractions for PHP's Swoole concurrency run-time.
 - [mix/sync-invoke](https://github.com/mix-php/sync-invoke) - A library to execute synchronous blocking code without blocking the running process in Swoole. :globe_with_meridians:
 - [Shlink Event Dispatcher](https://github.com/shlinkio/shlink-event-dispatcher) - Event dispatching using PSR-14, with async event listener that are executed in swoole task system.
 - [xlswriter](https://github.com/viest/php-ext-xlswriter) - A coroutine-friendly PHP Extension to create and read XLSX files.
-- [yurun-crawler](https://github.com/Yurunsoft/yurun-crawler) - A framework to build high-performance, distributed web crawler. :globe_with_meridians:
 - [swoole-utils](https://github.com/apinstein/swoole-utils) - A collection of utilities for building concurrent applications with Swoole. **#WIP**
 
 # Resources
@@ -244,6 +254,8 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 *Fantastic Swoole-related books.*
 
 - [Mastering Swoole PHP](https://www.amazon.com/Mastering-Swoole-PHP-performance-concurrent-ebook/dp/B0881B227S) - Build your high performance large scale concurrent system in a more flexible and efficient way than ever before with this first & only Swoole PHP book, with PHP 8 ready.
+- [Swooleで学ぶPHP非同期処理　～並行処理／並列処理の基礎から実践的な開発手法まで一気にわかる](https://www.amazon.co.jp/-/en/%E3%82%81%E3%82%82%E3%82%8A%E3%83%BC/dp/429713358X) - Learning PHP asynchronous processing with Swoole: from the basics of parallel processing to practical development methods. The first Swoole book written in Japanese by [めもりー
+  ](https://twitter.com/m3m0r7/) :globe_with_meridians:
 
 ## Swoole Videos
 *Fantastic Swoole-related videos.*
