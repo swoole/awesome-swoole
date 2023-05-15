@@ -183,7 +183,6 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) - Make the [Guzzle](https://github.com/guzzle/guzzle) library coroutine-friendly in Swoole. It works with many Guzzle-based packages and Swoole-based frameworks. :globe_with_meridians:
 - [Yurunsoft/YurunHttp](https://github.com/Yurunsoft/YurunHttp) - An easy-to-use HTTP client that works with HTTP/1, HTTP/2, and WebSocket protocols. It also supports chained operations, concurrent processing, and connection pool. :globe_with_meridians:
 - [Utopia WebSocket](https://github.com/utopia-php/websocket) - A simple and lite abstraction layer around a WebSocket server. This library is aiming to be as simple and easy to learn and use.
-- [findnr/swoole_websocket](https://github.com/findnr/swoole_websocket) - Swoole develops a real-time chat system that uses websocket.example (https://msghtml.cym504875043.repl.co/)
 
 ## Logging
 
