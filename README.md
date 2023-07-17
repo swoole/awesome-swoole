@@ -163,6 +163,8 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
     - [liufee/yii2-swoole](https://github.com/liufee/yii2-swoole) - To run [Yii 2](https://www.yiiframework.com) applications with Swoole. :globe_with_meridians:
 - [Utopia](https://github.com/utopia-php/framework)
     - [Utopia Swoole](https://github.com/utopia-php/swoole) - An extension for Utopia Framework to work with PHP Swoole as a PHP FPM alternative.
+- WordPress
+    - [WordPress Swoole](https://github.com/WordPress-PSR/swoole) - To run WordPress in Swoole. #WIP
 
 ## gRPC
 
@@ -238,7 +240,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [mix/sync-invoke](https://github.com/mix-php/sync-invoke) - A library to execute synchronous blocking code without blocking the running process in Swoole. :globe_with_meridians:
 - [Shlink Event Dispatcher](https://github.com/shlinkio/shlink-event-dispatcher) - Event dispatching using PSR-14, with async event listener that are executed in swoole task system.
 - [xlswriter](https://github.com/viest/php-ext-xlswriter) - A coroutine-friendly PHP Extension to create and read XLSX files.
-- [swoole-utils](https://github.com/apinstein/swoole-utils) - A collection of utilities for building concurrent applications with Swoole. **#WIP**
+- [swoole-utils](https://github.com/apinstein/swoole-utils) - A collection of utilities for building concurrent applications with Swoole. #WIP
 
 # Resources
 
