@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -18,7 +18,7 @@ jobs:
       run: gem install awesome_bot
     - name: Run Awesome Bot
       run: awesome_bot README.md --request-delay 1 --allow-dupe --white-list amazon.com,amazon.co.jp,twitter.com,discord.swoole.dev,swoole.com
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       if: failure()
       with:
         name: ab-results

@@ -227,7 +227,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 *Web-based applications and tools.*
 
 - [HyperfAdmin](https://github.com/hyperf-admin/hyperf-admin) - An administration panel built with Swoole, Hyperf, and Vue.js. :globe_with_meridians:
-- [MineAdmin](https://github.com/kanyxmo/MineAdmin) - An administration panel built with Swoole, Hyperf, and Vue 3. :globe_with_meridians:
+- [MineAdmin] - An administration panel built with Swoole, Hyperf, and Vue 3. :globe_with_meridians:
 - [wopits - A world of post-its](https://github.com/esaracco/wopits) - An app for managing projects online using sticky notes to share and collaborate. It uses Swoole as a WebSocket & Task server.
 - [yurun-crawler](https://github.com/Yurunsoft/yurun-crawler) - A framework to build high-performance, distributed web crawler. :globe_with_meridians:
 - [zhamao-framework](https://github.com/zhamao-robot/zhamao-framework) - A chatbot system based on an award-winning project in China. :globe_with_meridians:
@@ -268,3 +268,5 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 # Alternatives
  
 - [Open Swoole](https://openswoole.com) - A fork of Swoole that is maintained by the Open Swoole team.
+
+[MineAdmin]: https://github.com/mineadmin/MineAdmin
