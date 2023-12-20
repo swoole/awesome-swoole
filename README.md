@@ -235,14 +235,15 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 ## Miscellaneous
 
 - [crowdstar/exponential-backoff](https://github.com/Crowdstar/exponential-backoff) - A library to prevent overloading an unavailable service by doubling the timeout each iteration. It works under both Swoole (in non-blocking mode) and PHP-FPM.
+- Futures and Promises
+    - [leocavalcante/swoole-futures](https://github.com/leocavalcante/swoole-futures) - Futures + Async/Await for PHP's Swoole asynchronous run-time.
+    - [Swoole Futures] - Partial implementation of Promise/A+ spec based on Swoole Coroutines.
 - [hhxsv5/php-sse](https://github.com/hhxsv5/php-sse) - A simple and efficient library implemented HTML5's server-sent events using PHP.
 - [k8s/client](https://github.com/k8s-client/client) - A Kubernetes API client for PHP.
-- [leocavalcante/swoole-futures](https://github.com/leocavalcante/swoole-futures) - Futures + Async/Await for PHP's Swoole asynchronous run-time.
 - [leocavalcante/swoole-mutex](https://github.com/leocavalcante/swoole-mutex) - Mutual exclusion abstractions for PHP's Swoole concurrency run-time.
 - [mix/sync-invoke](https://github.com/mix-php/sync-invoke) - A library to execute synchronous blocking code without blocking the running process in Swoole. :globe_with_meridians:
 - [Shlink Event Dispatcher](https://github.com/shlinkio/shlink-event-dispatcher) - Event dispatching using PSR-14, with async event listener that are executed in swoole task system.
 - [xlswriter](https://github.com/viest/php-ext-xlswriter) - A coroutine-friendly PHP Extension to create and read XLSX files.
-- [Swoole Futures] - Partial implementation of Promise/A+ spec based on Swoole Coroutines.
 - [swoole-utils](https://github.com/apinstein/swoole-utils) - A collection of utilities for building concurrent applications with Swoole. #WIP
 
 # Resources
