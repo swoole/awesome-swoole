@@ -242,6 +242,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [mix/sync-invoke](https://github.com/mix-php/sync-invoke) - A library to execute synchronous blocking code without blocking the running process in Swoole. :globe_with_meridians:
 - [Shlink Event Dispatcher](https://github.com/shlinkio/shlink-event-dispatcher) - Event dispatching using PSR-14, with async event listener that are executed in swoole task system.
 - [xlswriter](https://github.com/viest/php-ext-xlswriter) - A coroutine-friendly PHP Extension to create and read XLSX files.
+- [Swoole Futures] - Partial implementation of Promise/A+ spec based on Swoole Coroutines.
 - [swoole-utils](https://github.com/apinstein/swoole-utils) - A collection of utilities for building concurrent applications with Swoole. #WIP
 
 # Resources
@@ -270,3 +271,4 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [Open Swoole](https://openswoole.com) - A fork of Swoole that is maintained by the Open Swoole team.
 
 [MineAdmin]: https://github.com/mineadmin/MineAdmin
+[Swoole Futures]: https://github.com/distantmagic/swoole-futures
