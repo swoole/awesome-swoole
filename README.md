@@ -193,6 +193,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 - [hyperf/logger](https://github.com/hyperf/logger) - The logging component of Hyperf. It's based on [Monolog](https://github.com/Seldaek/monolog), with PSR-3 interface implemented.
 - [mix/monolog](https://github.com/mix-php/monolog) - A coroutine-friendly logging library. It's based on [Monolog](https://github.com/Seldaek/monolog). :globe_with_meridians:
+- [open-telemetry/context-swoole] - Async Swoole/OpenSwoole context implementation for OpenTelemetry PHP.
 - [upscale/swoole-newrelic](https://github.com/upscalesoftware/swoole-newrelic) - New Relic APM and Browser monitoring of Swoole web-server.
 
 ## Serverless
@@ -274,4 +275,5 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 [friendsofhyperf/components]: https://github.com/friendsofhyperf/components
 [MineAdmin]: https://github.com/mineadmin/MineAdmin
+[open-telemetry/context-swoole]: https://github.com/opentelemetry-php/context-swoole
 [Swoole Futures]: https://github.com/distantmagic/swoole-futures
