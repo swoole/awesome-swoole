@@ -164,7 +164,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
     - [topthink/think-swoole](https://github.com/top-think/think-swoole) - To run ThinkPHP applications with Swoole. :globe_with_meridians:
 - Yii
     - [liufee/yii2-swoole](https://github.com/liufee/yii2-swoole) - To run [Yii 2](https://www.yiiframework.com) applications with Swoole. :globe_with_meridians:
-- [Utopia](https://github.com/utopia-php/framework)
+- [Utopia] - A PHP MVC based framework with minimal must-have features for professional, simple, advanced and secure web development.
     - [Utopia Swoole](https://github.com/utopia-php/swoole) - An extension for Utopia Framework to work with PHP Swoole as a PHP FPM alternative.
 - WordPress
     - [WordPress Swoole](https://github.com/WordPress-PSR/swoole) - To run WordPress in Swoole. #WIP
@@ -277,3 +277,4 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 [MineAdmin]: https://github.com/mineadmin/MineAdmin
 [open-telemetry/context-swoole]: https://github.com/opentelemetry-php/context-swoole
 [Swoole Futures]: https://github.com/distantmagic/swoole-futures
+[Utopia]: https://github.com/utopia-php/http
