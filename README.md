@@ -158,7 +158,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - Slim
     - [pachico/Slim-Swoole](https://github.com/pachico/slim-swoole) - A convenient library to run [SlimPHP](https://www.slimframework.com) applications with Swoole.
 - Symfony
-    - [pixelfederation/swoole-bundle](https://github.com/pixelfederation/swoole-bundle) - Symfony integration with Open Swoole to speed up your applications.
+    - [swoole-bundle/swoole-bundle] - Symfony integration with Swoole or Open Swoole to speed up your applications.
     - [symfony/runtime](https://github.com/symfony/runtime) - The Runtime component decouples the bootstrapping logic from any global state to make sure the application can run with runtimes like PHP-FPM, ReactPHP, Swoole, etc. without any changes. For a more generic implementation that works with other frameworks/environments, please check project [PHP Runtimes](https://github.com/php-runtime/runtime).
 - ThinkPHP
     - [topthink/think-swoole](https://github.com/top-think/think-swoole) - To run ThinkPHP applications with Swoole. :globe_with_meridians:
@@ -281,3 +281,4 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 [Rubix ML]: https://github.com/RubixML/ML
 [Swoole Futures]: https://github.com/distantmagic/swoole-futures
 [Utopia]: https://github.com/utopia-php/http
+[swoole-bundle/swoole-bundle]: https://github.com/symfony-swoole/swoole-bundle
