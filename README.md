@@ -81,7 +81,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 ## Development Environment
 
 - Docker
-    - [adhocore/lemp](https://github.com/adhocore/docker-lemp) - A single container LEMP complete fullstack with latest releases of PHP (7.4 - 8.2) and MySQL, nginx, PostgreSQL, phalcon, swoole, mailcatcher, beanstalkd, elasticsearch, memcached, redis, adminer and all you ever need.
+    - [adhocore/lemp](https://github.com/adhocore/docker-lemp) - A single container LEMP complete fullstack with latest releases of PHP (7.4 - 8.3) and MySQL, nginx, PostgreSQL, phalcon, swoole, mailcatcher, beanstalkd, elasticsearch, memcached, redis, adminer and all you ever need.
     - [phpswoole/swoole](https://github.com/swoole/docker-swoole) - Official Docker image of Swoole.
 - IDE Helper
     - [eaglewu/swoole-ide-helper](https://github.com/wudi/swoole-ide-helper) - Auto completion, trigger suggest and view docs for Swoole in editor.
