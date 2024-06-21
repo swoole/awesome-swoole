@@ -43,6 +43,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 *Libraries related to design patterns, programming approaches and ways to organize code.*
 
 - [leocarmo/circuit-breaker-php](https://github.com/leocarmo/circuit-breaker-php) - PHP implementation of Circuit Breaker Pattern.
+- [Phluxor] - An implementation of the Actor model for PHP.
 
 ## Client Packages
 
@@ -132,7 +133,6 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
         - [mix/redis-subscriber](https://github.com/mix-php/redis-subscriber)
         - [mix/tracing-zipkin](https://github.com/mix-php/tracing-zipkin)
         - [mix/sync-invoke](https://github.com/mix-php/sync-invoke)
-- [Phluxor](https://github.com/ytake/phluxor) - A toolkit for flexible actor models in PHP, empowering the PHP ecosystem.
 - [Polyel](https://github.com/Superbition/Polyel-Framework) - A full-stack MVC PHP framework/server built from the ground up based on Swoole.
 - [Resonance](https://github.com/distantmagic/resonance) - Designed from the ground up to facilitate interoperability and messaging between services in your infrastructure and beyond.
     - Official documentation: https://resonance.distantmagic.com/
@@ -282,3 +282,4 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 [Swoole Futures]: https://github.com/distantmagic/swoole-futures
 [Utopia]: https://github.com/utopia-php/http
 [swoole-bundle/swoole-bundle]: https://github.com/symfony-swoole/swoole-bundle
+[Phluxor]: https://github.com/ytake/phluxor
