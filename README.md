@@ -43,6 +43,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 *Libraries related to design patterns, programming approaches and ways to organize code.*
 
 - [leocarmo/circuit-breaker-php](https://github.com/leocarmo/circuit-breaker-php) - PHP implementation of Circuit Breaker Pattern.
+- [phluxor/phluxor](https://github.com/ytake/phluxor) - A toolkit for flexible actor models in PHP.
 
 ## Client Packages
 
