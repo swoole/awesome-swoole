@@ -246,9 +246,9 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [mix/sync-invoke](https://github.com/mix-php/sync-invoke) - A library to execute synchronous blocking code without blocking the running process in Swoole. :globe_with_meridians:
 - [Rubix ML] - A high-level machine learning and deep learning library for the PHP language.
 - [Shlink Event Dispatcher](https://github.com/shlinkio/shlink-event-dispatcher) - Event dispatching using PSR-14, with async event listener that are executed in swoole task system.
+- [siteone-crawler](https://github.com/janreges/siteone-crawler) - A fast Swoole-based cross-platform website crawler, cloner and analyzer for SEO, security, accessibility, and performance optimization - ideal for developers, DevOps and QA engineers. Supports Windows, macOS, and Linux. Also available as [desktop application](https://github.com/janreges/siteone-crawler-gui) based on Svelte + Electron.
 - [xlswriter](https://github.com/viest/php-ext-xlswriter) - A coroutine-friendly PHP Extension to create and read XLSX files.
 - [swoole-utils](https://github.com/apinstein/swoole-utils) - A collection of utilities for building concurrent applications with Swoole. #WIP
-- [siteone-crawler](https://github.com/janreges/siteone-crawler) - A fast Swoole-based cross-platform website crawler, cloner and analyzer for SEO, security, accessibility, and performance optimization - ideal for developers, DevOps and QA engineers. Supports Windows, macOS, and Linux. Also available as [desktop application](https://github.com/janreges/siteone-crawler-gui) based on Svelte + Electron.
 
 # Resources
 
