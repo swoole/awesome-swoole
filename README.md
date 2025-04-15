@@ -48,7 +48,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 ## Client Packages
 
 - [hyperf/jet](https://github.com/hyperf/jet) - An RPC Client with built-in support for [the JSON-RPC protocol](https://www.jsonrpc.org/). It works with both PHP-FPM and Swoole.
-- [hyperf/consul](https://github.com/hyperf/consul) - The [Consul](https://www.consul.io) client of Hyperf.
+- [hyperf/consul](https://github.com/hyperf/consul) - The [Consul] client of Hyperf.
 - [hyperf/elasticsearch](https://github.com/hyperf/elasticsearch) - The [Elasticsearch] client of Hyperf.
 - [hyperf/etcd](https://github.com/hyperf/etcd) - The [etcd](https://etcd.io) client of Hyperf.
 - [simps/mqtt](https://github.com/simps/mqtt) - A coroutine-based MQTT client. It supports MQTT version 3.1, 3.1.1, and 5.0.
@@ -275,6 +275,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
  
 - [Open Swoole](https://openswoole.com) - A fork of Swoole that is maintained by the Open Swoole team.
 
+[Consul]: https://developer.hashicorp.com/consul
 [Elasticsearch]: https://www.elastic.co/elasticsearch
 [friendsofhyperf/components]: https://github.com/friendsofhyperf/components
 [MineAdmin]: https://github.com/mineadmin/MineAdmin
