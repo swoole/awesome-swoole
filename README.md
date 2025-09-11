@@ -275,7 +275,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
  
 - [Open Swoole](https://openswoole.com) - A fork of Swoole that is maintained by the Open Swoole team.
 
-[Consul]: https://developer.hashicorp.com/consul
+[Consul]: https://en.wikipedia.org/wiki/Consul_(software)
 [Elasticsearch]: https://www.elastic.co/elasticsearch
 [friendsofhyperf/components]: https://github.com/friendsofhyperf/components
 [MineAdmin]: https://github.com/mineadmin/MineAdmin
