@@ -263,9 +263,9 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 ## Swoole Videos
 *Fantastic Swoole-related videos.*
 
-- [CSP Programming in PHP](https://nomadphp.com/video/306/csp-programming-in-php) - An online talk presented by Demin on August 20, 2020. This talk gives an in depth explanation on the concurrency model used in Swoole. [Here](http://talks.deminy.in/csp.html) are the slides.
-- [Building High-Performance Application Servers with Swoole](https://www.youtube.com/watch?v=fVdDB4mbGYQ) - A conference talk presented by Demin during PHPFest 2020. [Here](http://talks.deminy.in/phpfest2020.html) are the slides.
-- [Build an All-In-One Application Server Using Swoole](https://www.youtube.com/watch?v=SJPZxvEYXxI&t=1255s) - A conference talk presented by Demin during PHP Community Summit 2021. The talk starts at 20'55''. [Here](http://talks.deminy.in/pcs21.html) are the slides.
+- [CSP Programming in PHP](https://nomadphp.com/video/306/csp-programming-in-php) - An online talk presented by Demin on August 20, 2020. This talk gives an in depth explanation on the concurrency model used in Swoole. [Here](https://deminy.in/talks/csp.html) are the slides.
+- [Building High-Performance Application Servers with Swoole](https://www.youtube.com/watch?v=fVdDB4mbGYQ) - A conference talk presented by Demin during PHPFest 2020. [Here](https://deminy.in/talks/phpfest2020.html) are the slides.
+- [Build an All-In-One Application Server Using Swoole](https://www.youtube.com/watch?v=SJPZxvEYXxI&t=1255s) - A conference talk presented by Demin during PHP Community Summit 2021. The talk starts at 20'55''. [Here](https://deminy.in/talks/pcs21.html) are the slides.
 
 ## Miscellaneous
 
