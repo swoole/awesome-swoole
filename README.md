@@ -118,6 +118,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
         - [96qbhy/hyperf-auth](https://github.com/qbhy/hyperf-auth) - An authentication component for Hyperf. It supports JWT and session-based authentications. You can also create your own authentication drivers if needed. :globe_with_meridians:
         - [opencodeco/hyperf-doctrine](https://github.com/opencodeco/hyperf-doctrine) - This project provides an integration for the Doctrine ORM and the Hyperf framework.
         - [reasno/fastmongo](https://github.com/Reasno/fastmongo) - A coroutine-based MongoDB client for Hyperf.
+- [Hypervel](https://hypervel.org) - A Laravel-style framework with native coroutine support for high performance, built on top of Swoole.
 - [LightMVC](https://lightmvcframework.net) - A modular, event-driven and Swoole-enabled framework that allows to easily create PHP applications by using any PHP library.
 - [Nano](https://github.com/hyperf/nano) - A Hyperf-based coroutine microframework.
 - [imi](https://github.com/imiphp/imi) - A Swoole-based framework, with built-in support for HTTP/1, HTTP/2, WebSocket, TCP, UDP, and MQTT. :globe_with_meridians:
