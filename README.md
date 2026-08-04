@@ -35,7 +35,6 @@ Table of Contents
    * [Swoole Books](#swoole-books)
    * [Swoole Videos](#swoole-videos)
    * [Miscellaneous](#miscellaneous-1)
-* [Alternatives](#alternatives)
 
 NOTE: Projects labelled with emoji :globe_with_meridians: have their documentation written in non-English languages.
 
@@ -166,7 +165,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
     - [klsoft/yii3-swoole](https://github.com/klsoft-web/yii3-swoole) - The package provides the Swoole HTTP server for the [Yii 3](https://yii3.yiiframework.com) application. 
 - [Utopia] - A PHP MVC based framework with minimal must-have features for professional, simple, advanced and secure web development. The Swoole server adapter ships with _Utopia_ itself.
 - WordPress
-    - [WordPress Swoole](https://github.com/WordPress-PSR/swoole) - To run WordPress in Swoole. #WIP
+    - [WordPress Swoole](https://github.com/WordPress-PSR/swoole) - To run WordPress in Swoole.
 
 ## gRPC
 
@@ -246,7 +245,6 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [Shlink Event Dispatcher](https://github.com/shlinkio/shlink-event-dispatcher) - Event dispatching using PSR-14, with async event listener that are executed in swoole task system.
 - [siteone-crawler](https://github.com/janreges/siteone-crawler) - A fast Swoole-based cross-platform website crawler, cloner and analyzer for SEO, security, accessibility, and performance optimization - ideal for developers, DevOps and QA engineers. Supports Windows, macOS, and Linux. Also available as [desktop application](https://github.com/janreges/siteone-crawler-gui) based on Svelte + Electron.
 - [xlswriter] - A coroutine-friendly PHP Extension to create and read XLSX files.
-- [swoole-utils](https://github.com/apinstein/swoole-utils) - A collection of utilities for building concurrent applications with Swoole. #WIP
 
 # Resources
 
@@ -267,11 +265,6 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 ## Miscellaneous
 
 - [deminy/swoole-by-examples](https://github.com/deminy/swoole-by-examples) - Learn Swoole by examples.
-- [swooletw/awesome-swoole](https://github.com/swooletw/awesome-swoole) - A curated list of Swoole.
-
-# Alternatives
- 
-- [Open Swoole](https://openswoole.com) - A fork of Swoole that is maintained by the Open Swoole team.
 
 [Consul]: https://en.wikipedia.org/wiki/Consul_(software)
 [Elasticsearch]: https://www.elastic.co/elasticsearch
