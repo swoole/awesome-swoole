@@ -11,8 +11,8 @@ An "awesome list": a single curated `README.md` of Swoole-related projects, libr
 CI (`.github/workflows/awesomebot.yml`) runs [awesome_bot](https://github.com/dkhamsing/awesome_bot) on every push to `main` and daily. To run it locally before committing:
 
 ```bash
-gem install awesome_bot
-awesome_bot README.md --request-delay 1 --allow-dupe --white-list amazon.com,amazon.co.jp,discord.swoole.dev,drupal.org
+gem install awesome_bot -v 1.20.0
+awesome_bot README.md --request-delay 2 --set-timeout 45 --allow-dupe --white-list amazon.com,amazon.co.jp,discord.swoole.dev,drupal.org
 ```
 
 If a valid URL is falsely reported as broken (e.g., the site blocks bots), add its domain to the `--white-list` in the workflow file rather than removing the entry.

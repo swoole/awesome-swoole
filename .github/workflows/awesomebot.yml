@@ -8,6 +8,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-22.04
+    # Scheduled runs just monitor link health over time; nothing is being merged, so a
+    # transient failure shouldn't show up as a hard red run. Push runs still block.
+    continue-on-error: ${{ github.event_name == 'schedule' }}
     steps:
     - uses: actions/checkout@v7
     - name: Set up Ruby
@@ -15,9 +18,14 @@ jobs:
       with:
         ruby-version: '3.0'
     - name: Install Awesome Bot
-      run: gem install awesome_bot
+      run: gem install awesome_bot -v 1.20.0
     - name: Run Awesome Bot
-      run: awesome_bot README.md --request-delay 1 --allow-dupe --white-list amazon.com,amazon.co.jp,discord.swoole.dev,drupal.org
+      uses: nick-fields/retry@v3
+      with:
+        timeout_minutes: 15
+        max_attempts: 3
+        retry_wait_seconds: 30
+        command: awesome_bot README.md --request-delay 2 --set-timeout 45 --allow-dupe --white-list amazon.com,amazon.co.jp,discord.swoole.dev,drupal.org
     - uses: actions/upload-artifact@v7
       if: failure()
       with:
