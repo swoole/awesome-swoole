@@ -1,6 +1,6 @@
 <div align="center">
 
-# Awesome Swoole [![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/phpswoole) [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.swoole.dev) ![](https://github.com/swoole/awesome-swoole/workflows/Awesome%20Bot/badge.svg) [![license](https://img.shields.io/github/license/swoole/awesome-swoole.svg?maxAge=2592000)]()
+# Awesome Swoole [![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://x.com/phpswoole) [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.swoole.dev) ![](https://github.com/swoole/awesome-swoole/workflows/Awesome%20Bot/badge.svg) [![license](https://img.shields.io/github/license/swoole/awesome-swoole.svg?maxAge=2592000)]()
 
 A curated list of awesome things related to <a href="//github.com/swoole/swoole-src">Swoole</a>.
 
@@ -253,7 +253,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 - [Mastering Swoole PHP](https://www.amazon.com/Mastering-Swoole-PHP-performance-concurrent-ebook/dp/B0881B227S) - Build your high performance large scale concurrent system in a more flexible and efficient way than ever before with this first & only Swoole PHP book, with PHP 8 ready.
 - [Swooleで学ぶPHP非同期処理　～並行処理／並列処理の基礎から実践的な開発手法まで一気にわかる](https://www.amazon.co.jp/-/en/%E3%82%81%E3%82%82%E3%82%8A%E3%83%BC/dp/429713358X) - Learning PHP asynchronous processing with Swoole: from the basics of parallel processing to practical development methods. The first Swoole book written in Japanese by [めもりー
-  ](https://twitter.com/m3m0r7/) :globe_with_meridians:
+  ](https://x.com/m3m0r7/) :globe_with_meridians:
 
 ## Swoole Videos
 *Fantastic Swoole-related videos.*
