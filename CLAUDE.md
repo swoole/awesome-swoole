@@ -19,6 +19,11 @@ If a valid URL is falsely reported as broken (e.g., the site blocks bots), add i
 
 ## Adding a new project/library
 
+To find candidate projects, use the `discovering-swoole-projects` Claude
+Code skill (`.claude/skills/discovering-swoole-projects/SKILL.md`) — it
+searches GitHub for actively maintained Swoole-related repositories not
+already listed here and lets you pick which to add.
+
 Constraints and conventions when adding an entry to `README.md`:
 
 1. **Relevance**: The project must be related to Swoole — built on it, integrating with it, or explicitly supporting it. General-purpose PHP packages that merely happen to work under Swoole don't belong unless coroutine-friendliness/Swoole support is a stated feature.

@@ -1,0 +1,11 @@
+# Scratch/working files (prompts, research notes, generated reports) —
+# never meant to be committed. See the discovering-swoole-projects skill,
+# which writes its reports here.
+/temp/
+
+# Claude Code project skills/config live in this repo and are meant to be
+# shared with contributors, so un-ignore .claude/ even for contributors
+# whose personal global gitignore excludes it by default (a common Claude
+# Code convention). Personal, machine-specific settings still stay out.
+!/.claude/
+.claude/settings.local.json
