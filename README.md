@@ -89,12 +89,14 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 ## Distribution
 
 - [shivammathur/extensions](https://github.com/shivammathur/homebrew-extensions) - 🍻 Homebrew tap for PHP extensions.
-- [static-php-cli](https://github.com/crazywhalecc/static-php-cli) - Build static PHP binary in Linux, with Swoole and other popular extensions included. :globe_with_meridians:
-- [swoole-cli](https://github.com/swoole/swoole-cli) - A prebuilt executable to run Swoole applications directly. No PHP installation required (just download and use it). Support Linux, macOS, and Windows. :globe_with_meridians:
+- [static-php-cli](https://github.com/crazywhalecc/static-php-cli) - Build static PHP binary in Linux, with Swoole and other popular extensions included.
+- [swoole-cli](https://github.com/swoole/swoole-cli) - A prebuilt executable to run Swoole applications directly. No PHP installation required (just download and use it). Support Linux, macOS, and Windows.
 
 ## Frameworks
 
+- [Blink](https://github.com/bixuehujin/blink) - A high-performance web framework and application server for PHP, with built-in support for running under Swoole.
 - [chubbyphp-framework](https://github.com/chubbyphp/chubbyphp-framework): A minimal middleware based micro framework using PSR, with the goal is to achive the best combination of flexibility and simplicity by using standards.
+- [fastD](https://github.com/fastdlabs/fastD) - A high-performance PHP API framework built on the Swoole extension. :globe_with_meridians:
 - ~~[Fomo](https://github.com/fomo-framework/fomo)~~ - A simple, fast framework with many features for the HTTP. It was ranked as the fastest PHP framework in the world since 2022-10-16 (and still is as of 2022-11-30) by the [Web Frameworks Benchmark](https://web-frameworks-benchmark.netlify.app/result?l=php) project. The repository was archived by its owner in 2025.
 - [Hyperf](https://github.com/hyperf/hyperf) - A coroutine framework that focuses on hyperspeed and flexibility.
     - Official components (an incomplete list)
@@ -123,6 +125,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
     - [mezzio/mezzio-swoole](https://github.com/mezzio/mezzio-swoole) - Provides the support of Swoole into a [Mezzio](https://docs.mezzio.dev/) application.
 - ~~[Siler](https://github.com/leocavalcante/siler)~~ - A set of general purpose high-level abstractions aiming an API for declarative programming in PHP. The repository was archived by its owner in 2022.
 - [lizhichao/one](https://github.com/lizhichao/one) - A simple and efficient framework that works both under PHP-FPM and Swoole.
+- [ManaPHP](https://github.com/manaphp/manaphp) - A full-stack PHP framework that supports both Swoole and PHP-FPM modes.
 - [Mix PHP](https://github.com/mix-php/mix) - A unique single-threaded coroutine-based framework. :globe_with_meridians:
     - Official modules (an incomplete list)
         - [mix/database](https://github.com/mix-php/database)
@@ -135,7 +138,10 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - ~~[Resonance](https://github.com/distantmagic/resonance)~~ - Designed from the ground up to facilitate interoperability and messaging between services in your infrastructure and beyond. The repository was archived by its owner in 2026.
     - Official documentation: https://resonance.distantmagic.com/
 - [QueryPHP](https://github.com/hunzhiwange/queryphp) - A modern, high performance PHP progressive coroutine framework. :globe_with_meridians:
+- [Restler](https://github.com/Luracast/Restler) - A zero-boilerplate REST API framework for PHP 8+, with built-in support for running under the Swoole or OpenSwoole HTTP server.
 - [Simps](https://github.com/simple-swoole/simps) - A simple, lightweight and high-performance PHP coroutine framework.
+- [Swoolefy](https://github.com/bingcool/swoolefy) - A lightweight, high-performance, coroutine-based API application framework built on Swoole. :globe_with_meridians:
+- [ThinkCMF](https://github.com/thinkcmf/thinkcmf) - An open-source content management framework built on ThinkPHP, supporting both PHP-FPM and Swoole modes. :globe_with_meridians:
 - [Ubiquity](https://github.com/phpMv/ubiquity) - A powerful and fast framework for efficient design.
 
 ## Framework Integration
@@ -227,6 +233,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 - [HyperfAdmin](https://github.com/hyperf-admin/hyperf-admin) - An administration panel built with Swoole, Hyperf, and Vue.js. :globe_with_meridians:
 - [MineAdmin] - An administration panel built with Swoole, Hyperf, and Vue 3. :globe_with_meridians:
+- [onchat](https://github.com/onch-at/onchat) - A mobile-first instant messaging progressive web application, using Swoole for its WebSocket backend. :globe_with_meridians:
 - [wopits - A world of post-its](https://github.com/esaracco/wopits) - An app for managing projects online using sticky notes to share and collaborate. It uses Swoole as a WebSocket & Task server.
 - [yurun-crawler](https://github.com/Yurunsoft/yurun-crawler) - A framework to build high-performance, distributed web crawler. :globe_with_meridians:
 - [zhamao-framework](https://github.com/zhamao-robot/zhamao-framework) - A chatbot system based on an award-winning project in China. :globe_with_meridians:
