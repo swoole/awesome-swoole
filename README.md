@@ -157,6 +157,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
     - ~~[scil/laravel-fly](https://github.com/scil/LaravelFly)~~ - To be an absolutely safe solution to speed up Laravel with Swoole. Preloading + Coroutine and Tinker Online. The repository was archived by its owner in 2024. Please use _Laravel Octane_ instead.
     - ~~[swooletw/laravel-swoole](https://github.com/swooletw/laravel-swoole)~~ - A high-performance HTTP server to run Laravel/Lumen application on top of Swoole. The repository was archived by its owner in 2025. Its authors recommend _Laravel Octane_ instead, or _Hypervel_ if you need coroutine support.
     - [toxmc/fast-laravel](https://github.com/toxmc/fast-laravel) - A Swoole-based high-performance HTTP server to speed up your Laravel applications. :globe_with_meridians:
+    - [innerloop-dev/lightspeed](https://github.com/innerloop-dev/lightspeed) - A Pusher-compatible websocket server for Laravel on Swoole, serving HTTP and websockets on one port, where browsers send authenticated messages into the app and get the answer back on the same socket.
 - Phalcon
     - [phwoolcon/phwoolcon](https://github.com/phwoolcon/phwoolcon) - Phalcon + Swoole.
 - Slim
