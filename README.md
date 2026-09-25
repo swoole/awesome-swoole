@@ -232,6 +232,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 ## Web Applications
 *Web-based applications and tools.*
 
+- [appwrite/appwrite](https://github.com/appwrite/appwrite) - An open-source backend platform providing authentication, databases, storage, functions, messaging, and realtime APIs, built on Swoole.
 - [HyperfAdmin](https://github.com/hyperf-admin/hyperf-admin) - An administration panel built with Swoole, Hyperf, and Vue.js. :globe_with_meridians:
 - [MineAdmin] - An administration panel built with Swoole, Hyperf, and Vue 3. :globe_with_meridians:
 - [onchat](https://github.com/onch-at/onchat) - A mobile-first instant messaging progressive web application, using Swoole for its WebSocket backend. :globe_with_meridians:
