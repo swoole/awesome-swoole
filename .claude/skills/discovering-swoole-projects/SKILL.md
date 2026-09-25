@@ -131,6 +131,13 @@ add a row here to extend it:
 | `hyperf/hyperf-skeleton` | Excluded by maintainer request. |
 | `daodao97/apidog` | Excluded by maintainer request. |
 | `swoole/phpy` | Excluded by maintainer request. |
+| `cirosantilli/china-dictatorship` | Not Swoole-related. |
+| `cirosantilli/china-dictatroship-7` | Not Swoole-related (fork of `cirosantilli/china-dictatorship`). |
+| `mrfwq7lwnpzjavv5v6eo/cihna-dictattorshrip-8` | Not Swoole-related (fork of `cirosantilli/china-dictatorship`). |
+| `hetao29/slightphp` | No real Swoole tie. |
+| `letwang/hookphp` | No real Swoole tie. |
+| `exaco/laravel-docktane` | No real Swoole tie: a generic multi-runtime Docker setup (Octane/FrankenPHP/RoadRunner/Swoole) with no stated Swoole-specific feature. Laravel Octane is already listed in this list, so this repository isn't needed. |
+| `the-benchmarker/web-frameworks` | Incidental: only a benchmark. |
 
 ## Output format
 
