@@ -98,6 +98,7 @@ and share. Run it from the repository root — steps 1 and 9 use paths
     For each one, decide the `:globe_with_meridians:` marker the same way
     the rest of the list uses it (see Non-English marker below) rather than
     guessing from the search result's description alone.
+    Also decide the `:jigsaw:` Hyperf marker (see Hyperf marker below).
     **Never run `git add`, `git commit`, or `git push`** — leave the edited
     `README.md` as an uncommitted working-tree change for the user to review
     and commit themselves.
@@ -117,6 +118,19 @@ always written in English regardless). Before adding each selected entry:
   way — check the actual docs.
 - Don't guess from the search result's `description` field alone — it has
   produced both false positives and false negatives in practice.
+
+## Hyperf marker
+
+`:jigsaw:` marks entries that are Hyperf components or are built on Hyperf
+(see the README's NOTE and rule 6 in `CLAUDE.md`). Before adding each
+selected entry:
+
+- Add it only when Hyperf is a real dependency: the repo is in the `hyperf`
+  org, or its `composer.json` (or its backend's, in a monorepo) requires
+  `hyperf/framework` or other `hyperf/*` packages. Optional integrations
+  (e.g. an SDK that also ships a Hyperf adapter) don't count.
+- When the entry also gets `:globe_with_meridians:`, put that first and
+  `:jigsaw:` second.
 
 ## Ignore list
 

@@ -36,7 +36,7 @@ Table of Contents
    * [Swoole Videos](#swoole-videos)
    * [Miscellaneous](#miscellaneous-1)
 
-NOTE: Projects labelled with emoji :globe_with_meridians: have their documentation written in non-English languages.
+NOTE: Projects labelled with emoji :globe_with_meridians: have their documentation written in non-English languages. Projects labelled with emoji :jigsaw: are Hyperf components or are built on [Hyperf](https://github.com/hyperf/hyperf).
 
 ## Architectural
 *Libraries related to design patterns, programming approaches and ways to organize code.*
@@ -46,22 +46,24 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 ## Client Packages
 
-- [hyperf/consul](https://github.com/hyperf/consul) - The [Consul] client of Hyperf.
-- [hyperf/elasticsearch](https://github.com/hyperf/elasticsearch) - The [Elasticsearch] client of Hyperf.
-- [hyperf/etcd](https://github.com/hyperf/etcd) - The [etcd](https://etcd.io) client of Hyperf.
-- [hyperf/jet](https://github.com/hyperf/jet) - An RPC Client with built-in support for [the JSON-RPC protocol](https://www.jsonrpc.org/). It works with both PHP-FPM and Swoole.
+- [hyperf/consul](https://github.com/hyperf/consul) - The [Consul] client of Hyperf. :jigsaw:
+- [hyperf/elasticsearch](https://github.com/hyperf/elasticsearch) - The [Elasticsearch] client of Hyperf. :jigsaw:
+- [hyperf/etcd](https://github.com/hyperf/etcd) - The [etcd](https://etcd.io) client of Hyperf. :jigsaw:
+- [hyperf/jet](https://github.com/hyperf/jet) - An RPC Client with built-in support for [the JSON-RPC protocol](https://www.jsonrpc.org/). It works with both PHP-FPM and Swoole. :jigsaw:
 - [simps/mqtt](https://github.com/simps/mqtt) - A coroutine-based MQTT client. It supports MQTT version 3.1, 3.1.1, and 5.0.
 - ~~[swoole/ext-postgresql](https://github.com/swoole/ext-postgresql)~~ - A Swoole-based PostgreSQL client. The repository has been archived by its owner. PostgreSQL support is now built into Swoole itself, enabled at compile time with the `--enable-swoole-pgsql` flag.
 - [swoole/ext-zookeeper](https://github.com/swoole/ext-zookeeper) - A Swoole-based ZooKeeper client. :globe_with_meridians:
 
 ## Cronjobs
 
-- [hyperf/crontab](https://github.com/hyperf/crontab) - The cron component of Hyperf, allowing jobs to run at intervals of seconds.
+- [hyperf/crontab](https://github.com/hyperf/crontab) - The cron component of Hyperf, allowing jobs to run at intervals of seconds. :jigsaw:
+- [hyperf/xxl-job-incubator](https://github.com/hyperf/xxl-job-incubator) - A job executor for the XXL-JOB distributed task scheduling platform, adapted for Hyperf. :globe_with_meridians: :jigsaw:
 - [osgochina/swoole-crontab](https://github.com/osgochina/swoole-crontab) - A Swoole-based crontab scheduler. It allows jobs to run at intervals of seconds, and is fully compatible with crontab syntax. :globe_with_meridians:
 
 ## Database
 
-- [hyperf/database](https://github.com/hyperf/database) - The database component of Hyperf.
+- [hyperf/database](https://github.com/hyperf/database) - The database component of Hyperf. :jigsaw:
+- [kvnZero/hyperf-APIJSON](https://github.com/kvnZero/hyperf-APIJSON) - An implementation of APIJSON, a JSON-based protocol and ORM for building CRUD APIs without writing backend code, built on Hyperf. :globe_with_meridians: :jigsaw:
 - [mix/database](https://github.com/mix-php/database) - A Swoole-based database component, with built-in support for connection pooling. :globe_with_meridians:
 - [mix/redis](https://github.com/mix-php/redis) - A Swoole-based Redis component, with built-in support for connection pooling. :globe_with_meridians:
 - [mix/redis-subscriber](https://github.com/mix-php/redis-subscriber) - A Swoole-based Redis subscription component. :globe_with_meridians:
@@ -132,7 +134,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
         - [mix/redis-subscriber](https://github.com/mix-php/redis-subscriber)
         - [mix/sync-invoke](https://github.com/mix-php/sync-invoke)
         - [mix/tracing-zipkin](https://github.com/mix-php/tracing-zipkin)
-- [Nano](https://github.com/hyperf/nano) - A Hyperf-based coroutine microframework.
+- [Nano](https://github.com/hyperf/nano) - A Hyperf-based coroutine microframework. :jigsaw:
 - [Polyel](https://github.com/Superbition/Polyel-Framework) - A full-stack MVC PHP framework/server built from the ground up based on Swoole.
 - [QueryPHP](https://github.com/hunzhiwange/queryphp) - A modern, high performance PHP progressive coroutine framework. :globe_with_meridians:
 - ~~[Resonance](https://github.com/distantmagic/resonance)~~ - Designed from the ground up to facilitate interoperability and messaging between services in your infrastructure and beyond. The repository was archived by its owner in 2026.
@@ -178,8 +180,8 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 ## gRPC
 
-- [hyperf/grpc-client](https://github.com/hyperf/grpc-client) - The gRPC client component of Hyperf.
-- [hyperf/grpc-server](https://github.com/hyperf/grpc-server) - The gRPC server component of Hyperf.
+- [hyperf/grpc-client](https://github.com/hyperf/grpc-client) - The gRPC client component of Hyperf. :jigsaw:
+- [hyperf/grpc-server](https://github.com/hyperf/grpc-server) - The gRPC server component of Hyperf. :jigsaw:
 - [mix/grpc](https://github.com/mix-php/grpc) - A gRPC implementation based on Swoole. Protoc code generator, server, client, and more features included. :globe_with_meridians:
 - [swoole/grpc](https://github.com/swoole/grpc) - An efficient Swoole-based gRPC client. :globe_with_meridians:
 
@@ -199,7 +201,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 ## Logging
 
-- [hyperf/logger](https://github.com/hyperf/logger) - The logging component of Hyperf. It's based on [Monolog](https://github.com/Seldaek/monolog), with PSR-3 interface implemented.
+- [hyperf/logger](https://github.com/hyperf/logger) - The logging component of Hyperf. It's based on [Monolog](https://github.com/Seldaek/monolog), with PSR-3 interface implemented. :jigsaw:
 - [mix/monolog](https://github.com/mix-php/monolog) - A coroutine-friendly logging library. It's based on [Monolog](https://github.com/Seldaek/monolog). :globe_with_meridians:
 
 ## Serverless
@@ -208,15 +210,16 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 ## SOA Governance
 
-- [hyperf/tracer](https://github.com/hyperf/tracer) - The distributed tracing component of Hyperf. The implementation is based on [OpenTracing](https://opentracing.io).
+- [hyperf/tracer](https://github.com/hyperf/tracer) - The distributed tracing component of Hyperf. The implementation is based on [OpenTracing](https://opentracing.io). :jigsaw:
 - [mix/tracing-zipkin](https://github.com/mix-php/tracing-zipkin) - A tracing library based on [Zipkin](https://zipkin.io) and [OpenTracing](https://opentracing.io). :globe_with_meridians:
+- [TarsPHP](https://github.com/TarsPHP/TarsPHP) - PHP support for the [Tars](https://github.com/TarsCloud/Tars) microservice platform, providing the Tars binary protocol, an RPC client, and Swoole-based TCP, HTTP, and timer servers.
 
 ## Tasks and Queues
 
 - [Archer](https://github.com/swlib/archer) - A Swoole-based task component, with different runtime modes supported: serial queue, concurrent queue, defer, timer, etc. :globe_with_meridians:
-- [hyperf/amqp](https://github.com/hyperf/amqp) - The AMQP client of Hyperf.
-- [hyperf/async-queue](https://github.com/hyperf/async-queue) - The Redis-based asynchronous queue component of Hyperf.
-- [hyperf/task](https://github.com/hyperf/task) - The task component of Hyperf, providing an easy way to add and dispatch tasks to task workers in Swoole.
+- [hyperf/amqp](https://github.com/hyperf/amqp) - The AMQP client of Hyperf. :jigsaw:
+- [hyperf/async-queue](https://github.com/hyperf/async-queue) - The Redis-based asynchronous queue component of Hyperf. :jigsaw:
+- [hyperf/task](https://github.com/hyperf/task) - The task component of Hyperf, providing an easy way to add and dispatch tasks to task workers in Swoole. :jigsaw:
 - [kcloze/swoole-jobs](https://github.com/kcloze/swoole-jobs) - An efficient Swoole-based job queue system. :globe_with_meridians:
 - [longlang/phpkafka](https://github.com/swoole/phpkafka) - A coroutine-based [Kafka](https://kafka.apache.org) client.
 
@@ -234,8 +237,10 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 *Web-based applications and tools.*
 
 - [appwrite/appwrite](https://github.com/appwrite/appwrite) - An open-source backend platform providing authentication, databases, storage, functions, messaging, and realtime APIs, built on Swoole.
-- [HyperfAdmin](https://github.com/hyperf-admin/hyperf-admin) - An administration panel built with Swoole, Hyperf, and Vue.js. :globe_with_meridians:
-- [MineAdmin] - An administration panel built with Swoole, Hyperf, and Vue 3. :globe_with_meridians:
+- [dtyq/magic](https://github.com/dtyq/magic) - An open-source enterprise AI agent platform with agents, workflows, and chat. Its backend is built on Hyperf. :jigsaw:
+- [gptlink/gptlink](https://github.com/gptlink/gptlink) - A self-hosted AI chat website with user management, paid plans, and an admin console, built on Hyperf and Vue. :globe_with_meridians: :jigsaw:
+- [HyperfAdmin](https://github.com/hyperf-admin/hyperf-admin) - An administration panel built with Swoole, Hyperf, and Vue.js. :globe_with_meridians: :jigsaw:
+- [MineAdmin] - An administration panel built with Swoole, Hyperf, and Vue 3. :globe_with_meridians: :jigsaw:
 - [onchat](https://github.com/onch-at/onchat) - A mobile-first instant messaging progressive web application, using Swoole for its WebSocket backend. :globe_with_meridians:
 - ~~[wopits - A world of post-its](https://github.com/esaracco/wopits)~~ - An app for managing projects online using sticky notes to share and collaborate. It uses Swoole as a WebSocket & Task server. The repository was archived by its owner in 2026.
 
