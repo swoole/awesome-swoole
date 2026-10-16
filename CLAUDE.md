@@ -35,13 +35,13 @@ Constraints and conventions when adding an entry to `README.md`:
    - _Laravel Octane_ stays pinned first in the Laravel group under _Framework Integration_, as the first-party option.
    - _Swoole Videos_ is ordered chronologically (oldest first), not alphabetically.
 5. **Non-English documentation**: Append the `:globe_with_meridians:` emoji to entries whose documentation is written in a non-English language (this is explained by the NOTE near the top of the README).
-6. **Hyperf marker**: Append the `:jigsaw:` emoji to entries that are Hyperf components or are built on Hyperf (this is also explained by the NOTE near the top of the README). Skip entries nested under the _Hyperf_ entry itself, where the context already makes it clear. When an entry has both markers, `:globe_with_meridians:` comes first and `:jigsaw:` second (e.g. `... Description. :globe_with_meridians: :jigsaw:`). Don't use `:jigsaw:` anywhere else in the README.
+6. **Hyperf marker**: Append the `:jigsaw:` emoji to entries that are Hyperf components or are built on Hyperf (this is also explained by the NOTE near the top of the README). When an entry has both markers, `:globe_with_meridians:` comes first and `:jigsaw:` second (e.g. `... Description. :globe_with_meridians: :jigsaw:`). Don't use `:jigsaw:` anywhere else in the README.
 7. **Status markers**:
    - Work-in-progress projects get a trailing `#WIP` tag.
    - Abandoned/unmaintained projects that are still worth listing use strikethrough (`~~[name](url)~~`) with a note explaining the status and, when possible, pointing to a replacement (see the `yasd` entry).
    - Archived repositories should say so in the description (see the `Siler` entry).
 8. **Reference-style links**: Some entries use reference-style links (`[Phluxor]`) with definitions collected alphabetically at the bottom of the README. Prefer inline links for new entries; if a name is linked from multiple places, use a reference-style link and add its definition to the bottom list in alphabetical order.
-9. **Nested entries**: Related sub-projects nest one level under a parent entry with 4-space indentation (e.g., Blackfire's Swoole integration under Blackfire, official components under Hyperf/Mix PHP).
+9. **Nested entries**: Related sub-projects nest one level under a parent entry with 4-space indentation (e.g., Blackfire's Swoole integration under Blackfire, official modules under Mix PHP).
 10. **Verify before adding**: Confirm the URL resolves (CI will catch broken links, but check locally first) and that the project is not already listed elsewhere in the README, including under a different section or name.
 
 ## Removing or updating entries

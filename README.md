@@ -103,24 +103,6 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [fastD](https://github.com/fastdlabs/fastD) - A high-performance PHP API framework built on the Swoole extension. :globe_with_meridians:
 - ~~[Fomo](https://github.com/fomo-framework/fomo)~~ - A simple, fast framework for building HTTP applications. The repository was archived by its owner in 2025.
 - [Hyperf](https://github.com/hyperf/hyperf) - A coroutine framework that focuses on hyperspeed and flexibility.
-    - Official components (an incomplete list)
-        - [hyperf/amqp](https://github.com/hyperf/amqp)
-        - [hyperf/async-queue](https://github.com/hyperf/async-queue)
-        - [hyperf/consul](https://github.com/hyperf/consul)
-        - [hyperf/crontab](https://github.com/hyperf/crontab)
-        - [hyperf/database](https://github.com/hyperf/database)
-        - [hyperf/elasticsearch](https://github.com/hyperf/elasticsearch)
-        - [hyperf/etcd](https://github.com/hyperf/etcd)
-        - [hyperf/filesystem](https://github.com/hyperf/filesystem)
-        - [hyperf/jet](https://github.com/hyperf/jet)
-        - [hyperf/logger](https://github.com/hyperf/logger)
-        - [hyperf/task](https://github.com/hyperf/task)
-        - [hyperf/tracer](https://github.com/hyperf/tracer)
-    - Third-party components (an incomplete list)
-        - [96qbhy/hyperf-auth](https://github.com/qbhy/hyperf-auth) - An authentication component for Hyperf. It supports JWT and session-based authentications. You can also create your own authentication drivers if needed. :globe_with_meridians:
-        - [friendsofhyperf/components] - A collection of popular third-party components for Hyperf.
-        - [opencodeco/hyperf-doctrine](https://github.com/opencodeco/hyperf-doctrine) - This project provides an integration for the Doctrine ORM and the Hyperf framework.
-        - [reasno/fastmongo](https://github.com/Reasno/fastmongo) - A coroutine-based MongoDB client for Hyperf.
 - [Hypervel](https://hypervel.org) - A Laravel-style framework with native coroutine support for high performance, built on top of Swoole.
 - [imi](https://github.com/imiphp/imi) - A Swoole-based framework, with built-in support for HTTP/1, HTTP/2, WebSocket, TCP, UDP, and MQTT. :globe_with_meridians:
 - [LightMVC](https://lightmvcframework.net) - A modular, event-driven and Swoole-enabled framework that makes it easy to create PHP applications using any PHP library.
@@ -280,7 +262,6 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 [Consul]: https://en.wikipedia.org/wiki/Consul_(software)
 [Elasticsearch]: https://www.elastic.co/elasticsearch
-[friendsofhyperf/components]: https://github.com/friendsofhyperf/components
 [MineAdmin]: https://github.com/mineadmin/MineAdmin
 [open-telemetry/context-swoole]: https://github.com/opentelemetry-php/context-swoole
 [Phluxor]: https://github.com/ytake/phluxor
