@@ -25,7 +25,7 @@ Table of Contents
    * [HTTP and WebSocket](#http-and-websocket)
    * [Logging](#logging)
    * [Serverless](#serverless)
-   * [SOA governance](#soa-governance)
+   * [SOA Governance](#soa-governance)
    * [Tasks and Queues](#tasks-and-queues)
    * [Testing](#testing)
    * [Third-party SDK](#third-party-sdk)
@@ -57,13 +57,13 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 ## Cronjobs
 
 - [hyperf/crontab](https://github.com/hyperf/crontab) - The cron component of Hyperf, allowing jobs to run at intervals of seconds.
-- [osgochina/swoole-crontab](https://github.com/osgochina/swoole-crontab) - A Swoole-based crontab schedule. It allows jobs to run at intervals of seconds, and is fully compatible with crontab syntax. :globe_with_meridians:
+- [osgochina/swoole-crontab](https://github.com/osgochina/swoole-crontab) - A Swoole-based crontab scheduler. It allows jobs to run at intervals of seconds, and is fully compatible with crontab syntax. :globe_with_meridians:
 
 ## Database
 
 - [hyperf/database](https://github.com/hyperf/database) - The database component of Hyperf.
-- [mix/database](https://github.com/mix-php/database) - A Swoole-based database component, with built-in support for connection pool. :globe_with_meridians:
-- [mix/redis](https://github.com/mix-php/redis) - A Swoole-based Redis component, with built-in support for connection pool. :globe_with_meridians:
+- [mix/database](https://github.com/mix-php/database) - A Swoole-based database component, with built-in support for connection pooling. :globe_with_meridians:
+- [mix/redis](https://github.com/mix-php/redis) - A Swoole-based Redis component, with built-in support for connection pooling. :globe_with_meridians:
 - [mix/redis-subscriber](https://github.com/mix-php/redis-subscriber) - A Swoole-based Redis subscription component. :globe_with_meridians:
 - [open-smf/connection-pool](https://github.com/open-smf/connection-pool) - A common connection pool based on Swoole.
 - [simple-swoole/db](https://github.com/simple-swoole/db) - The database component of [Simps](https://github.com/simple-swoole/simps). This component is built on top of [the Swoole Library](https://github.com/swoole/library).
@@ -73,33 +73,33 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 - [apache/skywalking-php](https://github.com/apache/skywalking-php) - The PHP Agent for [Apache SkyWalking](https://skywalking.apache.org), which provides native tracing and PHP Health Metrics (PHM) runtime reporting for PHP and Swoole projects.
 - [Blackfire](https://www.blackfire.io) - A low-overhead code profiler.
-    - [upscale/swoole-blackfire](https://github.com/upscalesoftware/swoole-blackfire) - Blackfire profiler integration for Swoole web-server.
+    - [upscale/swoole-blackfire](https://github.com/upscalesoftware/swoole-blackfire) - Blackfire profiler integration for Swoole web server.
 - [open-telemetry/context-swoole] - Async Swoole/OpenSwoole context implementation for OpenTelemetry PHP.
-- ~~[swoole/debugger](https://github.com/swoole/debugger)~~ - A remote debugger of Swoole. By adding one-line of code, you can debug your application remotely using a rich list of commands. The project has not been updated since 2021. Please use _Xdebug_ instead. :globe_with_meridians:
-- [upscale/swoole-newrelic](https://github.com/upscalesoftware/swoole-newrelic) - New Relic APM and Browser monitoring of Swoole web-server.
-- [Xdebug](https://xdebug.org) - A debug and profile tool for PHP. Xdebug 3.1.0+ works with Swoole 5.0.2+ on PHP 8.1+ only. Lower versions of Xdebug don't work with Swoole.
+- ~~[swoole/debugger](https://github.com/swoole/debugger)~~ - A remote debugger of Swoole. By adding one line of code, you can debug your application remotely using a rich list of commands. The project has not been updated since 2021. Please use _Xdebug_ instead. :globe_with_meridians:
+- [upscale/swoole-newrelic](https://github.com/upscalesoftware/swoole-newrelic) - New Relic APM and Browser monitoring of Swoole web server.
+- [Xdebug](https://xdebug.org) - A debugging and profiling tool for PHP. Xdebug 3.1.0+ works with Swoole 5.0.2+ on PHP 8.1+ only. Lower versions of Xdebug don't work with Swoole.
 
 ## Development Environment
 
 - Docker
-    - [adhocore/lemp](https://github.com/adhocore/docker-lemp) - A single container LEMP complete fullstack with latest releases of PHP (7.4 - 8.3) and MySQL, nginx, PostgreSQL, phalcon, swoole, mailcatcher, beanstalkd, elasticsearch, memcached, redis, adminer and all you ever need.
+    - [adhocore/lemp](https://github.com/adhocore/docker-lemp) - A single-container LEMP development stack with PHP 7.4–8.3, nginx, MySQL, PostgreSQL, Swoole, Redis, and other common services.
     - [phpswoole/swoole](https://github.com/swoole/docker-swoole) - Official Docker image of Swoole.
 - IDE Helper
-    - [Swoole IDE Helper](https://plugins.jetbrains.com/plugin/13040-swoole-ide-helper) - Swoole IDE Helper for PhpStorm and Intellij IDEA. Thanks to [Luhur Abdi (Abi) Rizal](https://elabee.me) for maintaining it.
-    - [swoole/ide-helper](https://github.com/swoole/ide-helper) - IDE help files to provide accurate autocompletion for Swoole.
+    - [Swoole IDE Helper](https://plugins.jetbrains.com/plugin/13040-swoole-ide-helper) - Swoole IDE Helper for PhpStorm and IntelliJ IDEA. Thanks to [Luhur Abdi (Abi) Rizal](https://elabee.me) for maintaining it.
+    - [swoole/ide-helper](https://github.com/swoole/ide-helper) - IDE helper files to provide accurate autocompletion for Swoole.
 
 ## Distribution
 
 - [shivammathur/extensions](https://github.com/shivammathur/homebrew-extensions) - 🍻 Homebrew tap for PHP extensions.
 - [static-php-cli](https://github.com/crazywhalecc/static-php-cli) - Build static PHP binary in Linux, with Swoole and other popular extensions included.
-- [swoole-cli](https://github.com/swoole/swoole-cli) - A prebuilt executable to run Swoole applications directly. No PHP installation required (just download and use it). Support Linux, macOS, and Windows.
+- [swoole-cli](https://github.com/swoole/swoole-cli) - A prebuilt executable to run Swoole applications directly. No PHP installation required (just download and use it). Supports Linux, macOS, and Windows.
 
 ## Frameworks
 
 - [Blink](https://github.com/bixuehujin/blink) - A high-performance web framework and application server for PHP, with built-in support for running under Swoole.
 - [chubbyphp-framework](https://github.com/chubbyphp/chubbyphp-framework) - A minimal, middleware-based microframework using PSR standards, with the goal of achieving the best combination of flexibility and simplicity.
 - [fastD](https://github.com/fastdlabs/fastD) - A high-performance PHP API framework built on the Swoole extension. :globe_with_meridians:
-- ~~[Fomo](https://github.com/fomo-framework/fomo)~~ - A simple, fast framework with many features for the HTTP. It was ranked as the fastest PHP framework in the world since 2022-10-16 (and still is as of 2022-11-30) by the [Web Frameworks Benchmark](https://web-frameworks-benchmark.netlify.app/result?l=php) project. The repository was archived by its owner in 2025.
+- ~~[Fomo](https://github.com/fomo-framework/fomo)~~ - A simple, fast framework for building HTTP applications. The repository was archived by its owner in 2025.
 - [Hyperf](https://github.com/hyperf/hyperf) - A coroutine framework that focuses on hyperspeed and flexibility.
     - Official components (an incomplete list)
         - [hyperf/amqp](https://github.com/hyperf/amqp)
@@ -116,15 +116,15 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
         - [hyperf/tracer](https://github.com/hyperf/tracer)
     - Third-party components (an incomplete list)
         - [96qbhy/hyperf-auth](https://github.com/qbhy/hyperf-auth) - An authentication component for Hyperf. It supports JWT and session-based authentications. You can also create your own authentication drivers if needed. :globe_with_meridians:
-        - [friendsofhyperf/components] - Some most popular third-party components for Hyperf.
+        - [friendsofhyperf/components] - A collection of popular third-party components for Hyperf.
         - [opencodeco/hyperf-doctrine](https://github.com/opencodeco/hyperf-doctrine) - This project provides an integration for the Doctrine ORM and the Hyperf framework.
         - [reasno/fastmongo](https://github.com/Reasno/fastmongo) - A coroutine-based MongoDB client for Hyperf.
 - [Hypervel](https://hypervel.org) - A Laravel-style framework with native coroutine support for high performance, built on top of Swoole.
 - [imi](https://github.com/imiphp/imi) - A Swoole-based framework, with built-in support for HTTP/1, HTTP/2, WebSocket, TCP, UDP, and MQTT. :globe_with_meridians:
-- [LightMVC](https://lightmvcframework.net) - A modular, event-driven and Swoole-enabled framework that allows to easily create PHP applications by using any PHP library.
+- [LightMVC](https://lightmvcframework.net) - A modular, event-driven and Swoole-enabled framework that makes it easy to create PHP applications using any PHP library.
 - [lizhichao/one](https://github.com/lizhichao/one) - A simple and efficient framework that works both under PHP-FPM and Swoole.
 - [ManaPHP](https://github.com/manaphp/manaphp) - A full-stack PHP framework that supports both Swoole and PHP-FPM modes.
-- [Mix PHP](https://github.com/mix-php/mix) - A unique single-threaded coroutine-based framework. :globe_with_meridians:
+- [Mix PHP](https://github.com/mix-php/mix) - A single-threaded, coroutine-based framework. :globe_with_meridians:
     - Official modules (an incomplete list)
         - [mix/database](https://github.com/mix-php/database)
         - [mix/monolog](https://github.com/mix-php/monolog)
@@ -137,44 +137,44 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [QueryPHP](https://github.com/hunzhiwange/queryphp) - A modern, high performance PHP progressive coroutine framework. :globe_with_meridians:
 - ~~[Resonance](https://github.com/distantmagic/resonance)~~ - Designed from the ground up to facilitate interoperability and messaging between services in your infrastructure and beyond. The repository was archived by its owner in 2026.
 - [Restler](https://github.com/Luracast/Restler) - A zero-boilerplate REST API framework for PHP 8+, with built-in support for running under the Swoole or OpenSwoole HTTP server.
-- [Semitexa](https://github.com/semitexa/semitexa-ultimate) - A modular PHP 8.4 framework with a Swoole-first runtime: typed request payloads and handlers, server-side rendering with deferred blocks streamed over SSE, and a queryable project graph for AI coding agents.
-- ~~[Siler](https://github.com/leocavalcante/siler)~~ - A set of general purpose high-level abstractions aiming an API for declarative programming in PHP. The repository was archived by its owner in 2022.
-- [Simps](https://github.com/simple-swoole/simps) - A simple, lightweight and high-performance PHP coroutine framework.
-- [Swoolefy](https://github.com/bingcool/swoolefy) - A lightweight, high-performance, coroutine-based API application framework built on Swoole. :globe_with_meridians:
+- [Semitexa](https://github.com/semitexa/semitexa-ultimate) - A modular PHP 8.4 framework running on long-lived Swoole workers, with server-side rendering and deferred blocks streamed over SSE.
+- ~~[Siler](https://github.com/leocavalcante/siler)~~ - A set of general-purpose, high-level abstractions for declarative programming in PHP. The repository was archived by its owner in 2022.
+- [Simps](https://github.com/simple-swoole/simps) - A lightweight PHP coroutine framework.
+- [Swoolefy](https://github.com/bingcool/swoolefy) - A lightweight, coroutine-based API application framework built on Swoole. :globe_with_meridians:
 - [ThinkCMF](https://github.com/thinkcmf/thinkcmf) - An open-source content management framework built on ThinkPHP, supporting both PHP-FPM and Swoole modes. :globe_with_meridians:
-- [Ubiquity](https://github.com/phpMv/ubiquity) - A powerful and fast framework for efficient design.
+- [Ubiquity](https://github.com/phpMv/ubiquity) - A PHP MVC framework that can run on PHP-FPM or on async servers such as Swoole.
 - [Utopia] - A PHP MVC based framework with minimal must-have features for professional, simple, advanced and secure web development. The Swoole server adapter ships with _Utopia_ itself.
 
 ## Framework Integration
 *To run PHP/PHP-FPM frameworks using Swoole.*
 
 - Drupal
-    - [The Swoole module for Drupal](https://www.drupal.org/project/swoole) - The Swoole module for Drupal supercharges your website's performance by serving it via the Swoole or the OpenSwoole PHP server. The (Open)Swoole PHP server boots Drupal once, keeps it in memory and then feeds it requests at supersonic speeds. Thanks to [daffie](https://www.drupal.org/u/daffie).
+    - [The Swoole module for Drupal](https://www.drupal.org/project/swoole) - Serves a Drupal site with the Swoole or OpenSwoole HTTP server, which boots Drupal once and keeps it in memory between requests. Thanks to [daffie](https://www.drupal.org/u/daffie).
 - Laminas/Mezzio/Zend Framework
-    - [mezzio/mezzio-swoole](https://github.com/mezzio/mezzio-swoole) - Provides the support of Swoole into a [Mezzio](https://docs.mezzio.dev/) application.
+    - [mezzio/mezzio-swoole](https://github.com/mezzio/mezzio-swoole) - Provides Swoole support for [Mezzio](https://docs.mezzio.dev/) applications.
 - Laravel
-    - [Laravel Octane](https://github.com/laravel/octane) - A first-party Laravel package that supercharges laravelish application's performance by serving it using Swoole high-performance HTTP servers. Developed and maintained by the Laravel team.
+    - [Laravel Octane](https://github.com/laravel/octane) - A first-party Laravel package that boosts application performance by serving it with long-running application servers such as Swoole. Developed and maintained by the Laravel team.
     - [hhxsv5/laravel-s](https://github.com/hhxsv5/laravel-s) - An out-of-the-box adapter between Laravel/Lumen and Swoole.
     - [huang-yi/shadowfax](https://github.com/huang-yi/shadowfax) - Runs your Laravel application on Swoole.
-    - [innerloop-dev/lightspeed](https://github.com/innerloop-dev/lightspeed) - A Pusher-compatible websocket server for Laravel on Swoole, serving HTTP and websockets on one port, where browsers send authenticated messages into the app and get the answer back on the same socket.
-    - ~~[scil/laravel-fly](https://github.com/scil/LaravelFly)~~ - To be an absolutely safe solution to speed up Laravel with Swoole. Preloading + Coroutine and Tinker Online. The repository was archived by its owner in 2024. Please use _Laravel Octane_ instead.
-    - ~~[swooletw/laravel-swoole](https://github.com/swooletw/laravel-swoole)~~ - A high-performance HTTP server to run Laravel/Lumen application on top of Swoole. The repository was archived by its owner in 2025. Its authors recommend _Laravel Octane_ instead, or _Hypervel_ if you need coroutine support.
+    - [innerloop-dev/lightspeed](https://github.com/innerloop-dev/lightspeed) - A Pusher-compatible WebSocket server for Laravel on Swoole that serves HTTP and WebSocket traffic on one port. Browsers can send authenticated messages to the application and receive responses over the same connection.
+    - ~~[scil/laravel-fly](https://github.com/scil/LaravelFly)~~ - A package to speed up Laravel with Swoole, with preloading, coroutine support, and an online Tinker. The repository was archived by its owner in 2024. Please use _Laravel Octane_ instead.
+    - ~~[swooletw/laravel-swoole](https://github.com/swooletw/laravel-swoole)~~ - A high-performance HTTP server to run Laravel/Lumen applications on top of Swoole. The repository was archived by its owner in 2025. Its authors recommend _Laravel Octane_ instead, or _Hypervel_ if you need coroutine support.
     - ~~[toxmc/fast-laravel](https://github.com/toxmc/fast-laravel)~~ - A Swoole-based high-performance HTTP server to speed up your Laravel applications. The project has not been updated since 2021. Please use _Laravel Octane_ instead. :globe_with_meridians:
 - Phalcon
-    - ~~[phwoolcon/phwoolcon](https://github.com/phwoolcon/phwoolcon)~~ - Phalcon + Swoole. The project has not been updated since 2019.
+    - ~~[phwoolcon/phwoolcon](https://github.com/phwoolcon/phwoolcon)~~ - Runs Phalcon applications on Swoole. The project has not been updated since 2019.
 - [PHP Runtimes](https://github.com/php-runtime/runtime) - A home for runtimes, where people can easily create a `Runtime` to run an application with Bref, Swoole or ReactPHP without making any change to the application itself.
 - Slim
     - ~~[pachico/Slim-Swoole](https://github.com/pachico/slim-swoole)~~ - A convenient library to run [SlimPHP](https://www.slimframework.com) applications with Swoole. The repository was archived by its owner in 2023, and no direct replacement is known.
 - Symfony
-    - [swoole-bundle/swoole-bundle] - Symfony integration with Swoole or Open Swoole to speed up your applications.
+    - [swoole-bundle/swoole-bundle] - Symfony integration with Swoole or OpenSwoole to speed up your applications.
     - [symfony/runtime](https://github.com/symfony/runtime) - The Runtime component decouples the bootstrapping logic from any global state to make sure the application can run with runtimes like PHP-FPM, ReactPHP, Swoole, etc. without any changes. For a more generic implementation that works with other frameworks/environments, please check project [PHP Runtimes](https://github.com/php-runtime/runtime).
 - ThinkPHP
-    - [topthink/think-swoole](https://github.com/top-think/think-swoole) - To run ThinkPHP applications with Swoole. :globe_with_meridians:
+    - [topthink/think-swoole](https://github.com/top-think/think-swoole) - Runs ThinkPHP applications with Swoole. :globe_with_meridians:
 - WordPress
-    - [WordPress Swoole](https://github.com/WordPress-PSR/swoole) - To run WordPress in Swoole.
+    - [WordPress Swoole](https://github.com/WordPress-PSR/swoole) - Runs WordPress on Swoole.
 - Yii
     - [klsoft/yii3-swoole](https://github.com/klsoft-web/yii3-swoole) - The package provides the Swoole HTTP server for the [Yii 3](https://yii3.yiiframework.com) application.
-    - [liufee/yii2-swoole](https://github.com/liufee/yii2-swoole) - To run [Yii 2](https://www.yiiframework.com) applications with Swoole. :globe_with_meridians:
+    - [liufee/yii2-swoole](https://github.com/liufee/yii2-swoole) - Runs [Yii 2](https://www.yiiframework.com) applications with Swoole. :globe_with_meridians:
 
 ## gRPC
 
@@ -186,16 +186,16 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 ## HTTP and WebSocket
 *Libraries for working with HTTP and WebSocket.*
 
-- [hhxsv5/php-sse](https://github.com/hhxsv5/php-sse) - A simple and efficient library implemented HTML5's server-sent events using PHP.
+- [hhxsv5/php-sse](https://github.com/hhxsv5/php-sse) - A library that implements HTML5 server-sent events (SSE) in PHP.
 - PSR Compliance
     - [chubbyphp/chubbyphp-swoole-request-handler](https://github.com/chubbyphp/chubbyphp-swoole-request-handler) - A request handler adapter for Swoole, using PSR-7, PSR-15 and PSR-17.
     - [fastd/http](https://github.com/fastdlabs/http) - A PSR-7-compatible HTTP component, with built-in support for Swoole HTTP server. :globe_with_meridians:
-    - [leocavalcante/request-callback](https://github.com/leocavalcante/request-callback) - Swoole request callback for PSR compliant handlers. Compatible with PSR-7 and PSR-15.
+    - [leocavalcante/request-callback](https://github.com/leocavalcante/request-callback) - Swoole request callback for PSR-compliant handlers. Compatible with PSR-7 and PSR-15.
     - [razonyang/psr7-swoole](https://github.com/razonyang/psr7-swoole) - A PSR-7 helper for Swoole; a bridge between Swoole and PSR things, such as PSR-7 HTTP message, PSR-15 handlers and PSR-15 middlewares.
 - [Saber](https://github.com/swlib/saber) - A coroutine-based HTTP client. :globe_with_meridians:
 - [Utopia WebSocket](https://github.com/utopia-php/websocket) - A simple and lite abstraction layer around a WebSocket server. This library is aiming to be as simple and easy to learn and use.
-- [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) - Make the [Guzzle](https://github.com/guzzle/guzzle) library coroutine-friendly in Swoole. It works with many Guzzle-based packages and Swoole-based frameworks. :globe_with_meridians:
-- [Yurunsoft/YurunHttp](https://github.com/Yurunsoft/YurunHttp) - An easy-to-use HTTP client that works with HTTP/1, HTTP/2, and WebSocket protocols. It also supports chained operations, concurrent processing, and connection pool. :globe_with_meridians:
+- [Yurunsoft/Guzzle-Swoole](https://github.com/Yurunsoft/Guzzle-Swoole) - Makes the [Guzzle](https://github.com/guzzle/guzzle) library coroutine-friendly in Swoole. It works with many Guzzle-based packages and Swoole-based frameworks. :globe_with_meridians:
+- [Yurunsoft/YurunHttp](https://github.com/Yurunsoft/YurunHttp) - An easy-to-use HTTP client that works with HTTP/1, HTTP/2, and WebSocket protocols. It also supports chained operations, concurrent processing, and connection pooling. :globe_with_meridians:
 
 ## Logging
 
@@ -206,7 +206,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 - [Swoole Runtime for AWS Lambda](https://github.com/leocavalcante/aws-lambda-swoole-runtime) - λ Run PHP Coroutines & Fibers as-a-Service on the AWS Lambda.
 
-## SOA governance
+## SOA Governance
 
 - [hyperf/tracer](https://github.com/hyperf/tracer) - The distributed tracing component of Hyperf. The implementation is based on [OpenTracing](https://opentracing.io).
 - [mix/tracing-zipkin](https://github.com/mix-php/tracing-zipkin) - A tracing library based on [Zipkin](https://zipkin.io) and [OpenTracing](https://opentracing.io). :globe_with_meridians:
@@ -222,13 +222,13 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 ## Testing
 
-- [deminy/counit](https://github.com/deminy/counit) - To run time/IO related unit tests (e.g., sleep function calls, database queries, API calls, etc) faster using Swoole.
+- [deminy/counit](https://github.com/deminy/counit) - Runs time- and I/O-related unit tests (e.g., sleep function calls, database queries, API calls) faster using Swoole.
 
 ## Third-party SDK
 
 - [yansongda/pay](https://github.com/yansongda/pay) - A payment SDK for Alipay and WeChat Pay, with components to integrate with [Hyperf](https://github.com/yansongda/hyperf-pay), [Laravel](https://github.com/yansongda/laravel-pay), and [Yii](https://github.com/guanguans/yii-pay). :globe_with_meridians:
 - [Yurunsoft/PaySDK](https://github.com/Yurunsoft/PaySDK) - A coroutine-friendly payment SDK for Alipay and WeChat Pay. :globe_with_meridians:
-- [Yurunsoft/YurunOAuthLogin](https://github.com/Yurunsoft/YurunOAuthLogin) - An OAuth library that provides built-in support for QQ, WeChat, Weibo, Github, Gitee, etc. :globe_with_meridians:
+- [Yurunsoft/YurunOAuthLogin](https://github.com/Yurunsoft/YurunOAuthLogin) - An OAuth library that provides built-in support for QQ, WeChat, Weibo, GitHub, Gitee, etc. :globe_with_meridians:
 
 ## Web Applications
 *Web-based applications and tools.*
@@ -249,7 +249,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [leocavalcante/swoole-mutex](https://github.com/leocavalcante/swoole-mutex) - Mutual exclusion abstractions for PHP's Swoole concurrency run-time.
 - [mix/sync-invoke](https://github.com/mix-php/sync-invoke) - A library to execute synchronous blocking code without blocking the running process in Swoole. :globe_with_meridians:
 - [Rubix ML] - A high-level machine learning and deep learning library for the PHP language, with optional Swoole-based multiprocessing.
-- [siteone-crawler](https://github.com/janreges/siteone-crawler) - A fast Swoole-based cross-platform website crawler, cloner and analyzer for SEO, security, accessibility, and performance optimization - ideal for developers, DevOps and QA engineers. Supports Windows, macOS, and Linux. Also available as [desktop application](https://github.com/janreges/siteone-crawler-gui) based on Svelte + Electron.
+- [siteone-crawler](https://github.com/janreges/siteone-crawler) - A Swoole-based cross-platform website crawler, cloner, and analyzer for SEO, security, accessibility, and performance audits. It runs on Windows, macOS, and Linux, and is also available as a [desktop application](https://github.com/janreges/siteone-crawler-gui) built with Svelte and Electron.
 - [xlswriter] - A coroutine-friendly PHP Extension to create and read XLSX files.
 - [yurun-crawler](https://github.com/Yurunsoft/yurun-crawler) - A framework to build high-performance, distributed web crawler. :globe_with_meridians:
 - [zhamao-framework](https://github.com/zhamao-robot/zhamao-framework) - A chatbot system based on an award-winning project in China. :globe_with_meridians:
@@ -257,15 +257,15 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 # Resources
 
 ## Swoole Books
-*Fantastic Swoole-related books.*
+*Books about Swoole.*
 
-- [Mastering Swoole PHP](https://www.amazon.com/Mastering-Swoole-PHP-performance-concurrent-ebook/dp/B0881B227S) - Build your high performance large scale concurrent system in a more flexible and efficient way than ever before with this first & only Swoole PHP book, with PHP 8 ready.
+- [Mastering Swoole PHP](https://www.amazon.com/Mastering-Swoole-PHP-performance-concurrent-ebook/dp/B0881B227S) - A book on building high-performance, concurrent systems with Swoole and PHP 8.
 - [Swooleで学ぶPHP非同期処理　～並行処理／並列処理の基礎から実践的な開発手法まで一気にわかる](https://www.amazon.co.jp/-/en/%E3%82%81%E3%82%82%E3%82%8A%E3%83%BC/dp/429713358X) - Learning PHP asynchronous processing with Swoole: from the basics of parallel processing to practical development methods. The first Swoole book written in Japanese by [めもりー](https://x.com/m3m0r7/). :globe_with_meridians:
 
 ## Swoole Videos
-*Fantastic Swoole-related videos.*
+*Talks and videos about Swoole.*
 
-- [CSP Programming in PHP](https://nomadphp.com/video/306/csp-programming-in-php) - An online talk presented by Demin on August 20, 2020. This talk gives an in depth explanation on the concurrency model used in Swoole. [Here](https://deminy.in/talks/csp.html) are the slides.
+- [CSP Programming in PHP](https://nomadphp.com/video/306/csp-programming-in-php) - An online talk presented by Demin on August 20, 2020. This talk gives an in-depth explanation of the concurrency model used in Swoole. [Here](https://deminy.in/talks/csp.html) are the slides.
 - [Building High-Performance Application Servers with Swoole](https://www.youtube.com/watch?v=fVdDB4mbGYQ) - A conference talk presented by Demin during PHPFest 2020. [Here](https://deminy.in/talks/phpfest2020.html) are the slides.
 - [Build an All-In-One Application Server Using Swoole](https://www.youtube.com/watch?v=SJPZxvEYXxI&t=1255s) - A conference talk presented by Demin during PHP Community Summit 2021. The talk starts at 20'55''. [Here](https://deminy.in/talks/pcs21.html) are the slides.
 
