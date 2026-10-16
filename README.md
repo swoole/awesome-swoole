@@ -1,6 +1,6 @@
 <div align="center">
 
-# Awesome Swoole [![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://x.com/phpswoole) [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.swoole.dev) ![](https://github.com/swoole/awesome-swoole/workflows/Awesome%20Bot/badge.svg) [![license](https://img.shields.io/github/license/swoole/awesome-swoole.svg?maxAge=2592000)]()
+# Awesome Swoole [![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://x.com/phpswoole) ![](https://github.com/swoole/awesome-swoole/workflows/Awesome%20Bot/badge.svg) [![license](https://img.shields.io/github/license/swoole/awesome-swoole.svg?maxAge=2592000)]()
 
 A curated list of awesome things related to <a href="//github.com/swoole/swoole-src">Swoole</a>.
 
@@ -136,7 +136,6 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
         - [mix/sync-invoke](https://github.com/mix-php/sync-invoke)
 - [Polyel](https://github.com/Superbition/Polyel-Framework) - A full-stack MVC PHP framework/server built from the ground up based on Swoole.
 - ~~[Resonance](https://github.com/distantmagic/resonance)~~ - Designed from the ground up to facilitate interoperability and messaging between services in your infrastructure and beyond. The repository was archived by its owner in 2026.
-    - Official documentation: https://resonance.distantmagic.com/
 - [QueryPHP](https://github.com/hunzhiwange/queryphp) - A modern, high performance PHP progressive coroutine framework. :globe_with_meridians:
 - [Restler](https://github.com/Luracast/Restler) - A zero-boilerplate REST API framework for PHP 8+, with built-in support for running under the Swoole or OpenSwoole HTTP server.
 - [Semitexa](https://github.com/semitexa/semitexa-ultimate) - A modular PHP 8.4 framework with a Swoole-first runtime: typed request payloads and handlers, server-side rendering with deferred blocks streamed over SSE, and a queryable project graph for AI coding agents.
@@ -237,7 +236,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [HyperfAdmin](https://github.com/hyperf-admin/hyperf-admin) - An administration panel built with Swoole, Hyperf, and Vue.js. :globe_with_meridians:
 - [MineAdmin] - An administration panel built with Swoole, Hyperf, and Vue 3. :globe_with_meridians:
 - [onchat](https://github.com/onch-at/onchat) - A mobile-first instant messaging progressive web application, using Swoole for its WebSocket backend. :globe_with_meridians:
-- [wopits - A world of post-its](https://github.com/esaracco/wopits) - An app for managing projects online using sticky notes to share and collaborate. It uses Swoole as a WebSocket & Task server.
+- ~~[wopits - A world of post-its](https://github.com/esaracco/wopits)~~ - An app for managing projects online using sticky notes to share and collaborate. It uses Swoole as a WebSocket & Task server. The repository was archived by its owner in 2026.
 - [yurun-crawler](https://github.com/Yurunsoft/yurun-crawler) - A framework to build high-performance, distributed web crawler. :globe_with_meridians:
 - [zhamao-framework](https://github.com/zhamao-robot/zhamao-framework) - A chatbot system based on an award-winning project in China. :globe_with_meridians:
 
@@ -248,11 +247,10 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
     - [leocavalcante/swoole-futures](https://github.com/leocavalcante/swoole-futures) - Futures + Async/Await for PHP's Swoole asynchronous run-time.
     - [Swoole Futures] - Partial implementation of Promise/A+ spec based on Swoole Coroutines.
 - [hhxsv5/php-sse](https://github.com/hhxsv5/php-sse) - A simple and efficient library implemented HTML5's server-sent events using PHP.
-- [k8s/client](https://github.com/k8s-client/client) - A Kubernetes API client for PHP.
+- [k8s/client](https://github.com/k8s-client/client) - A Kubernetes API client for PHP, with a Swoole-based WebSocket adapter for exec, attach, and port-forwarding.
 - [leocavalcante/swoole-mutex](https://github.com/leocavalcante/swoole-mutex) - Mutual exclusion abstractions for PHP's Swoole concurrency run-time.
 - [mix/sync-invoke](https://github.com/mix-php/sync-invoke) - A library to execute synchronous blocking code without blocking the running process in Swoole. :globe_with_meridians:
-- [Rubix ML] - A high-level machine learning and deep learning library for the PHP language.
-- [Shlink Event Dispatcher](https://github.com/shlinkio/shlink-event-dispatcher) - Event dispatching using PSR-14, with async event listener that are executed in swoole task system.
+- [Rubix ML] - A high-level machine learning and deep learning library for the PHP language, with optional Swoole-based multiprocessing.
 - [siteone-crawler](https://github.com/janreges/siteone-crawler) - A fast Swoole-based cross-platform website crawler, cloner and analyzer for SEO, security, accessibility, and performance optimization - ideal for developers, DevOps and QA engineers. Supports Windows, macOS, and Linux. Also available as [desktop application](https://github.com/janreges/siteone-crawler-gui) based on Svelte + Electron.
 - [xlswriter] - A coroutine-friendly PHP Extension to create and read XLSX files.
 

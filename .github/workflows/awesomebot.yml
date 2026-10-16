@@ -25,7 +25,7 @@ jobs:
         timeout_minutes: 15
         max_attempts: 3
         retry_wait_seconds: 30
-        command: awesome_bot README.md --request-delay 2 --set-timeout 45 --allow-dupe --white-list amazon.com,amazon.co.jp,discord.swoole.dev,drupal.org
+        command: awesome_bot README.md --request-delay 2 --set-timeout 45 --allow-dupe --white-list amazon.com,amazon.co.jp,drupal.org
     - uses: actions/upload-artifact@v7
       if: failure()
       with:

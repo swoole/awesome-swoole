@@ -12,7 +12,7 @@ CI (`.github/workflows/awesomebot.yml`) runs [awesome_bot](https://github.com/dk
 
 ```bash
 gem install awesome_bot -v 1.20.0
-awesome_bot README.md --request-delay 2 --set-timeout 45 --allow-dupe --white-list amazon.com,amazon.co.jp,discord.swoole.dev,drupal.org
+awesome_bot README.md --request-delay 2 --set-timeout 45 --allow-dupe --white-list amazon.com,amazon.co.jp,drupal.org
 ```
 
 If a valid URL is falsely reported as broken (e.g., the site blocks bots), add its domain to the `--white-list` in the workflow file rather than removing the entry.
@@ -31,7 +31,9 @@ Constraints and conventions when adding an entry to `README.md`:
 3. **Entry format**: `- [project-name](URL) - Description.`
    - The name is usually `vendor/package` (as on GitHub/Packagist) or the project's display name (e.g., `Hyperf`, `Simps`).
    - The description is one or two complete sentences ending with a period, stating what the project does. Neutral tone; no marketing superlatives beyond what's factual.
-4. **Ordering**: Entries within a section are ordered alphabetically (case-insensitive). Grouped sub-lists (e.g., per-framework groups under _Framework Integration_, official component lists under a framework) are also alphabetical.
+4. **Ordering**: Entries within a section are ordered alphabetically (case-insensitive). Grouped sub-lists (e.g., per-framework groups under _Framework Integration_, official component lists under a framework) are also alphabetical. Two deliberate exceptions:
+   - _Laravel Octane_ stays pinned first in the Laravel group under _Framework Integration_, as the first-party option.
+   - _Swoole Videos_ is ordered chronologically (oldest first), not alphabetically.
 5. **Non-English documentation**: Append the `:globe_with_meridians:` emoji to entries whose documentation is written in a non-English language (this is explained by the NOTE near the top of the README).
 6. **Status markers**:
    - Work-in-progress projects get a trailing `#WIP` tag.
