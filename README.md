@@ -12,6 +12,7 @@ Table of Contents
 =================
 
 * [Awesome Swoole](#awesome-swoole----)
+   * [AI](#ai)
    * [Architectural](#architectural)
    * [Client Packages](#client-packages)
    * [Cronjobs](#cronjobs)
@@ -37,6 +38,13 @@ Table of Contents
    * [Miscellaneous](#miscellaneous-1)
 
 NOTE: Projects labelled with emoji :globe_with_meridians: have their documentation written in non-English languages. Projects labelled with emoji :jigsaw: are Hyperf components or are built on [Hyperf](https://github.com/hyperf/hyperf).
+
+## AI
+*AI applications and machine learning libraries.*
+
+- [dtyq/magic](https://github.com/dtyq/magic) - An open-source enterprise AI agent platform with agents, workflows, and chat. Its backend is built on Hyperf. :jigsaw:
+- [gptlink/gptlink](https://github.com/gptlink/gptlink) - A self-hosted AI chat website with user management, paid plans, and an admin console, built on Hyperf and Vue. :globe_with_meridians: :jigsaw:
+- [Rubix ML] - A high-level machine learning and deep learning library for the PHP language, with optional Swoole-based multiprocessing.
 
 ## Architectural
 *Libraries related to design patterns, programming approaches and ways to organize code.*
@@ -219,8 +227,6 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 *Web-based applications and tools.*
 
 - [appwrite/appwrite](https://github.com/appwrite/appwrite) - An open-source backend platform providing authentication, databases, storage, functions, messaging, and realtime APIs, built on Swoole.
-- [dtyq/magic](https://github.com/dtyq/magic) - An open-source enterprise AI agent platform with agents, workflows, and chat. Its backend is built on Hyperf. :jigsaw:
-- [gptlink/gptlink](https://github.com/gptlink/gptlink) - A self-hosted AI chat website with user management, paid plans, and an admin console, built on Hyperf and Vue. :globe_with_meridians: :jigsaw:
 - [HyperfAdmin](https://github.com/hyperf-admin/hyperf-admin) - An administration panel built with Swoole, Hyperf, and Vue.js. :globe_with_meridians: :jigsaw:
 - [MineAdmin] - An administration panel built with Swoole, Hyperf, and Vue 3. :globe_with_meridians: :jigsaw:
 - [onchat](https://github.com/onch-at/onchat) - A mobile-first instant messaging progressive web application, using Swoole for its WebSocket backend. :globe_with_meridians:
@@ -235,7 +241,6 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [k8s/client](https://github.com/k8s-client/client) - A Kubernetes API client for PHP, with a Swoole-based WebSocket adapter for exec, attach, and port-forwarding.
 - [leocavalcante/swoole-mutex](https://github.com/leocavalcante/swoole-mutex) - Mutual exclusion abstractions for PHP's Swoole concurrency run-time.
 - [mix/sync-invoke](https://github.com/mix-php/sync-invoke) - A library to execute synchronous blocking code without blocking the running process in Swoole. :globe_with_meridians:
-- [Rubix ML] - A high-level machine learning and deep learning library for the PHP language, with optional Swoole-based multiprocessing.
 - [siteone-crawler](https://github.com/janreges/siteone-crawler) - A Swoole-based cross-platform website crawler, cloner, and analyzer for SEO, security, accessibility, and performance audits. It runs on Windows, macOS, and Linux, and is also available as a [desktop application](https://github.com/janreges/siteone-crawler-gui) built with Svelte and Electron.
 - [xlswriter] - A coroutine-friendly PHP Extension to create and read XLSX files.
 - [yurun-crawler](https://github.com/Yurunsoft/yurun-crawler) - A framework to build high-performance, distributed web crawler. :globe_with_meridians:
