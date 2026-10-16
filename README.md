@@ -139,6 +139,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
     - Official documentation: https://resonance.distantmagic.com/
 - [QueryPHP](https://github.com/hunzhiwange/queryphp) - A modern, high performance PHP progressive coroutine framework. :globe_with_meridians:
 - [Restler](https://github.com/Luracast/Restler) - A zero-boilerplate REST API framework for PHP 8+, with built-in support for running under the Swoole or OpenSwoole HTTP server.
+- [Semitexa](https://github.com/semitexa/semitexa-ultimate) - A modular PHP 8.4 framework with a Swoole-first runtime: typed request payloads and handlers, server-side rendering with deferred blocks streamed over SSE, and a queryable project graph for AI coding agents.
 - [Simps](https://github.com/simple-swoole/simps) - A simple, lightweight and high-performance PHP coroutine framework.
 - [Swoolefy](https://github.com/bingcool/swoolefy) - A lightweight, high-performance, coroutine-based API application framework built on Swoole. :globe_with_meridians:
 - [ThinkCMF](https://github.com/thinkcmf/thinkcmf) - An open-source content management framework built on ThinkPHP, supporting both PHP-FPM and Swoole modes. :globe_with_meridians:
