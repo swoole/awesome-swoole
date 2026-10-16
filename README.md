@@ -74,7 +74,9 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [apache/skywalking-php](https://github.com/apache/skywalking-php) - The PHP Agent for [Apache SkyWalking](https://skywalking.apache.org), which provides native tracing and PHP Health Metrics (PHM) runtime reporting for PHP and Swoole projects.
 - [Blackfire](https://www.blackfire.io) - A low-overhead code profiler.
     - [upscale/swoole-blackfire](https://github.com/upscalesoftware/swoole-blackfire) - Blackfire profiler integration for Swoole web-server.
+- [open-telemetry/context-swoole] - Async Swoole/OpenSwoole context implementation for OpenTelemetry PHP.
 - [swoole/debugger](https://github.com/swoole/debugger) - A remote debugger of Swoole. By adding one-line of code, you can debug your application remotely using a rich list of commands. :globe_with_meridians:
+- [upscale/swoole-newrelic](https://github.com/upscalesoftware/swoole-newrelic) - New Relic APM and Browser monitoring of Swoole web-server.
 - [Xdebug](https://xdebug.org) - A debug and profile tool for PHP. Xdebug 3.1.0+ works with Swoole 5.0.2+ on PHP 8.1+ only. Lower versions of Xdebug don't work with Swoole.
 
 ## Development Environment
@@ -119,8 +121,6 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
         - [reasno/fastmongo](https://github.com/Reasno/fastmongo) - A coroutine-based MongoDB client for Hyperf.
 - [Hypervel](https://hypervel.org) - A Laravel-style framework with native coroutine support for high performance, built on top of Swoole.
 - [imi](https://github.com/imiphp/imi) - A Swoole-based framework, with built-in support for HTTP/1, HTTP/2, WebSocket, TCP, UDP, and MQTT. :globe_with_meridians:
-- Laminas/Mezzio/Zend Framework
-    - [mezzio/mezzio-swoole](https://github.com/mezzio/mezzio-swoole) - Provides the support of Swoole into a [Mezzio](https://docs.mezzio.dev/) application.
 - [LightMVC](https://lightmvcframework.net) - A modular, event-driven and Swoole-enabled framework that allows to easily create PHP applications by using any PHP library.
 - [lizhichao/one](https://github.com/lizhichao/one) - A simple and efficient framework that works both under PHP-FPM and Swoole.
 - [ManaPHP](https://github.com/manaphp/manaphp) - A full-stack PHP framework that supports both Swoole and PHP-FPM modes.
@@ -143,12 +143,15 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [Swoolefy](https://github.com/bingcool/swoolefy) - A lightweight, high-performance, coroutine-based API application framework built on Swoole. :globe_with_meridians:
 - [ThinkCMF](https://github.com/thinkcmf/thinkcmf) - An open-source content management framework built on ThinkPHP, supporting both PHP-FPM and Swoole modes. :globe_with_meridians:
 - [Ubiquity](https://github.com/phpMv/ubiquity) - A powerful and fast framework for efficient design.
+- [Utopia] - A PHP MVC based framework with minimal must-have features for professional, simple, advanced and secure web development. The Swoole server adapter ships with _Utopia_ itself.
 
 ## Framework Integration
 *To run PHP/PHP-FPM frameworks using Swoole.*
 
 - Drupal
     - [The Swoole module for Drupal](https://www.drupal.org/project/swoole) - The Swoole module for Drupal supercharges your website's performance by serving it via the Swoole or the OpenSwoole PHP server. The (Open)Swoole PHP server boots Drupal once, keeps it in memory and then feeds it requests at supersonic speeds. Thanks to [daffie](https://www.drupal.org/u/daffie).
+- Laminas/Mezzio/Zend Framework
+    - [mezzio/mezzio-swoole](https://github.com/mezzio/mezzio-swoole) - Provides the support of Swoole into a [Mezzio](https://docs.mezzio.dev/) application.
 - Laravel
     - [Laravel Octane](https://github.com/laravel/octane) - A first-party Laravel package that supercharges laravelish application's performance by serving it using Swoole high-performance HTTP servers. Developed and maintained by the Laravel team.
     - [hhxsv5/laravel-s](https://github.com/hhxsv5/laravel-s) - An out-of-the-box adapter between Laravel/Lumen and Swoole.
@@ -167,7 +170,6 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
     - [symfony/runtime](https://github.com/symfony/runtime) - The Runtime component decouples the bootstrapping logic from any global state to make sure the application can run with runtimes like PHP-FPM, ReactPHP, Swoole, etc. without any changes. For a more generic implementation that works with other frameworks/environments, please check project [PHP Runtimes](https://github.com/php-runtime/runtime).
 - ThinkPHP
     - [topthink/think-swoole](https://github.com/top-think/think-swoole) - To run ThinkPHP applications with Swoole. :globe_with_meridians:
-- [Utopia] - A PHP MVC based framework with minimal must-have features for professional, simple, advanced and secure web development. The Swoole server adapter ships with _Utopia_ itself.
 - WordPress
     - [WordPress Swoole](https://github.com/WordPress-PSR/swoole) - To run WordPress in Swoole.
 - Yii
@@ -184,6 +186,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 ## HTTP and WebSocket
 *Libraries for working with HTTP and WebSocket.*
 
+- [hhxsv5/php-sse](https://github.com/hhxsv5/php-sse) - A simple and efficient library implemented HTML5's server-sent events using PHP.
 - PSR Compliance
     - [chubbyphp/chubbyphp-swoole-request-handler](https://github.com/chubbyphp/chubbyphp-swoole-request-handler) - A request handler adapter for Swoole, using PSR-7, PSR-15 and PSR-17.
     - [fastd/http](https://github.com/fastdlabs/http) - A PSR-7-compatible HTTP component, with built-in support for Swoole HTTP server. :globe_with_meridians:
@@ -198,8 +201,6 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 
 - [hyperf/logger](https://github.com/hyperf/logger) - The logging component of Hyperf. It's based on [Monolog](https://github.com/Seldaek/monolog), with PSR-3 interface implemented.
 - [mix/monolog](https://github.com/mix-php/monolog) - A coroutine-friendly logging library. It's based on [Monolog](https://github.com/Seldaek/monolog). :globe_with_meridians:
-- [open-telemetry/context-swoole] - Async Swoole/OpenSwoole context implementation for OpenTelemetry PHP.
-- [upscale/swoole-newrelic](https://github.com/upscalesoftware/swoole-newrelic) - New Relic APM and Browser monitoring of Swoole web-server.
 
 ## Serverless
 
@@ -237,8 +238,6 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [MineAdmin] - An administration panel built with Swoole, Hyperf, and Vue 3. :globe_with_meridians:
 - [onchat](https://github.com/onch-at/onchat) - A mobile-first instant messaging progressive web application, using Swoole for its WebSocket backend. :globe_with_meridians:
 - ~~[wopits - A world of post-its](https://github.com/esaracco/wopits)~~ - An app for managing projects online using sticky notes to share and collaborate. It uses Swoole as a WebSocket & Task server. The repository was archived by its owner in 2026.
-- [yurun-crawler](https://github.com/Yurunsoft/yurun-crawler) - A framework to build high-performance, distributed web crawler. :globe_with_meridians:
-- [zhamao-framework](https://github.com/zhamao-robot/zhamao-framework) - A chatbot system based on an award-winning project in China. :globe_with_meridians:
 
 ## Miscellaneous
 
@@ -246,13 +245,14 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - Futures and Promises
     - [leocavalcante/swoole-futures](https://github.com/leocavalcante/swoole-futures) - Futures + Async/Await for PHP's Swoole asynchronous run-time.
     - [Swoole Futures] - Partial implementation of Promise/A+ spec based on Swoole Coroutines.
-- [hhxsv5/php-sse](https://github.com/hhxsv5/php-sse) - A simple and efficient library implemented HTML5's server-sent events using PHP.
 - [k8s/client](https://github.com/k8s-client/client) - A Kubernetes API client for PHP, with a Swoole-based WebSocket adapter for exec, attach, and port-forwarding.
 - [leocavalcante/swoole-mutex](https://github.com/leocavalcante/swoole-mutex) - Mutual exclusion abstractions for PHP's Swoole concurrency run-time.
 - [mix/sync-invoke](https://github.com/mix-php/sync-invoke) - A library to execute synchronous blocking code without blocking the running process in Swoole. :globe_with_meridians:
 - [Rubix ML] - A high-level machine learning and deep learning library for the PHP language, with optional Swoole-based multiprocessing.
 - [siteone-crawler](https://github.com/janreges/siteone-crawler) - A fast Swoole-based cross-platform website crawler, cloner and analyzer for SEO, security, accessibility, and performance optimization - ideal for developers, DevOps and QA engineers. Supports Windows, macOS, and Linux. Also available as [desktop application](https://github.com/janreges/siteone-crawler-gui) based on Svelte + Electron.
 - [xlswriter] - A coroutine-friendly PHP Extension to create and read XLSX files.
+- [yurun-crawler](https://github.com/Yurunsoft/yurun-crawler) - A framework to build high-performance, distributed web crawler. :globe_with_meridians:
+- [zhamao-framework](https://github.com/zhamao-robot/zhamao-framework) - A chatbot system based on an award-winning project in China. :globe_with_meridians:
 
 # Resources
 
