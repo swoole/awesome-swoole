@@ -75,7 +75,7 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 - [Blackfire](https://www.blackfire.io) - A low-overhead code profiler.
     - [upscale/swoole-blackfire](https://github.com/upscalesoftware/swoole-blackfire) - Blackfire profiler integration for Swoole web-server.
 - [open-telemetry/context-swoole] - Async Swoole/OpenSwoole context implementation for OpenTelemetry PHP.
-- [swoole/debugger](https://github.com/swoole/debugger) - A remote debugger of Swoole. By adding one-line of code, you can debug your application remotely using a rich list of commands. :globe_with_meridians:
+- ~~[swoole/debugger](https://github.com/swoole/debugger)~~ - A remote debugger of Swoole. By adding one-line of code, you can debug your application remotely using a rich list of commands. The project has not been updated since 2021. Please use _Xdebug_ instead. :globe_with_meridians:
 - [upscale/swoole-newrelic](https://github.com/upscalesoftware/swoole-newrelic) - New Relic APM and Browser monitoring of Swoole web-server.
 - [Xdebug](https://xdebug.org) - A debug and profile tool for PHP. Xdebug 3.1.0+ works with Swoole 5.0.2+ on PHP 8.1+ only. Lower versions of Xdebug don't work with Swoole.
 
@@ -159,9 +159,9 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
     - [innerloop-dev/lightspeed](https://github.com/innerloop-dev/lightspeed) - A Pusher-compatible websocket server for Laravel on Swoole, serving HTTP and websockets on one port, where browsers send authenticated messages into the app and get the answer back on the same socket.
     - ~~[scil/laravel-fly](https://github.com/scil/LaravelFly)~~ - To be an absolutely safe solution to speed up Laravel with Swoole. Preloading + Coroutine and Tinker Online. The repository was archived by its owner in 2024. Please use _Laravel Octane_ instead.
     - ~~[swooletw/laravel-swoole](https://github.com/swooletw/laravel-swoole)~~ - A high-performance HTTP server to run Laravel/Lumen application on top of Swoole. The repository was archived by its owner in 2025. Its authors recommend _Laravel Octane_ instead, or _Hypervel_ if you need coroutine support.
-    - [toxmc/fast-laravel](https://github.com/toxmc/fast-laravel) - A Swoole-based high-performance HTTP server to speed up your Laravel applications. :globe_with_meridians:
+    - ~~[toxmc/fast-laravel](https://github.com/toxmc/fast-laravel)~~ - A Swoole-based high-performance HTTP server to speed up your Laravel applications. The project has not been updated since 2021. Please use _Laravel Octane_ instead. :globe_with_meridians:
 - Phalcon
-    - [phwoolcon/phwoolcon](https://github.com/phwoolcon/phwoolcon) - Phalcon + Swoole.
+    - ~~[phwoolcon/phwoolcon](https://github.com/phwoolcon/phwoolcon)~~ - Phalcon + Swoole. The project has not been updated since 2019.
 - [PHP Runtimes](https://github.com/php-runtime/runtime) - A home for runtimes, where people can easily create a `Runtime` to run an application with Bref, Swoole or ReactPHP without making any change to the application itself.
 - Slim
     - ~~[pachico/Slim-Swoole](https://github.com/pachico/slim-swoole)~~ - A convenient library to run [SlimPHP](https://www.slimframework.com) applications with Swoole. The repository was archived by its owner in 2023, and no direct replacement is known.
