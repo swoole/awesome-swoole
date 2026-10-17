@@ -31,7 +31,7 @@ Constraints and conventions when adding an entry to `README.md`:
 3. **Entry format**: `- [project-name](URL) - Description.`
    - The name is usually `vendor/package` (as on GitHub/Packagist) or the project's display name (e.g., `Hyperf`, `Simps`).
    - The description is one or two complete sentences ending with a period, stating what the project does. Neutral tone; no marketing superlatives beyond what's factual.
-4. **Ordering**: Entries within a section are ordered alphabetically (case-insensitive). Grouped sub-lists (e.g., per-framework groups under _Framework Integration_, official component lists under a framework) are also alphabetical. Two deliberate exceptions:
+4. **Ordering**: Entries within a section are ordered alphabetically (case-insensitive). Grouped sub-lists (e.g., per-framework groups under _Framework Integration_) are also alphabetical. Two deliberate exceptions:
    - _Laravel Octane_ stays pinned first in the Laravel group under _Framework Integration_, as the first-party option.
    - _Swoole Videos_ is ordered chronologically (oldest first), not alphabetically.
 5. **Non-English documentation**: Append the `:globe_with_meridians:` emoji to entries whose documentation is written in a non-English language (this is explained by the NOTE near the top of the README).
@@ -41,7 +41,7 @@ Constraints and conventions when adding an entry to `README.md`:
    - Abandoned/unmaintained projects that are still worth listing use strikethrough (`~~[name](url)~~`) with a note explaining the status and, when possible, pointing to a replacement (see the `yasd` entry).
    - Archived repositories should say so in the description (see the `Siler` entry).
 8. **Reference-style links**: Some entries use reference-style links (`[Phluxor]`) with definitions collected alphabetically at the bottom of the README. Prefer inline links for new entries; if a name is linked from multiple places, use a reference-style link and add its definition to the bottom list in alphabetical order.
-9. **Nested entries**: Related sub-projects nest one level under a parent entry with 4-space indentation (e.g., Blackfire's Swoole integration under Blackfire, official modules under Mix PHP).
+9. **Nested entries**: Related sub-projects nest one level under a parent entry with 4-space indentation (e.g., the Docker images under _Docker_ in _Development Environment_).
 10. **Verify before adding**: Confirm the URL resolves (CI will catch broken links, but check locally first) and that the project is not already listed elsewhere in the README, including under a different section or name.
 
 ## Removing or updating entries

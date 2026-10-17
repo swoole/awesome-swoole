@@ -82,10 +82,9 @@ NOTE: Projects labelled with emoji :globe_with_meridians: have their documentati
 ## Debugging and Profiling
 
 - [apache/skywalking-php](https://github.com/apache/skywalking-php) - The PHP Agent for [Apache SkyWalking](https://skywalking.apache.org), which provides native tracing and PHP Health Metrics (PHM) runtime reporting for PHP and Swoole projects.
-- [Blackfire](https://www.blackfire.io) - A low-overhead code profiler.
-    - [upscale/swoole-blackfire](https://github.com/upscalesoftware/swoole-blackfire) - Blackfire profiler integration for Swoole web server.
 - [open-telemetry/context-swoole] - Async Swoole/OpenSwoole context implementation for OpenTelemetry PHP.
 - ~~[swoole/debugger](https://github.com/swoole/debugger)~~ - A remote debugger of Swoole. By adding one line of code, you can debug your application remotely using a rich list of commands. The project has not been updated since 2021. Please use _Xdebug_ instead. :globe_with_meridians:
+- [upscale/swoole-blackfire](https://github.com/upscalesoftware/swoole-blackfire) - [Blackfire](https://www.blackfire.io) profiler integration for Swoole web server.
 - [upscale/swoole-newrelic](https://github.com/upscalesoftware/swoole-newrelic) - New Relic APM and Browser monitoring of Swoole web server.
 - [Xdebug](https://xdebug.org) - A debugging and profiling tool for PHP. Xdebug 3.1.0+ works with Swoole 5.0.2+ on PHP 8.1+ only. Lower versions of Xdebug don't work with Swoole.
 
